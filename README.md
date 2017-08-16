@@ -19,4 +19,5 @@ npm run build --report
 ```
 
 For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
-# caf-admin-spa
+
+一个用vue2(框架)，vue-router(路由)，element(组件)写的admin，刚开始，功能尚不完善。
