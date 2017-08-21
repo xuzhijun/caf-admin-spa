@@ -18,7 +18,6 @@
 </template>
 
 <script>
-import Api from './api'
 import layout from './layout/120'
 import MenuItemDynamic from './components/MenuItemDynamic'
 export default {
@@ -34,7 +33,7 @@ export default {
   },
   methods: {
     initMenuList: function () {
-      Api.side_nav_list()
+      this.$api.side_nav_list()
         .then(res => {
           // this.menu.data = res.data;
           this.menuList = res.data;

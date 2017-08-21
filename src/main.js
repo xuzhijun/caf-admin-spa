@@ -5,9 +5,14 @@ import router from './router'
 import ElementUI from 'element-ui'
 import 'element-ui/lib/theme-default/index.css'
 import App from './App'
-Vue.use(ElementUI)
-Vue.config.productionTip = false
+import api from './api.js'
+import _ from 'lodash'
 
+Vue.use(ElementUI)
+Vue.prototype.$api = api
+Vue.prototype.$_ = _
+
+Vue.config.productionTip = false
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
