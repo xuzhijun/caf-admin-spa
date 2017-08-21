@@ -8,7 +8,13 @@
 # install dependencies
 npm install
 
-# serve with hot reload at localhost:8080
+# 启动 json-server 本地请求接口
+npm run mock
+
+# serve with hot reload at localhost:8080 (no json-server)
+npm run server
+
+# serve with hot reload at localhost:8080 (with json-server)
 npm run dev
 
 # build for production with minification
