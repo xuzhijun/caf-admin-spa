@@ -22,7 +22,7 @@
           </el-select>
         </el-form-item>
         <el-form-item label="父菜单" prop="parentId" v-show="isLeaf">
-          <el-select clearable filterable v-model="form.parentId" placeholder="请选择">
+          <el-select clearable filterable v-model="form.parentId" placeholder="请选择" :disabled="form.type === ''">
             <el-option v-for="item in parentOptions" :disabled="form.id===item.id" :key="item.id" :label="item.name" :value="item.id">
             </el-option>
           </el-select>
@@ -46,7 +46,6 @@
 </template>
 
 <script>
-import Api from '../../api'
 export default {
   data() {
     return {
@@ -90,6 +89,21 @@ export default {
     }
   },
   methods: {
+    /* unit */
+    findNode(tree, key, value) {
+      if(Array.isArray(tree) && tree.length > 0) {
+        for(let i=0; i<tree.length; i++) {
+          if(tree[i][key] == value) {
+            return tree[i];
+            break;
+          } else {
+            this.findNode(tree[i].nodes, key, value);
+          }
+        }
+      } else {
+        // return -1;
+      }
+    },
     /* Dialog */
     openDialog() {
       this.dialogFormVisible = true;
@@ -118,16 +132,17 @@ export default {
     },
     submitForm() { // 验证和提交表单
       this.$refs['resourceForm'].validate((valid) => {
-
         if (valid) {
-          let _promise = this.isEdit ? Api.resource_edit({
+          let _promise = this.isEdit
+          ? this.$api.resource_edit({
             'id': this.form.id,
             'type': this.form.type,
             'parentId': this.form.parentId,
             'code': this.form.code,
             'name': this.form.name,
             'url': this.form.url
-          }) : Api.resource_add({
+          })
+          : this.$api.resource_add({
             'type': this.form.type,
             'parentId': this.form.parentId,
             'code': this.form.code,
@@ -136,43 +151,43 @@ export default {
           });
           _promise
             .then(res => {
-              // console.log(res);
-              if (res.code == '1') {
+              // if (res.code == '1') {
                 this.$message({
                   type: 'success',
                   message: res.message
                 });
                 this.closeDialog();
-              } else {
-                throw new Error(res.message);
-              }
-            })
-            .then(res => {
-              this.initTree();
+
+                this.isEdit
+                ? this.modifyNodeSuccess(res) // 修改成功
+                : this.createNodeSuccess(res) // 新增成功
+
+              // } else {
+              //   throw new Error(res.message);
+              // }
             })
             .catch(err => {
-              // error code
-              this.$message({
-                type: 'info',
-                message: err.message
-              });
+              this.$message.error(err.message);
             });
         }
       });
     },
-    initParent(type = '') { // 初始化父菜单选项
+    initParent(type = '') { // 根据type值，初始化父菜单选项
       if (type) {
         let _type = type == 'AJAX' ? 'AJAX' : 'NODE';
 
-        Api.resource_options_parent({
+        this.$api.resource_options_parent({
           type: _type
         })
           .then(res => {
-            // console.log(res);
-            this.parentOptions = res.data;
+            if (res.code == '1') {
+              this.parentOptions = res.data;
+            } else {
+              throw new Error(res.message);
+            }
           })
           .catch(err => {
-            // console.log(err);
+            this.$message.error(err.message);
           });
       } else {
         this.parentOptions = [];
@@ -181,28 +196,47 @@ export default {
     /* Tree */
     initTree() { // 初始化 Tree 组件
       this.loading = true;
-      Api.resource_list()
+      this.$api.resource_list()
         .then(res => {
-          this.treelist = res.data;
-        })
-        .then(() => {
           this.loading = false;
+          if (res.code == '1') {
+            this.treelist = res.data;
+          } else {
+            throw new Error(res.message);
+          }
         })
         .catch(err => {
-          this.loading = false;
-          // console.log(err)
           // 加载树失败
+          this.loading = false;
+          this.$message.error(err.message);
         });
+
     },
     createNode() { // 创建节点
       this.isEdit = false;
       this.initForm();
       this.openDialog();
     },
+    createNodeSuccess({type, parentId, code, name, url}) {
+      let obj = this.findNode(this.treelist,"id",parentId);
+
+      obj && (obj.nodes = obj.nodes || []) && obj.nodes.push({
+        "type": type,
+        "parentId": parentId,
+        "code": code,
+        "name": name,
+        "url": url
+      })
+    },
     modifyNode() { // 修改节点
       this.isEdit = true;
       this.initForm(this.currentData);
       this.openDialog();
+    },
+    modifyNodeSuccess({type, code, name}) {
+      this.currentData.type = type;
+      this.currentData.code = code;
+      this.currentData.name = name;
     },
     removeNode() { // 删除节点
       this.$confirm('将删除该节点, 是否继续?', '提示', {
@@ -213,31 +247,33 @@ export default {
         .then(resConfirm => {
           // console.log(resConfirm);
           if (resConfirm == 'confirm') {
-            return Api.resource_delete({
+            return this.$api.resource_delete({
               'FunctionId': this.currentData.id
             });
           }
         })
-        .then(resRemove => {
+        .then(res => {
           // console.log(resRemove);
-          if (resRemove.code == '1') {
-            // this.$refs.tree.store.remove(this.currentData);
-            this.initTree();
+          if (res.code == '1') {
+            this.$refs.tree.store.remove(this.currentData);
             this.currentData = null;
             this.$message({
               type: 'success',
-              message: resRemove.message
+              message: res.message
             });
           } else {
-            throw new Error(resRemove.message);
+            throw new Error(res.message);
           }
         })
         .catch(err => {
-          let message = err == 'cancel' ? '取消删除' : err.message;
-          this.$message({
-            type: 'info',
-            message: message
-          });
+          if (err == 'cancel') {
+            this.$message({
+              type: 'info',
+              message: '取消删除'
+            });
+          } else {
+            this.$message.error(err.message);
+          }
         });
     },
     setCurrentChange(data) {
