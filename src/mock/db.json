@@ -15,7 +15,7 @@
             "flag": null,
             "type": "URL",
             "functions": null,
-            "parentId": 5003000,
+            "parentId": "5003000",
             "url": "ssdfadfdfasfasd",
             "code": "fsdfas",
             "status": null
@@ -28,7 +28,7 @@
             "flag": null,
             "type": "NODE",
             "functions": null,
-            "parentId": 5003000,
+            "parentId": "5003000",
             "url": "dsfafsa",
             "code": "gfdsgsd",
             "status": null
@@ -41,7 +41,7 @@
             "flag": null,
             "type": "NODE",
             "functions": null,
-            "parentId": 5003000,
+            "parentId": "5003000",
             "url": null,
             "code": "ziyuannode05233",
             "status": null
@@ -54,7 +54,7 @@
             "flag": null,
             "type": "MENU",
             "functions": null,
-            "parentId": 5003000,
+            "parentId": "5003000",
             "url": "html/ziyuanothermenu.html",
             "code": "ziyuanothermenu",
             "status": null
@@ -67,7 +67,7 @@
             "flag": null,
             "type": "MENU",
             "functions": null,
-            "parentId": 5003000,
+            "parentId": "5003000",
             "url": "html/menuziyuannode05234",
             "code": "menuziyuannode05234",
             "status": null
@@ -80,7 +80,7 @@
             "flag": null,
             "type": "MENU",
             "functions": null,
-            "parentId": 5003000,
+            "parentId": "5003000",
             "url": "abc/123.html",
             "code": "123333",
             "status": null
@@ -93,7 +93,7 @@
             "flag": null,
             "type": "NODE",
             "functions": null,
-            "parentId": 5003000,
+            "parentId": "5003000",
             "url": null,
             "code": "node1111111",
             "status": null
@@ -106,7 +106,7 @@
             "flag": null,
             "type": "MENU",
             "functions": null,
-            "parentId": 5003000,
+            "parentId": "5003000",
             "url": "menu11111111",
             "code": "menu11111111",
             "status": null
@@ -141,7 +141,7 @@
                     "flag": null,
                     "type": "AJAX",
                     "functions": null,
-                    "parentId": 5002041,
+                    "parentId": "5002041",
                     "url": "test/ajax1",
                     "code": "testAjax1",
                     "status": null
@@ -151,7 +151,7 @@
                 "flag": null,
                 "type": "URL",
                 "functions": null,
-                "parentId": 5003250,
+                "parentId": "5003250",
                 "url": "test/url2",
                 "code": "testUrl2",
                 "status": null
@@ -161,7 +161,7 @@
             "flag": null,
             "type": "NODE",
             "functions": null,
-            "parentId": 5003050,
+            "parentId": "5003050",
             "url": null,
             "code": "eee",
             "status": null
@@ -174,7 +174,7 @@
             "flag": null,
             "type": "MENU",
             "functions": null,
-            "parentId": 5003050,
+            "parentId": "5003050",
             "url": "333",
             "code": "333",
             "status": null
@@ -201,7 +201,7 @@
             "flag": null,
             "type": "MENU",
             "functions": null,
-            "parentId": 5005051,
+            "parentId": "5005051",
             "url": "html/nodelxblxb",
             "code": "nodelxblxb",
             "status": null
@@ -241,7 +241,7 @@
             "flag": null,
             "type": "MENU",
             "functions": null,
-            "parentId": 1001,
+            "parentId": "1001",
             "url": "1212121212",
             "code": "1212",
             "status": null
@@ -254,7 +254,7 @@
             "flag": null,
             "type": "MENU",
             "functions": null,
-            "parentId": 1001,
+            "parentId": "1001",
             "url": "html/data.html",
             "code": "category",
             "status": null
@@ -267,7 +267,7 @@
             "flag": null,
             "type": "MENU",
             "functions": null,
-            "parentId": 1001,
+            "parentId": "1001",
             "url": "html/code.html",
             "code": "errorcode",
             "status": null
@@ -280,7 +280,7 @@
             "flag": null,
             "type": "MENU",
             "functions": null,
-            "parentId": 1001,
+            "parentId": "1001",
             "url": "html/log.html",
             "code": "auditLog",
             "status": null
@@ -293,7 +293,7 @@
             "flag": null,
             "type": "MENU",
             "functions": null,
-            "parentId": 1001,
+            "parentId": "1001",
             "url": "html/menu.html",
             "code": "menu",
             "status": null
@@ -306,7 +306,7 @@
             "flag": null,
             "type": "MENU",
             "functions": null,
-            "parentId": 1001,
+            "parentId": "1001",
             "url": "html/pantest.html",
             "code": "test22",
             "status": null
@@ -319,7 +319,7 @@
             "flag": null,
             "type": "MENU",
             "functions": null,
-            "parentId": 1001,
+            "parentId": "1001",
             "url": "html/1111",
             "code": "111111",
             "status": null
@@ -385,7 +385,7 @@
             "flag": null,
             "type": "MENU",
             "functions": null,
-            "parentId": 1000,
+            "parentId": "1000",
             "url": "html/juese.html",
             "code": "role",
             "status": null
@@ -398,7 +398,7 @@
             "flag": null,
             "type": "MENU",
             "functions": null,
-            "parentId": 1000,
+            "parentId": "1000",
             "url": "html/functionTree.html",
             "code": "function",
             "status": null
@@ -411,7 +411,7 @@
             "flag": null,
             "type": "MENU",
             "functions": null,
-            "parentId": 1000,
+            "parentId": "1000",
             "url": "html/permission.html",
             "code": "permission",
             "status": null
@@ -424,7 +424,7 @@
             "flag": null,
             "type": "MENU",
             "functions": null,
-            "parentId": 1000,
+            "parentId": "1000",
             "url": "html/user.html",
             "code": "user",
             "status": null
@@ -437,7 +437,7 @@
             "flag": null,
             "type": "MENU",
             "functions": null,
-            "parentId": 1000,
+            "parentId": "1000",
             "url": "html/organization.html",
             "code": "org",
             "status": null
@@ -450,7 +450,7 @@
             "flag": null,
             "type": "MENU",
             "functions": null,
-            "parentId": 1000,
+            "parentId": "1000",
             "url": "789.html",
             "code": "789",
             "status": null
@@ -463,7 +463,7 @@
             "flag": null,
             "type": "MENU",
             "functions": null,
-            "parentId": 1000,
+            "parentId": "1000",
             "url": "html/menu05231",
             "code": "menu05231",
             "status": null
@@ -485,7 +485,7 @@
     "message": "请求成功",
     "data": [
       {
-        "id": 5003000,
+        "id": "5003000",
         "name": "张立立",
         "url": null,
         "type": "NODE",
@@ -496,7 +496,7 @@
         "deletable": true
       },
       {
-        "id": 5003050,
+        "id": "5003050",
         "name": "node节点",
         "url": "/test/node1",
         "type": "NODE",
@@ -507,7 +507,7 @@
         "deletable": true
       },
       {
-        "id": 5005051,
+        "id": "5005051",
         "name": "nodelxb",
         "url": null,
         "type": "NODE",
@@ -518,7 +518,7 @@
         "deletable": true
       },
       {
-        "id": 1001,
+        "id": "1001",
         "name": "常用功能",
         "url": null,
         "type": "NODE",
@@ -529,29 +529,29 @@
         "deletable": true
       },
       {
-        "id": 5003450,
+        "id": "5003450",
         "name": "哈哈哈哈",
         "url": "dsfafsa",
         "type": "NODE",
         "code": "gfdsgsd",
         "status": null,
-        "parentId": 5003000,
+        "parentId": "5003000",
         "listFun": [],
         "deletable": true
       },
       {
-        "id": 5005054,
+        "id": "5005054",
         "name": "ziyuannode05233",
         "url": null,
         "type": "NODE",
         "code": "ziyuannode05233",
         "status": null,
-        "parentId": 5003000,
+        "parentId": "5003000",
         "listFun": [],
         "deletable": true
       },
       {
-        "id": 5005061,
+        "id": "5005061",
         "name": "fsjdfla",
         "url": null,
         "type": "NODE",
@@ -562,7 +562,7 @@
         "deletable": true
       },
       {
-        "id": 1000,
+        "id": "1000",
         "name": "系统管理",
         "url": null,
         "type": "NODE",
@@ -573,24 +573,24 @@
         "deletable": true
       },
       {
-        "id": 5005059,
+        "id": "5005059",
         "name": "node111111",
         "url": null,
         "type": "NODE",
         "code": "node1111111",
         "status": null,
-        "parentId": 5003000,
+        "parentId": "5003000",
         "listFun": [],
         "deletable": true
       },
       {
-        "id": 5003250,
+        "id": "5003250",
         "name": "eee",
         "url": null,
         "type": "NODE",
         "code": "eee",
         "status": null,
-        "parentId": 5003050,
+        "parentId": "5003050",
         "listFun": [],
         "deletable": true
       }
@@ -600,21 +600,21 @@
     "type": "NODE",
     "parentId": "5005061",
     "code": "123",
-    "name": "456",
+    "name": "123",
     "url": "",
     "apiId": "applicationFunction"
   },
   "saveEditFunction": {
-    "id": "5003000",
-    "type": "NODE",
-    "parentId": "",
-    "code": "ufff",
-    "name": "张立立sbsbsbsbsbsb",
-    "url": "",
+    "id": "5002038",
+    "type": "MENU",
+    "parentId": "1000",
+    "code": "testAjax3",
+    "name": "测试数据ajax3",
+    "url": "ajax",
     "apiId": "applicationFunction"
   },
   "deleteFunction": {
-    "FunctionId": "5003400",
+    "FunctionId": "5005054",
     "apiId": "applicationFunction"
   },
   "getMenuTree": {
@@ -622,7 +622,7 @@
     "message": "请求成功",
     "data": [
       {
-        "id": 100101,
+        "id": "100101",
         "code": "commonsFuns",
         "icon": "gears",
         "label": "常用功能",
@@ -631,69 +631,69 @@
         "leaf": false,
         "nodes": [
           {
-            "id": 100108,
+            "id": "100108",
             "code": "auditLog",
             "icon": "file text outlin",
             "label": "审计日志",
             "name": null,
-            "parentId": 100101,
+            "parentId": "100101",
             "leaf": true,
             "nodes": null
           },
           {
-            "id": 100107,
+            "id": "100107",
             "code": "errorcode",
             "icon": "bug",
             "label": "异常编码",
             "name": null,
-            "parentId": 100101,
+            "parentId": "100101",
             "leaf": true,
             "nodes": null
           },
           {
-            "id": 100109,
+            "id": "100109",
             "code": "menu",
             "icon": "list",
             "label": "菜单管理",
             "name": null,
-            "parentId": 100101,
+            "parentId": "100101",
             "leaf": true,
             "nodes": null
           },
           {
-            "id": 100110,
+            "id": "100110",
             "code": "333",
             "icon": "user",
             "label": "333",
             "name": null,
-            "parentId": 100101,
+            "parentId": "100101",
             "leaf": true,
             "nodes": null
           },
           {
-            "id": 100122,
+            "id": "100122",
             "code": "test22",
             "icon": "user",
             "label": "pantest",
             "name": null,
-            "parentId": 100101,
+            "parentId": "100101",
             "leaf": true,
             "nodes": null
           },
           {
-            "id": 100106,
+            "id": "100106",
             "code": "category",
             "icon": "book",
             "label": "数据字典",
             "name": null,
-            "parentId": 100101,
+            "parentId": "100101",
             "leaf": true,
             "nodes": null
           }
         ]
       },
       {
-        "id": 100100,
+        "id": "100100",
         "code": "system",
         "icon": "desktop",
         "label": "系统管理",
@@ -702,62 +702,62 @@
         "leaf": false,
         "nodes": [
           {
-            "id": 100121,
+            "id": "100121",
             "code": "33",
             "icon": "33",
             "label": "潘昊测试",
             "name": null,
-            "parentId": 100100,
+            "parentId": "100100",
             "leaf": true,
             "nodes": null
           },
           {
-            "id": 100111,
+            "id": "100111",
             "code": "org",
             "icon": "user",
             "label": "机构管理",
             "name": null,
-            "parentId": 100100,
+            "parentId": "100100",
             "leaf": true,
             "nodes": null
           },
           {
-            "id": 100102,
+            "id": "100102",
             "code": "user",
             "icon": "user",
             "label": "用户管理",
             "name": null,
-            "parentId": 100100,
+            "parentId": "100100",
             "leaf": true,
             "nodes": null
           },
           {
-            "id": 100103,
+            "id": "100103",
             "code": "role",
             "icon": "users",
             "label": "角色管理",
             "name": null,
-            "parentId": 100100,
+            "parentId": "100100",
             "leaf": true,
             "nodes": null
           },
           {
-            "id": 100104,
+            "id": "100104",
             "code": "function",
             "icon": "database",
             "label": "资源管理",
             "name": null,
-            "parentId": 100100,
+            "parentId": "100100",
             "leaf": true,
             "nodes": null
           },
           {
-            "id": 100105,
+            "id": "100105",
             "code": "permission",
             "icon": "users",
             "label": "授权管理",
             "name": null,
-            "parentId": 100100,
+            "parentId": "100100",
             "leaf": true,
             "nodes": null
           }
@@ -770,23 +770,23 @@
     "message": "请求成功",
     "data": [
       {
-        "id": 100129,
-        "parentId": 100127,
+        "id": "100129",
+        "parentId": "100127",
         "code": "1212",
         "icon": null,
         "label": "node05232",
         "demoMenus": [
           {
-            "id": 100131,
-            "parentId": 100129,
+            "id": "100131",
+            "parentId": "100129",
             "code": "789",
             "icon": null,
             "label": "子菜单",
             "demoMenus": []
           },
           {
-            "id": 100138,
-            "parentId": 100129,
+            "id": "100138",
+            "parentId": "100129",
             "code": "fuceshi11111111",
             "icon": "fuceshi11111111",
             "label": "fuceshi11111111",
@@ -795,79 +795,79 @@
         ]
       },
       {
-        "id": 100108,
-        "parentId": 100101,
+        "id": "100108",
+        "parentId": "100101",
         "code": "auditLog",
         "icon": "file text outlin",
         "label": "审计日志",
         "demoMenus": []
       },
       {
-        "id": 100101,
+        "id": "100101",
         "parentId": null,
         "code": "commonsFuns",
         "icon": "settings",
         "label": "常用功能",
         "demoMenus": [
           {
-            "id": 100106,
-            "parentId": 100101,
+            "id": "100106",
+            "parentId": "100101",
             "code": "category",
             "icon": "book",
             "label": "数据字典",
             "demoMenus": []
           },
           {
-            "id": 100107,
-            "parentId": 100101,
+            "id": "100107",
+            "parentId": "100101",
             "code": "errorcode",
             "icon": "bug",
             "label": "异常编码",
             "demoMenus": []
           },
           {
-            "id": 100108,
-            "parentId": 100101,
+            "id": "100108",
+            "parentId": "100101",
             "code": "auditLog",
             "icon": "file text outlin",
             "label": "审计日志",
             "demoMenus": []
           },
           {
-            "id": 100109,
-            "parentId": 100101,
+            "id": "100109",
+            "parentId": "100101",
             "code": "menu",
             "icon": "list",
             "label": "菜单管理",
             "demoMenus": []
           },
           {
-            "id": 100110,
-            "parentId": 100101,
+            "id": "100110",
+            "parentId": "100101",
             "code": "333",
             "icon": "user",
             "label": "333",
             "demoMenus": []
           },
           {
-            "id": 100122,
-            "parentId": 100101,
+            "id": "100122",
+            "parentId": "100101",
             "code": "test22",
             "icon": "user",
             "label": "pantest",
             "demoMenus": []
           },
           {
-            "id": 100134,
-            "parentId": 100101,
+            "id": "100134",
+            "parentId": "100101",
             "code": "menu05231",
             "icon": "fsdjfas",
             "label": "fasjkdfjkasl",
             "demoMenus": []
           },
           {
-            "id": 100135,
-            "parentId": 100101,
+            "id": "100135",
+            "parentId": "100101",
             "code": "ziyuanothermenu",
             "icon": "user",
             "label": "changyonggongneng",
@@ -876,39 +876,39 @@
         ]
       },
       {
-        "id": 100107,
-        "parentId": 100101,
+        "id": "100107",
+        "parentId": "100101",
         "code": "errorcode",
         "icon": "bug",
         "label": "异常编码",
         "demoMenus": []
       },
       {
-        "id": 100109,
-        "parentId": 100101,
+        "id": "100109",
+        "parentId": "100101",
         "code": "menu",
         "icon": "list",
         "label": "菜单管理",
         "demoMenus": []
       },
       {
-        "id": 100121,
-        "parentId": 100100,
+        "id": "100121",
+        "parentId": "100100",
         "code": "33",
         "icon": "33",
         "label": "潘昊测试",
         "demoMenus": []
       },
       {
-        "id": 100131,
-        "parentId": 100129,
+        "id": "100131",
+        "parentId": "100129",
         "code": "789",
         "icon": null,
         "label": "子菜单",
         "demoMenus": []
       },
       {
-        "id": 100133,
+        "id": "100133",
         "parentId": null,
         "code": "othermenu",
         "icon": null,
@@ -916,15 +916,15 @@
         "demoMenus": []
       },
       {
-        "id": 100134,
-        "parentId": 100101,
+        "id": "100134",
+        "parentId": "100101",
         "code": "menu05231",
         "icon": "fsdjfas",
         "label": "fasjkdfjkasl",
         "demoMenus": []
       },
       {
-        "id": 100137,
+        "id": "100137",
         "parentId": null,
         "code": "zidingyi22222",
         "icon": "zidingyi22222",
@@ -932,119 +932,119 @@
         "demoMenus": []
       },
       {
-        "id": 100138,
-        "parentId": 100129,
+        "id": "100138",
+        "parentId": "100129",
         "code": "fuceshi11111111",
         "icon": "fuceshi11111111",
         "label": "fuceshi11111111",
         "demoMenus": []
       },
       {
-        "id": 100111,
-        "parentId": 100100,
+        "id": "100111",
+        "parentId": "100100",
         "code": "org",
         "icon": "user",
         "label": "机构管理",
         "demoMenus": []
       },
       {
-        "id": 100110,
-        "parentId": 100101,
+        "id": "100110",
+        "parentId": "100101",
         "code": "333",
         "icon": "user",
         "label": "333",
         "demoMenus": []
       },
       {
-        "id": 100122,
-        "parentId": 100101,
+        "id": "100122",
+        "parentId": "100101",
         "code": "test22",
         "icon": "user",
         "label": "pantest",
         "demoMenus": []
       },
       {
-        "id": 100135,
-        "parentId": 100101,
+        "id": "100135",
+        "parentId": "100101",
         "code": "ziyuanothermenu",
         "icon": "user",
         "label": "changyonggongneng",
         "demoMenus": []
       },
       {
-        "id": 100102,
-        "parentId": 100100,
+        "id": "100102",
+        "parentId": "100100",
         "code": "user",
         "icon": "user",
         "label": "用户管理",
         "demoMenus": []
       },
       {
-        "id": 100103,
-        "parentId": 100100,
+        "id": "100103",
+        "parentId": "100100",
         "code": "role",
         "icon": "users",
         "label": "角色管理",
         "demoMenus": []
       },
       {
-        "id": 100100,
+        "id": "100100",
         "parentId": null,
         "code": "system",
         "icon": "desktop",
         "label": "系统管理",
         "demoMenus": [
           {
-            "id": 100102,
-            "parentId": 100100,
+            "id": "100102",
+            "parentId": "100100",
             "code": "user",
             "icon": "user",
             "label": "用户管理",
             "demoMenus": []
           },
           {
-            "id": 100103,
-            "parentId": 100100,
+            "id": "100103",
+            "parentId": "100100",
             "code": "role",
             "icon": "users",
             "label": "角色管理",
             "demoMenus": []
           },
           {
-            "id": 100104,
-            "parentId": 100100,
+            "id": "100104",
+            "parentId": "100100",
             "code": "function",
             "icon": "database",
             "label": "资源管理",
             "demoMenus": []
           },
           {
-            "id": 100105,
-            "parentId": 100100,
+            "id": "100105",
+            "parentId": "100100",
             "code": "permission",
             "icon": "users",
             "label": "授权管理",
             "demoMenus": []
           },
           {
-            "id": 100111,
-            "parentId": 100100,
+            "id": "100111",
+            "parentId": "100100",
             "code": "org",
             "icon": "user",
             "label": "机构管理",
             "demoMenus": []
           },
           {
-            "id": 100121,
-            "parentId": 100100,
+            "id": "100121",
+            "parentId": "100100",
             "code": "33",
             "icon": "33",
             "label": "潘昊测试",
             "demoMenus": []
           },
           {
-            "id": 100124,
-            "parentId": 100100,
+            "id": "100124",
+            "parentId": "100100",
             "code": "777",
             "icon": "34",
             "label": "7878",
@@ -1053,70 +1053,70 @@
         ]
       },
       {
-        "id": 100104,
-        "parentId": 100100,
+        "id": "100104",
+        "parentId": "100100",
         "code": "function",
         "icon": "database",
         "label": "资源管理",
         "demoMenus": []
       },
       {
-        "id": 100105,
-        "parentId": 100100,
+        "id": "100105",
+        "parentId": "100100",
         "code": "permission",
         "icon": "users",
         "label": "授权管理",
         "demoMenus": []
       },
       {
-        "id": 100106,
-        "parentId": 100101,
+        "id": "100106",
+        "parentId": "100101",
         "code": "category",
         "icon": "book",
         "label": "数据字典",
         "demoMenus": []
       },
       {
-        "id": 100124,
-        "parentId": 100100,
+        "id": "100124",
+        "parentId": "100100",
         "code": "777",
         "icon": "34",
         "label": "7878",
         "demoMenus": []
       },
       {
-        "id": 100130,
-        "parentId": 100127,
+        "id": "100130",
+        "parentId": "100127",
         "code": "nodelxblxb",
         "icon": null,
         "label": "candannode05233",
         "demoMenus": []
       },
       {
-        "id": 100127,
+        "id": "100127",
         "parentId": null,
         "code": "node05232",
         "icon": null,
         "label": "node05232",
         "demoMenus": [
           {
-            "id": 100129,
-            "parentId": 100127,
+            "id": "100129",
+            "parentId": "100127",
             "code": "1212",
             "icon": null,
             "label": "node05232",
             "demoMenus": [
               {
-                "id": 100131,
-                "parentId": 100129,
+                "id": "100131",
+                "parentId": "100129",
                 "code": "789",
                 "icon": null,
                 "label": "子菜单",
                 "demoMenus": []
               },
               {
-                "id": 100138,
-                "parentId": 100129,
+                "id": "100138",
+                "parentId": "100129",
                 "code": "fuceshi11111111",
                 "icon": "fuceshi11111111",
                 "label": "fuceshi11111111",
@@ -1125,8 +1125,8 @@
             ]
           },
           {
-            "id": 100130,
-            "parentId": 100127,
+            "id": "100130",
+            "parentId": "100127",
             "code": "nodelxblxb",
             "icon": null,
             "label": "candannode05233",
@@ -1135,7 +1135,7 @@
         ]
       },
       {
-        "id": 100128,
+        "id": "100128",
         "parentId": null,
         "code": "p3",
         "icon": "user",
@@ -1143,7 +1143,7 @@
         "demoMenus": []
       },
       {
-        "id": 0,
+        "id": "0",
         "parentId": null,
         "code": null,
         "icon": null,
@@ -1157,18 +1157,18 @@
     "message": "请求成功",
     "data": [
       {
-        "id": 5005062,
+        "id": "5005062",
         "name": "fkasjdlf",
         "url": "fjsadlfjask",
         "type": "MENU",
         "code": "fjslkadfas",
         "status": null,
-        "parentId": 5003000,
+        "parentId": "5003000",
         "listFun": [],
         "deletable": true
       },
       {
-        "id": 5002042,
+        "id": "5002042",
         "name": "测试数据url1",
         "url": "test/url1",
         "type": "MENU",
@@ -1179,7 +1179,7 @@
         "deletable": true
       },
       {
-        "id": 5002038,
+        "id": "5002038",
         "name": "测试数据ajax3",
         "url": "ajax",
         "type": "MENU",
@@ -1190,68 +1190,69 @@
         "deletable": true
       },
       {
-        "id": 5005057,
+        "id": "5005057",
         "name": "111111",
         "url": "html/1111",
         "type": "MENU",
         "code": "111111",
         "status": null,
-        "parentId": 1001,
+        "parentId": "1001",
         "listFun": [],
         "deletable": true
       },
       {
-        "id": 5005055,
+        "id": "5005055",
         "name": "menuziyuannode05234",
         "url": "html/menuziyuannode05234",
         "type": "MENU",
         "code": "menuziyuannode05234",
         "status": null,
-        "parentId": 5003000,
+        "parentId": "5003000",
         "listFun": [],
         "deletable": true
       },
       {
-        "id": 5005058,
+        "id": "5005058",
         "name": "1233321",
         "url": "abc/123.html",
         "type": "MENU",
         "code": "123333",
         "status": null,
-        "parentId": 5003000,
+        "parentId": "5003000",
         "listFun": [],
         "deletable": true
       },
       {
-        "id": 5005060,
+        "id": "5005060",
         "name": "menu11111111",
         "url": "menu11111111",
         "type": "MENU",
         "code": "menu11111111",
         "status": null,
-        "parentId": 5003000,
+        "parentId": "5003000",
         "listFun": [],
         "deletable": true
       }
     ]
   },
   "saveAddMenu": {
-    "code": "12",
-    "icon": "23",
-    "label": "1321",
-    "parentId": "100108",
-    "caf-template-adminId": "shareCompon"
+    "code": "123123",
+    "icon": "",
+    "label": "123123",
+    "parentId": "100105",
+    "apiId": "shareCompon"
   },
   "saveEditMenu": {
-    "id": "100101",
-    "code": "commonsFuns",
-    "icon": "cog",
-    "label": "常用功能",
-    "parentId": "100106"
+    "id": "100111",
+    "code": "org",
+    "icon": "user",
+    "label": "机构管理",
+    "parentId": "100108",
+    "apiId": "shareCompon"
   },
   "deleteMenu": {
-    "menuId": "100108",
-    "caf-template-adminId": "shareCompon"
+    "menuId": "100102",
+    "apiId": "shareCompon"
   },
   "getOrgTree": {
     "code": 1,
@@ -1263,7 +1264,7 @@
           {
             "leaf": true,
             "nodes": null,
-            "parentId": 5004350,
+            "parentId": "5004350",
             "id": "5000000",
             "flag": null,
             "code": "555",
@@ -1295,16 +1296,16 @@
     "message": "请求成功",
     "data": [
       {
-        "id": 5000000,
+        "id": "5000000",
         "code": "555",
         "name": "打虎",
-        "parentId": 5004350,
+        "parentId": "5004350",
         "status": "1",
         "listOrg": [],
         "deletable": true
       },
       {
-        "id": 5004350,
+        "id": "5004350",
         "code": "fasdfasf",
         "name": "fasdfasd",
         "parentId": null,
@@ -1313,7 +1314,7 @@
         "deletable": true
       },
       {
-        "id": 5004351,
+        "id": "5004351",
         "code": "werqwer",
         "name": "rwasdfas",
         "parentId": null,
@@ -1325,417 +1326,420 @@
   },
   "saveAddOrg": {
     "id": "",
-    "code": "",
-    "name": "",
-    "parentId": ""
+    "code": "1",
+    "name": "1",
+    "parentId": "",
+    "apiId": "applicationOrg"
   },
   "saveEditOrg": {
-    "id": "5004351",
-    "code": "werqwer",
-    "name": "rwasdfas",
-    "parentId": 5004350
+    "id": "5000000",
+    "code": "555",
+    "name": "打虎",
+    "parentId": "",
+    "apiId": "applicationOrg"
   },
   "deleteOrg": {
-    "OrgId": "5004351"
+    "OrgId": "5004350",
+    "apiId": "applicationOrg"
   },
   "getAllrole": {
     "code": 1,
     "message": "请求成功",
     "data": [
       {
-        "id": 1000,
+        "id": "1000",
         "name": "测试用户",
         "code": "test",
         "orgCode": null,
         "deletable": true
       },
       {
-        "id": 5004000,
+        "id": "5004000",
         "name": "swerwe",
         "code": "1234212f",
         "orgCode": "348230",
         "deletable": true
       },
       {
-        "id": 5003000,
+        "id": "5003000",
         "name": "test1",
         "code": "test1",
         "orgCode": "348230",
         "deletable": true
       },
       {
-        "id": 5004000,
+        "id": "5004000",
         "name": "swerwe",
         "code": "1234212f",
         "orgCode": "348230",
         "deletable": true
       },
       {
-        "id": 5003000,
+        "id": "5003000",
         "name": "test1",
         "code": "test1",
         "orgCode": "348230",
         "deletable": true
       },
       {
-        "id": 5004000,
+        "id": "5004000",
         "name": "swerwe",
         "code": "1234212f",
         "orgCode": "348230",
         "deletable": true
       },
       {
-        "id": 5003000,
+        "id": "5003000",
         "name": "test1",
         "code": "test1",
         "orgCode": "348230",
         "deletable": true
       },
       {
-        "id": 5004000,
+        "id": "5004000",
         "name": "swerwe",
         "code": "1234212f",
         "orgCode": "348230",
         "deletable": true
       },
       {
-        "id": 5003000,
+        "id": "5003000",
         "name": "test1",
         "code": "test1",
         "orgCode": "348230",
         "deletable": true
       },
       {
-        "id": 5004000,
+        "id": "5004000",
         "name": "swerwe",
         "code": "1234212f",
         "orgCode": "348230",
         "deletable": true
       },
       {
-        "id": 5003000,
+        "id": "5003000",
         "name": "test1",
         "code": "test1",
         "orgCode": "348230",
         "deletable": true
       },
       {
-        "id": 5004000,
+        "id": "5004000",
         "name": "swerwe",
         "code": "1234212f",
         "orgCode": "348230",
         "deletable": true
       },
       {
-        "id": 5003000,
+        "id": "5003000",
         "name": "test1",
         "code": "test1",
         "orgCode": "348230",
         "deletable": true
       },
       {
-        "id": 5004000,
+        "id": "5004000",
         "name": "swerwe",
         "code": "1234212f",
         "orgCode": "348230",
         "deletable": true
       },
       {
-        "id": 5003000,
+        "id": "5003000",
         "name": "test1",
         "code": "test1",
         "orgCode": "348230",
         "deletable": true
       },
       {
-        "id": 5004000,
+        "id": "5004000",
         "name": "swerwe",
         "code": "1234212f",
         "orgCode": "348230",
         "deletable": true
       },
       {
-        "id": 5003000,
+        "id": "5003000",
         "name": "test1",
         "code": "test1",
         "orgCode": "348230",
         "deletable": true
       },
       {
-        "id": 5004000,
+        "id": "5004000",
         "name": "swerwe",
         "code": "1234212f",
         "orgCode": "348230",
         "deletable": true
       },
       {
-        "id": 5003000,
+        "id": "5003000",
         "name": "test1",
         "code": "test1",
         "orgCode": "348230",
         "deletable": true
       },
       {
-        "id": 5004000,
+        "id": "5004000",
         "name": "swerwe",
         "code": "1234212f",
         "orgCode": "348230",
         "deletable": true
       },
       {
-        "id": 5003000,
+        "id": "5003000",
         "name": "test1",
         "code": "test1",
         "orgCode": "348230",
         "deletable": true
       },
       {
-        "id": 5004000,
+        "id": "5004000",
         "name": "swerwe",
         "code": "1234212f",
         "orgCode": "348230",
         "deletable": true
       },
       {
-        "id": 5003000,
+        "id": "5003000",
         "name": "test1",
         "code": "test1",
         "orgCode": "348230",
         "deletable": true
       },
       {
-        "id": 5004000,
+        "id": "5004000",
         "name": "swerwe",
         "code": "1234212f",
         "orgCode": "348230",
         "deletable": true
       },
       {
-        "id": 5003000,
+        "id": "5003000",
         "name": "test1",
         "code": "test1",
         "orgCode": "348230",
         "deletable": true
       },
       {
-        "id": 5004000,
+        "id": "5004000",
         "name": "swerwe",
         "code": "1234212f",
         "orgCode": "348230",
         "deletable": true
       },
       {
-        "id": 5003000,
+        "id": "5003000",
         "name": "test1",
         "code": "test1",
         "orgCode": "348230",
         "deletable": true
       },
       {
-        "id": 5004000,
+        "id": "5004000",
         "name": "swerwe",
         "code": "1234212f",
         "orgCode": "348230",
         "deletable": true
       },
       {
-        "id": 5003000,
+        "id": "5003000",
         "name": "test1",
         "code": "test1",
         "orgCode": "348230",
         "deletable": true
       },
       {
-        "id": 5004000,
+        "id": "5004000",
         "name": "swerwe",
         "code": "1234212f",
         "orgCode": "348230",
         "deletable": true
       },
       {
-        "id": 5003000,
+        "id": "5003000",
         "name": "test1",
         "code": "test1",
         "orgCode": "348230",
         "deletable": true
       },
       {
-        "id": 5004000,
+        "id": "5004000",
         "name": "swerwe",
         "code": "1234212f",
         "orgCode": "348230",
         "deletable": true
       },
       {
-        "id": 5003000,
+        "id": "5003000",
         "name": "test1",
         "code": "test1",
         "orgCode": "348230",
         "deletable": true
       },
       {
-        "id": 5004000,
+        "id": "5004000",
         "name": "swerwe",
         "code": "1234212f",
         "orgCode": "348230",
         "deletable": true
       },
       {
-        "id": 5003000,
+        "id": "5003000",
         "name": "test1",
         "code": "test1",
         "orgCode": "348230",
         "deletable": true
       },
       {
-        "id": 5004000,
+        "id": "5004000",
         "name": "swerwe",
         "code": "1234212f",
         "orgCode": "348230",
         "deletable": true
       },
       {
-        "id": 5003000,
+        "id": "5003000",
         "name": "test1",
         "code": "test1",
         "orgCode": "348230",
         "deletable": true
       },
       {
-        "id": 5004000,
+        "id": "5004000",
         "name": "swerwe",
         "code": "1234212f",
         "orgCode": "348230",
         "deletable": true
       },
       {
-        "id": 5003000,
+        "id": "5003000",
         "name": "test1",
         "code": "test1",
         "orgCode": "348230",
         "deletable": true
       },
       {
-        "id": 5004000,
+        "id": "5004000",
         "name": "swerwe",
         "code": "1234212f",
         "orgCode": "348230",
         "deletable": true
       },
       {
-        "id": 5003000,
+        "id": "5003000",
         "name": "test1",
         "code": "test1",
         "orgCode": "348230",
         "deletable": true
       },
       {
-        "id": 5004000,
+        "id": "5004000",
         "name": "swerwe",
         "code": "1234212f",
         "orgCode": "348230",
         "deletable": true
       },
       {
-        "id": 5003000,
+        "id": "5003000",
         "name": "test1",
         "code": "test1",
         "orgCode": "348230",
         "deletable": true
       },
       {
-        "id": 5004000,
+        "id": "5004000",
         "name": "swerwe",
         "code": "1234212f",
         "orgCode": "348230",
         "deletable": true
       },
       {
-        "id": 5003000,
+        "id": "5003000",
         "name": "test1",
         "code": "test1",
         "orgCode": "348230",
         "deletable": true
       },
       {
-        "id": 5004000,
+        "id": "5004000",
         "name": "swerwe",
         "code": "1234212f",
         "orgCode": "348230",
         "deletable": true
       },
       {
-        "id": 5003000,
+        "id": "5003000",
         "name": "test1",
         "code": "test1",
         "orgCode": "348230",
         "deletable": true
       },
       {
-        "id": 5004000,
+        "id": "5004000",
         "name": "swerwe",
         "code": "1234212f",
         "orgCode": "348230",
         "deletable": true
       },
       {
-        "id": 5003000,
+        "id": "5003000",
         "name": "test1",
         "code": "test1",
         "orgCode": "348230",
         "deletable": true
       },
       {
-        "id": 5004000,
+        "id": "5004000",
         "name": "swerwe",
         "code": "1234212f",
         "orgCode": "348230",
         "deletable": true
       },
       {
-        "id": 5003000,
+        "id": "5003000",
         "name": "test1",
         "code": "test1",
         "orgCode": "348230",
         "deletable": true
       },
       {
-        "id": 5004000,
+        "id": "5004000",
         "name": "swerwe",
         "code": "1234212f",
         "orgCode": "348230",
         "deletable": true
       },
       {
-        "id": 5003000,
+        "id": "5003000",
         "name": "test1",
         "code": "test1",
         "orgCode": "348230",
         "deletable": true
       },
       {
-        "id": 5004000,
+        "id": "5004000",
         "name": "swerwe",
         "code": "1234212f",
         "orgCode": "348230",
         "deletable": true
       },
       {
-        "id": 5003000,
+        "id": "5003000",
         "name": "test1",
         "code": "test1",
         "orgCode": "348230",
         "deletable": true
       },
       {
-        "id": 5004000,
+        "id": "5004000",
         "name": "swerwe",
         "code": "1234212f",
         "orgCode": "348230",
         "deletable": true
       },
       {
-        "id": 5003000,
+        "id": "5003000",
         "name": "test1",
         "code": "test1",
         "orgCode": "348230",
@@ -2242,273 +2246,273 @@
     "message": "请求成功",
     "data": [
       {
-        "id": 5000000,
+        "id": "5000000",
         "leaf": null,
         "nodes": null,
         "name": "用户管理新",
         "flag": null,
         "type": "MENU",
         "functions": null,
-        "parentId": 1000,
+        "parentId": "1000",
         "parentName": "系统管理",
         "url": "html/userVue.html",
         "code": "tt",
         "status": null
       },
       {
-        "id": 5001150,
+        "id": "5001150",
         "leaf": null,
         "nodes": null,
         "name": "fasdjklfjasl-lxb123",
         "flag": null,
         "type": "NODE",
         "functions": null,
-        "parentId": 5003000,
+        "parentId": "5003000",
         "parentName": "张立立",
         "url": "fjsdjklfaslfjasf123",
         "code": "sdfjaslkdfjas-lxb123",
         "status": null
       },
       {
-        "id": 5001151,
+        "id": "5001151",
         "leaf": null,
         "nodes": null,
         "name": "fjdaslkfjaskldf-lxb789",
         "flag": null,
         "type": "NODE",
         "functions": null,
-        "parentId": 5003000,
+        "parentId": "5003000",
         "parentName": "张立立",
         "url": "fsdjflaskfjdkaslfd789",
         "code": "jkdfasdfklasdfjklas-lxb789",
         "status": null
       },
       {
-        "id": 5001250,
+        "id": "5001250",
         "leaf": null,
         "nodes": null,
         "name": "jkdsfljasdl-lxb",
         "flag": null,
         "type": "NODE",
         "functions": null,
-        "parentId": 5003000,
+        "parentId": "5003000",
         "parentName": "张立立",
         "url": "jkdsfljasdl-lxb",
         "code": "jkdsfljasdl-lxb",
         "status": null
       },
       {
-        "id": 5002038,
+        "id": "5002038",
         "leaf": null,
         "nodes": null,
         "name": "测试数据ajax3",
         "flag": null,
         "type": "AJAX",
         "functions": null,
-        "parentId": 5003050,
+        "parentId": "5003050",
         "parentName": "node节点",
         "url": "test/ajax3",
         "code": "testAjax3",
         "status": null
       },
       {
-        "id": 5002043,
+        "id": "5002043",
         "leaf": null,
         "nodes": null,
         "name": "菜单管理",
         "flag": null,
         "type": "MENU",
         "functions": null,
-        "parentId": 1001,
+        "parentId": "1001",
         "parentName": "常用功能",
         "url": "html/menu/index.html",
         "code": "menu",
         "status": null
       },
       {
-        "id": 5002044,
+        "id": "5002044",
         "leaf": null,
         "nodes": null,
         "name": "接口监控",
         "flag": null,
         "type": "MENU",
         "functions": null,
-        "parentId": 1001,
+        "parentId": "1001",
         "parentName": "常用功能",
         "url": "html/logVue.html",
         "code": "auditLog",
         "status": null
       },
       {
-        "id": 5002045,
+        "id": "5002045",
         "leaf": null,
         "nodes": null,
         "name": "异常编码",
         "flag": null,
         "type": "MENU",
         "functions": null,
-        "parentId": 1001,
+        "parentId": "1001",
         "parentName": "常用功能",
         "url": "html/codeVue.html",
         "code": "errorcode",
         "status": null
       },
       {
-        "id": 5002046,
+        "id": "5002046",
         "leaf": null,
         "nodes": null,
         "name": "数据字典",
         "flag": null,
         "type": "MENU",
         "functions": null,
-        "parentId": 1001,
+        "parentId": "1001",
         "parentName": "常用功能",
         "url": "html/dataVue.html",
         "code": "category",
         "status": null
       },
       {
-        "id": 5002047,
+        "id": "5002047",
         "leaf": null,
         "nodes": null,
         "name": "授权管理",
         "flag": null,
         "type": "MENU",
         "functions": null,
-        "parentId": 1000,
+        "parentId": "1000",
         "parentName": "系统管理",
         "url": "html/role/index.html",
         "code": "permission",
         "status": null
       },
       {
-        "id": 5002048,
+        "id": "5002048",
         "leaf": null,
         "nodes": null,
         "name": "资源管理",
         "flag": null,
         "type": "MENU",
         "functions": null,
-        "parentId": 1000,
+        "parentId": "1000",
         "parentName": "系统管理",
         "url": "html/resource/index.html",
         "code": "function",
         "status": null
       },
       {
-        "id": 5002049,
+        "id": "5002049",
         "leaf": null,
         "nodes": null,
         "name": "角色管理",
         "flag": null,
         "type": "MENU",
         "functions": null,
-        "parentId": 1000,
+        "parentId": "1000",
         "parentName": "系统管理",
         "url": "html/roleVue.html",
         "code": "role",
         "status": null
       },
       {
-        "id": 5002050,
+        "id": "5002050",
         "leaf": null,
         "nodes": null,
         "name": "用户管理",
         "flag": null,
         "type": "MENU",
         "functions": null,
-        "parentId": 1000,
+        "parentId": "1000",
         "parentName": "系统管理",
         "url": "html/userVue.html",
         "code": "user",
         "status": null
       },
       {
-        "id": 5003200,
+        "id": "5003200",
         "leaf": null,
         "nodes": null,
         "name": "5555555",
         "flag": null,
         "type": "NODE",
         "functions": null,
-        "parentId": 5003050,
+        "parentId": "5003050",
         "parentName": "node节点",
         "url": null,
         "code": "444",
         "status": null
       },
       {
-        "id": 5003300,
+        "id": "5003300",
         "leaf": null,
         "nodes": null,
         "name": "机构管理",
         "flag": null,
         "type": "MENU",
         "functions": null,
-        "parentId": 1000,
+        "parentId": "1000",
         "parentName": "系统管理",
         "url": "html/org/index.html",
         "code": "org",
         "status": null
       },
       {
-        "id": 5003400,
+        "id": "5003400",
         "leaf": null,
         "nodes": null,
         "name": "fdasfa",
         "flag": null,
         "type": "URL",
         "functions": null,
-        "parentId": 5003000,
+        "parentId": "5003000",
         "parentName": "张立立",
         "url": "ssdfadfdfasfasd",
         "code": "fsdfas",
         "status": null
       },
       {
-        "id": 5003450,
+        "id": "5003450",
         "leaf": null,
         "nodes": null,
         "name": "哈哈哈哈",
         "flag": null,
         "type": "NODE",
         "functions": null,
-        "parentId": 5003000,
+        "parentId": "5003000",
         "parentName": "张立立",
         "url": "dsfafsa",
         "code": "gfdsgsd",
         "status": null
       },
       {
-        "id": 5004000,
+        "id": "5004000",
         "leaf": null,
         "nodes": null,
         "name": "pantest",
         "flag": null,
         "type": "MENU",
         "functions": null,
-        "parentId": 1001,
+        "parentId": "1001",
         "parentName": "常用功能",
         "url": "html/pantest.html",
         "code": "test22",
         "status": null
       },
       {
-        "id": 5002040,
+        "id": "5002040",
         "leaf": null,
         "nodes": null,
         "name": "测试数据ajax1",
         "flag": null,
         "type": "AJAX",
         "functions": null,
-        "parentId": 5002041,
+        "parentId": "5002041",
         "parentName": "测试数据url2",
         "url": "test/ajax1",
         "code": "testAjax1",
         "status": null
       },
       {
-        "id": 5002000,
+        "id": "5002000",
         "leaf": null,
         "nodes": null,
         "name": "admin首页",
@@ -2528,8 +2532,8 @@
     "message": "请求成功",
     "data": [
       {
-        "id": 5003000,
-        "roleFunctionId": 5004420,
+        "id": "5003000",
+        "roleFunctionId": "5004420",
         "leaf": null,
         "nodes": null,
         "permissionList": [],
@@ -2538,8 +2542,8 @@
         "type": "NODE",
         "functions": [
           {
-            "id": 5003600,
-            "roleFunctionId": 5005450,
+            "id": "5003600",
+            "roleFunctionId": "5005450",
             "leaf": null,
             "nodes": null,
             "permissionList": [],
@@ -2554,7 +2558,7 @@
             "status": null
           },
           {
-            "id": 5003650,
+            "id": "5003650",
             "roleFunctionId": null,
             "leaf": null,
             "nodes": null,
@@ -2570,8 +2574,8 @@
             "status": null
           },
           {
-            "id": 5002300,
-            "roleFunctionId": 5004423,
+            "id": "5002300",
+            "roleFunctionId": "5004423",
             "leaf": null,
             "nodes": null,
             "permissionList": [],
@@ -2586,8 +2590,8 @@
             "status": null
           },
           {
-            "id": 5003450,
-            "roleFunctionId": 5004424,
+            "id": "5003450",
+            "roleFunctionId": "5004424",
             "leaf": null,
             "nodes": null,
             "permissionList": [],
@@ -2596,8 +2600,8 @@
             "type": "NODE",
             "functions": [
               {
-                "id": 5003451,
-                "roleFunctionId": 5005451,
+                "id": "5003451",
+                "roleFunctionId": "5005451",
                 "leaf": null,
                 "nodes": null,
                 "permissionList": [],
@@ -2612,8 +2616,8 @@
                 "status": null
               },
               {
-                "id": 5003252,
-                "roleFunctionId": 5005452,
+                "id": "5003252",
+                "roleFunctionId": "5005452",
                 "leaf": null,
                 "nodes": null,
                 "permissionList": [],
@@ -2628,8 +2632,8 @@
                 "status": null
               },
               {
-                "id": 5003453,
-                "roleFunctionId": 5005453,
+                "id": "5003453",
+                "roleFunctionId": "5005453",
                 "leaf": null,
                 "nodes": null,
                 "permissionList": [],
@@ -2644,8 +2648,8 @@
                 "status": null
               },
               {
-                "id": 5003452,
-                "roleFunctionId": 5005454,
+                "id": "5003452",
+                "roleFunctionId": "5005454",
                 "leaf": null,
                 "nodes": null,
                 "permissionList": [],
@@ -2660,8 +2664,8 @@
                 "status": null
               },
               {
-                "id": 5003500,
-                "roleFunctionId": 5005455,
+                "id": "5003500",
+                "roleFunctionId": "5005455",
                 "leaf": null,
                 "nodes": null,
                 "permissionList": [],
@@ -2676,8 +2680,8 @@
                 "status": null
               },
               {
-                "id": 5003501,
-                "roleFunctionId": 5005456,
+                "id": "5003501",
+                "roleFunctionId": "5005456",
                 "leaf": null,
                 "nodes": null,
                 "permissionList": [],
@@ -2699,8 +2703,8 @@
             "status": null
           },
           {
-            "id": 5002600,
-            "roleFunctionId": 5004426,
+            "id": "5002600",
+            "roleFunctionId": "5004426",
             "leaf": null,
             "nodes": null,
             "permissionList": [],
@@ -2715,8 +2719,8 @@
             "status": null
           },
           {
-            "id": 5002650,
-            "roleFunctionId": 5004427,
+            "id": "5002650",
+            "roleFunctionId": "5004427",
             "leaf": null,
             "nodes": null,
             "permissionList": [],
@@ -2731,8 +2735,8 @@
             "status": null
           },
           {
-            "id": 5003002,
-            "roleFunctionId": 5005457,
+            "id": "5003002",
+            "roleFunctionId": "5005457",
             "leaf": null,
             "nodes": null,
             "permissionList": [],
@@ -2747,8 +2751,8 @@
             "status": null
           },
           {
-            "id": 5002450,
-            "roleFunctionId": 5004428,
+            "id": "5002450",
+            "roleFunctionId": "5004428",
             "leaf": null,
             "nodes": null,
             "permissionList": [],
@@ -2770,7 +2774,7 @@
         "status": null
       },
       {
-        "id": 5003050,
+        "id": "5003050",
         "roleFunctionId": null,
         "leaf": null,
         "nodes": null,
@@ -2780,7 +2784,7 @@
         "type": "NODE",
         "functions": [
           {
-            "id": 5002801,
+            "id": "5002801",
             "roleFunctionId": null,
             "leaf": null,
             "nodes": null,
@@ -2796,8 +2800,8 @@
             "status": null
           },
           {
-            "id": 5002038,
-            "roleFunctionId": 5005460,
+            "id": "5002038",
+            "roleFunctionId": "5005460",
             "leaf": null,
             "nodes": null,
             "permissionList": [],
@@ -2812,8 +2816,8 @@
             "status": null
           },
           {
-            "id": 5003250,
-            "roleFunctionId": 5005461,
+            "id": "5003250",
+            "roleFunctionId": "5005461",
             "leaf": null,
             "nodes": null,
             "permissionList": [],
@@ -2822,8 +2826,8 @@
             "type": "NODE",
             "functions": [
               {
-                "id": 5002041,
-                "roleFunctionId": 5005462,
+                "id": "5002041",
+                "roleFunctionId": "5005462",
                 "leaf": null,
                 "nodes": null,
                 "permissionList": [],
@@ -2852,7 +2856,7 @@
         "status": null
       },
       {
-        "id": 5002000,
+        "id": "5002000",
         "roleFunctionId": null,
         "leaf": null,
         "nodes": null,
@@ -2868,7 +2872,7 @@
         "status": null
       },
       {
-        "id": 1001,
+        "id": "1001",
         "roleFunctionId": null,
         "leaf": null,
         "nodes": null,
@@ -2878,7 +2882,7 @@
         "type": "NODE",
         "functions": [
           {
-            "id": 5002046,
+            "id": "5002046",
             "roleFunctionId": null,
             "leaf": null,
             "nodes": null,
@@ -2894,7 +2898,7 @@
             "status": null
           },
           {
-            "id": 5002045,
+            "id": "5002045",
             "roleFunctionId": null,
             "leaf": null,
             "nodes": null,
@@ -2910,7 +2914,7 @@
             "status": null
           },
           {
-            "id": 5002044,
+            "id": "5002044",
             "roleFunctionId": null,
             "leaf": null,
             "nodes": null,
@@ -2926,7 +2930,7 @@
             "status": null
           },
           {
-            "id": 5002043,
+            "id": "5002043",
             "roleFunctionId": null,
             "leaf": null,
             "nodes": null,
@@ -2942,7 +2946,7 @@
             "status": null
           },
           {
-            "id": 5004000,
+            "id": "5004000",
             "roleFunctionId": null,
             "leaf": null,
             "nodes": null,
@@ -2965,7 +2969,7 @@
         "status": null
       },
       {
-        "id": 1000,
+        "id": "1000",
         "roleFunctionId": null,
         "leaf": null,
         "nodes": null,
@@ -2975,7 +2979,7 @@
         "type": "NODE",
         "functions": [
           {
-            "id": 5002049,
+            "id": "5002049",
             "roleFunctionId": null,
             "leaf": null,
             "nodes": null,
@@ -2991,7 +2995,7 @@
             "status": null
           },
           {
-            "id": 5002048,
+            "id": "5002048",
             "roleFunctionId": null,
             "leaf": null,
             "nodes": null,
@@ -3007,7 +3011,7 @@
             "status": null
           },
           {
-            "id": 5002047,
+            "id": "5002047",
             "roleFunctionId": null,
             "leaf": null,
             "nodes": null,
@@ -3023,7 +3027,7 @@
             "status": null
           },
           {
-            "id": 5002050,
+            "id": "5002050",
             "roleFunctionId": null,
             "leaf": null,
             "nodes": null,
@@ -3039,7 +3043,7 @@
             "status": null
           },
           {
-            "id": 5003300,
+            "id": "5003300",
             "roleFunctionId": null,
             "leaf": null,
             "nodes": null,
@@ -3055,7 +3059,7 @@
             "status": null
           },
           {
-            "id": 5002550,
+            "id": "5002550",
             "roleFunctionId": null,
             "leaf": null,
             "nodes": null,
@@ -3071,7 +3075,7 @@
             "status": null
           },
           {
-            "id": 5000000,
+            "id": "5000000",
             "roleFunctionId": null,
             "leaf": null,
             "nodes": null,
@@ -3104,13 +3108,13 @@
     "message": "请求成功",
     "data": [
       {
-        "id": 5002000,
+        "id": "5002000",
         "proName": "orgId",
         "value": "1",
         "deletable": true
       },
       {
-        "id": 5002001,
+        "id": "5002001",
         "proName": "orgId2",
         "value": "1",
         "deletable": true
@@ -3120,14 +3124,14 @@
   "savePermission": {
     "addRoleFuncPermissions": [],
     "deleteIds": [
-      5002000,
-      5002001
+      "5002000",
+      "5002001"
     ]
   },
   "saveRoleFunctionPermission": [
     {
-      "id": 5003000,
-      "roleId": 5004000,
+      "id": "5003000",
+      "roleId": "5004000",
       "roleFunctionId": null,
       "name": "张立立",
       "flag": false,
@@ -3135,15 +3139,15 @@
       "permissionList": []
     },
     {
-      "id": 5003400,
-      "roleId": 5004000,
-      "roleFunctionId": 5002169,
+      "id": "5003400",
+      "roleId": "5004000",
+      "roleFunctionId": "5002169",
       "name": "fdasfa",
       "flag": true,
       "type": "URL",
       "permissionList": [
         {
-          "id": 300002050,
+          "id": "300002050",
           "proName": "ios11",
           "value": "ios11"
         },
@@ -3155,44 +3159,44 @@
       ]
     },
     {
-      "id": 5003450,
-      "roleId": 5004000,
-      "roleFunctionId": 5002170,
+      "id": "5003450",
+      "roleId": "5004000",
+      "roleFunctionId": "5002170",
       "name": "哈哈哈哈",
       "flag": true,
       "type": "NODE",
       "permissionList": []
     },
     {
-      "id": 5001150,
-      "roleId": 5004000,
-      "roleFunctionId": 5002155,
+      "id": "5001150",
+      "roleId": "5004000",
+      "roleFunctionId": "5002155",
       "name": "fasdjklfjasl-lxb123",
       "flag": true,
       "type": "NODE",
       "permissionList": []
     },
     {
-      "id": 5001151,
-      "roleId": 5004000,
-      "roleFunctionId": 5002156,
+      "id": "5001151",
+      "roleId": "5004000",
+      "roleFunctionId": "5002156",
       "name": "fjdaslkfjaskldf-lxb789",
       "flag": true,
       "type": "NODE",
       "permissionList": []
     },
     {
-      "id": 5001250,
-      "roleId": 5004000,
-      "roleFunctionId": 5002157,
+      "id": "5001250",
+      "roleId": "5004000",
+      "roleFunctionId": "5002157",
       "name": "jkdsfljasdl-lxb",
       "flag": true,
       "type": "NODE",
       "permissionList": []
     },
     {
-      "id": 5003050,
-      "roleId": 5004000,
+      "id": "5003050",
+      "roleId": "5004000",
       "roleFunctionId": null,
       "name": "node节点",
       "flag": false,
@@ -3200,26 +3204,26 @@
       "permissionList": []
     },
     {
-      "id": 5003200,
-      "roleId": 5004000,
-      "roleFunctionId": 5002167,
+      "id": "5003200",
+      "roleId": "5004000",
+      "roleFunctionId": "5002167",
       "name": "5555555",
       "flag": true,
       "type": "NODE",
       "permissionList": []
     },
     {
-      "id": 5002038,
-      "roleId": 5004000,
-      "roleFunctionId": 5002158,
+      "id": "5002038",
+      "roleId": "5004000",
+      "roleFunctionId": "5002158",
       "name": "测试数据ajax3",
       "flag": true,
       "type": "AJAX",
       "permissionList": []
     },
     {
-      "id": 5003250,
-      "roleId": 5004000,
+      "id": "5003250",
+      "roleId": "5004000",
       "roleFunctionId": null,
       "name": "eee",
       "flag": false,
@@ -3227,8 +3231,8 @@
       "permissionList": []
     },
     {
-      "id": 5002041,
-      "roleId": 5004000,
+      "id": "5002041",
+      "roleId": "5004000",
       "roleFunctionId": null,
       "name": "测试数据url2",
       "flag": false,
@@ -3236,17 +3240,17 @@
       "permissionList": []
     },
     {
-      "id": 5002040,
-      "roleId": 5004000,
-      "roleFunctionId": 5002200,
+      "id": "5002040",
+      "roleId": "5004000",
+      "roleFunctionId": "5002200",
       "name": "测试数据ajax1",
       "flag": true,
       "type": "AJAX",
       "permissionList": []
     },
     {
-      "id": 5003100,
-      "roleId": 5004000,
+      "id": "5003100",
+      "roleId": "5004000",
       "roleFunctionId": null,
       "name": "333",
       "flag": false,
@@ -3254,17 +3258,17 @@
       "permissionList": []
     },
     {
-      "id": 5002000,
-      "roleId": 5004000,
-      "roleFunctionId": 5002102,
+      "id": "5002000",
+      "roleId": "5004000",
+      "roleFunctionId": "5002102",
       "name": "admin首页",
       "flag": true,
       "type": "URL",
       "permissionList": []
     },
     {
-      "id": 1001,
-      "roleId": 5004000,
+      "id": "1001",
+      "roleId": "5004000",
       "roleFunctionId": null,
       "name": "常用功能",
       "flag": false,
@@ -3272,53 +3276,53 @@
       "permissionList": []
     },
     {
-      "id": 5002046,
-      "roleId": 5004000,
-      "roleFunctionId": 5002162,
+      "id": "5002046",
+      "roleId": "5004000",
+      "roleFunctionId": "5002162",
       "name": "数据字典",
       "flag": true,
       "type": "MENU",
       "permissionList": []
     },
     {
-      "id": 5002045,
-      "roleId": 5004000,
-      "roleFunctionId": 5002161,
+      "id": "5002045",
+      "roleId": "5004000",
+      "roleFunctionId": "5002161",
       "name": "异常编码",
       "flag": true,
       "type": "MENU",
       "permissionList": []
     },
     {
-      "id": 5002044,
-      "roleId": 5004000,
-      "roleFunctionId": 5002160,
+      "id": "5002044",
+      "roleId": "5004000",
+      "roleFunctionId": "5002160",
       "name": "接口监控",
       "flag": true,
       "type": "MENU",
       "permissionList": []
     },
     {
-      "id": 5002043,
-      "roleId": 5004000,
-      "roleFunctionId": 5002159,
+      "id": "5002043",
+      "roleId": "5004000",
+      "roleFunctionId": "5002159",
       "name": "菜单管理",
       "flag": true,
       "type": "MENU",
       "permissionList": []
     },
     {
-      "id": 5004000,
-      "roleId": 5004000,
-      "roleFunctionId": 5002171,
+      "id": "5004000",
+      "roleId": "5004000",
+      "roleFunctionId": "5002171",
       "name": "pantest",
       "flag": true,
       "type": "MENU",
       "permissionList": []
     },
     {
-      "id": 1000,
-      "roleId": 5004000,
+      "id": "1000",
+      "roleId": "5004000",
       "roleFunctionId": null,
       "name": "系统管理",
       "flag": false,
@@ -3326,54 +3330,54 @@
       "permissionList": []
     },
     {
-      "id": 5002049,
-      "roleId": 5004000,
-      "roleFunctionId": 5002165,
+      "id": "5002049",
+      "roleId": "5004000",
+      "roleFunctionId": "5002165",
       "name": "角色管理",
       "flag": true,
       "type": "MENU",
       "permissionList": []
     },
     {
-      "id": 5002048,
-      "roleId": 5004000,
-      "roleFunctionId": 5002164,
+      "id": "5002048",
+      "roleId": "5004000",
+      "roleFunctionId": "5002164",
       "name": "资源管理",
       "flag": true,
       "type": "MENU",
       "permissionList": []
     },
     {
-      "id": 5002047,
-      "roleId": 5004000,
-      "roleFunctionId": 5002163,
+      "id": "5002047",
+      "roleId": "5004000",
+      "roleFunctionId": "5002163",
       "name": "授权管理",
       "flag": true,
       "type": "MENU",
       "permissionList": []
     },
     {
-      "id": 5002050,
-      "roleId": 5004000,
-      "roleFunctionId": 5002166,
+      "id": "5002050",
+      "roleId": "5004000",
+      "roleFunctionId": "5002166",
       "name": "用户管理",
       "flag": true,
       "type": "MENU",
       "permissionList": []
     },
     {
-      "id": 5003300,
-      "roleId": 5004000,
-      "roleFunctionId": 5002168,
+      "id": "5003300",
+      "roleId": "5004000",
+      "roleFunctionId": "5002168",
       "name": "机构管理",
       "flag": true,
       "type": "MENU",
       "permissionList": []
     },
     {
-      "id": 5000000,
-      "roleId": 5004000,
-      "roleFunctionId": 5002154,
+      "id": "5000000",
+      "roleId": "5004000",
+      "roleFunctionId": "5002154",
       "name": "用户管理新",
       "flag": true,
       "type": "MENU",
@@ -3381,8 +3385,8 @@
     },
     [
       {
-        "id": 5003000,
-        "roleId": 1000,
+        "id": "5003000",
+        "roleId": "1000",
         "roleFunctionId": null,
         "name": "张立立",
         "flag": true,
@@ -3390,15 +3394,522 @@
         "permissionList": []
       },
       {
-        "id": 5003400,
-        "roleId": 1000,
-        "roleFunctionId": 5002169,
+        "id": "5003400",
+        "roleId": "1000",
+        "roleFunctionId": "5002169",
         "name": "fdasfa",
         "flag": true,
         "type": "URL",
         "permissionList": [
           {
-            "id": 300002050,
+            "id": "300002050",
+            "proName": "ios11",
+            "value": "ios11"
+          },
+          {
+            "id": "300002051",
+            "proName": "ios12",
+            "value": "ios12"
+          }
+        ]
+      },
+      {
+        "id": "5003450",
+        "roleId": "1000",
+        "roleFunctionId": "5002170",
+        "name": "哈哈哈哈",
+        "flag": true,
+        "type": "NODE",
+        "permissionList": []
+      },
+      {
+        "id": "5001150",
+        "roleId": "1000",
+        "roleFunctionId": "5002155",
+        "name": "fasdjklfjasl-lxb123",
+        "flag": true,
+        "type": "NODE",
+        "permissionList": []
+      },
+      {
+        "id": "5001151",
+        "roleId": "1000",
+        "roleFunctionId": "5002156",
+        "name": "fjdaslkfjaskldf-lxb789",
+        "flag": true,
+        "type": "NODE",
+        "permissionList": []
+      },
+      {
+        "id": "5001250",
+        "roleId": "1000",
+        "roleFunctionId": "5002157",
+        "name": "jkdsfljasdl-lxb",
+        "flag": true,
+        "type": "NODE",
+        "permissionList": []
+      },
+      {
+        "id": "5003050",
+        "roleId": "1000",
+        "roleFunctionId": null,
+        "name": "node节点",
+        "flag": false,
+        "type": "NODE",
+        "permissionList": []
+      },
+      {
+        "id": "5003200",
+        "roleId": "1000",
+        "roleFunctionId": "5002167",
+        "name": "5555555",
+        "flag": true,
+        "type": "NODE",
+        "permissionList": []
+      },
+      {
+        "id": "5002038",
+        "roleId": "1000",
+        "roleFunctionId": "5002158",
+        "name": "测试数据ajax3",
+        "flag": true,
+        "type": "AJAX",
+        "permissionList": []
+      },
+      {
+        "id": "5003250",
+        "roleId": "1000",
+        "roleFunctionId": null,
+        "name": "eee",
+        "flag": true,
+        "type": "NODE",
+        "permissionList": []
+      },
+      {
+        "id": "5002041",
+        "roleId": "1000",
+        "roleFunctionId": null,
+        "name": "测试数据url2",
+        "flag": true,
+        "type": "URL",
+        "permissionList": []
+      },
+      {
+        "id": "5002040",
+        "roleId": "1000",
+        "roleFunctionId": "5002200",
+        "name": "测试数据ajax1",
+        "flag": true,
+        "type": "AJAX",
+        "permissionList": []
+      },
+      {
+        "id": "5003100",
+        "roleId": "1000",
+        "roleFunctionId": null,
+        "name": "333",
+        "flag": false,
+        "type": "MENU",
+        "permissionList": []
+      },
+      {
+        "id": "5002000",
+        "roleId": "1000",
+        "roleFunctionId": "5002102",
+        "name": "admin首页",
+        "flag": true,
+        "type": "URL",
+        "permissionList": []
+      },
+      {
+        "id": "1001",
+        "roleId": "1000",
+        "roleFunctionId": null,
+        "name": "常用功能",
+        "flag": true,
+        "type": "NODE",
+        "permissionList": []
+      },
+      {
+        "id": "5002046",
+        "roleId": "1000",
+        "roleFunctionId": "5002162",
+        "name": "数据字典",
+        "flag": true,
+        "type": "MENU",
+        "permissionList": []
+      },
+      {
+        "id": "5002045",
+        "roleId": "1000",
+        "roleFunctionId": "5002161",
+        "name": "异常编码",
+        "flag": true,
+        "type": "MENU",
+        "permissionList": []
+      },
+      {
+        "id": "5002044",
+        "roleId": "1000",
+        "roleFunctionId": "5002160",
+        "name": "接口监控",
+        "flag": true,
+        "type": "MENU",
+        "permissionList": []
+      },
+      {
+        "id": "5002043",
+        "roleId": "1000",
+        "roleFunctionId": "5002159",
+        "name": "菜单管理",
+        "flag": true,
+        "type": "MENU",
+        "permissionList": []
+      },
+      {
+        "id": "5004000",
+        "roleId": "1000",
+        "roleFunctionId": "5002171",
+        "name": "pantest",
+        "flag": true,
+        "type": "MENU",
+        "permissionList": []
+      },
+      {
+        "id": "1000",
+        "roleId": "1000",
+        "roleFunctionId": null,
+        "name": "系统管理",
+        "flag": true,
+        "type": "NODE",
+        "permissionList": []
+      },
+      {
+        "id": "5002049",
+        "roleId": "1000",
+        "roleFunctionId": "5002165",
+        "name": "角色管理",
+        "flag": true,
+        "type": "MENU",
+        "permissionList": []
+      },
+      {
+        "id": "5002048",
+        "roleId": "1000",
+        "roleFunctionId": "5002164",
+        "name": "资源管理",
+        "flag": true,
+        "type": "MENU",
+        "permissionList": []
+      },
+      {
+        "id": "5002047",
+        "roleId": "1000",
+        "roleFunctionId": "5002163",
+        "name": "授权管理",
+        "flag": true,
+        "type": "MENU",
+        "permissionList": []
+      },
+      {
+        "id": "5002050",
+        "roleId": "1000",
+        "roleFunctionId": "5002166",
+        "name": "用户管理",
+        "flag": true,
+        "type": "MENU",
+        "permissionList": []
+      },
+      {
+        "id": "5003300",
+        "roleId": "1000",
+        "roleFunctionId": "5002168",
+        "name": "机构管理",
+        "flag": true,
+        "type": "MENU",
+        "permissionList": []
+      },
+      {
+        "id": "5000000",
+        "roleId": "1000",
+        "roleFunctionId": "5002154",
+        "name": "用户管理新",
+        "flag": true,
+        "type": "MENU",
+        "permissionList": []
+      }
+    ],
+    [
+      {
+        "id": "5003000",
+        "roleId": "1000",
+        "roleFunctionId": null,
+        "name": "张立立",
+        "flag": true,
+        "type": "NODE",
+        "permissionList": []
+      },
+      {
+        "id": "5003400",
+        "roleId": "1000",
+        "roleFunctionId": "5002169",
+        "name": "fdasfa",
+        "flag": true,
+        "type": "URL",
+        "permissionList": [
+          {
+            "id": "300002050",
+            "proName": "ios11",
+            "value": "ios11"
+          }
+        ]
+      },
+      {
+        "id": "5003450",
+        "roleId": "1000",
+        "roleFunctionId": "5002170",
+        "name": "哈哈哈哈",
+        "flag": true,
+        "type": "NODE",
+        "permissionList": []
+      },
+      {
+        "id": "5001150",
+        "roleId": "1000",
+        "roleFunctionId": "5002155",
+        "name": "fasdjklfjasl-lxb123",
+        "flag": true,
+        "type": "NODE",
+        "permissionList": []
+      },
+      {
+        "id": "5001151",
+        "roleId": "1000",
+        "roleFunctionId": "5002156",
+        "name": "fjdaslkfjaskldf-lxb789",
+        "flag": true,
+        "type": "NODE",
+        "permissionList": []
+      },
+      {
+        "id": "5001250",
+        "roleId": "1000",
+        "roleFunctionId": "5002157",
+        "name": "jkdsfljasdl-lxb",
+        "flag": true,
+        "type": "NODE",
+        "permissionList": []
+      },
+      {
+        "id": "5003050",
+        "roleId": "1000",
+        "roleFunctionId": null,
+        "name": "node节点",
+        "flag": false,
+        "type": "NODE",
+        "permissionList": []
+      },
+      {
+        "id": "5003200",
+        "roleId": "1000",
+        "roleFunctionId": "5002167",
+        "name": "5555555",
+        "flag": true,
+        "type": "NODE",
+        "permissionList": []
+      },
+      {
+        "id": "5002038",
+        "roleId": "1000",
+        "roleFunctionId": "5002158",
+        "name": "测试数据ajax3",
+        "flag": true,
+        "type": "AJAX",
+        "permissionList": []
+      },
+      {
+        "id": "5003250",
+        "roleId": "1000",
+        "roleFunctionId": null,
+        "name": "eee",
+        "flag": true,
+        "type": "NODE",
+        "permissionList": []
+      },
+      {
+        "id": "5002041",
+        "roleId": "1000",
+        "roleFunctionId": null,
+        "name": "测试数据url2",
+        "flag": true,
+        "type": "URL",
+        "permissionList": []
+      },
+      {
+        "id": "5002040",
+        "roleId": "1000",
+        "roleFunctionId": "5002200",
+        "name": "测试数据ajax1",
+        "flag": true,
+        "type": "AJAX",
+        "permissionList": []
+      },
+      {
+        "id": "5003100",
+        "roleId": "1000",
+        "roleFunctionId": null,
+        "name": "333",
+        "flag": false,
+        "type": "MENU",
+        "permissionList": []
+      },
+      {
+        "id": "5002000",
+        "roleId": "1000",
+        "roleFunctionId": "5002102",
+        "name": "admin首页",
+        "flag": true,
+        "type": "URL",
+        "permissionList": []
+      },
+      {
+        "id": "1001",
+        "roleId": "1000",
+        "roleFunctionId": null,
+        "name": "常用功能",
+        "flag": true,
+        "type": "NODE",
+        "permissionList": []
+      },
+      {
+        "id": "5002046",
+        "roleId": "1000",
+        "roleFunctionId": "5002162",
+        "name": "数据字典",
+        "flag": true,
+        "type": "MENU",
+        "permissionList": []
+      },
+      {
+        "id": "5002045",
+        "roleId": "1000",
+        "roleFunctionId": "5002161",
+        "name": "异常编码",
+        "flag": true,
+        "type": "MENU",
+        "permissionList": []
+      },
+      {
+        "id": "5002044",
+        "roleId": "1000",
+        "roleFunctionId": "5002160",
+        "name": "接口监控",
+        "flag": true,
+        "type": "MENU",
+        "permissionList": []
+      },
+      {
+        "id": "5002043",
+        "roleId": "1000",
+        "roleFunctionId": "5002159",
+        "name": "菜单管理",
+        "flag": true,
+        "type": "MENU",
+        "permissionList": []
+      },
+      {
+        "id": "5004000",
+        "roleId": "1000",
+        "roleFunctionId": "5002171",
+        "name": "pantest",
+        "flag": true,
+        "type": "MENU",
+        "permissionList": []
+      },
+      {
+        "id": "1000",
+        "roleId": "1000",
+        "roleFunctionId": null,
+        "name": "系统管理",
+        "flag": true,
+        "type": "NODE",
+        "permissionList": []
+      },
+      {
+        "id": "5002049",
+        "roleId": "1000",
+        "roleFunctionId": "5002165",
+        "name": "角色管理",
+        "flag": true,
+        "type": "MENU",
+        "permissionList": []
+      },
+      {
+        "id": "5002048",
+        "roleId": "1000",
+        "roleFunctionId": "5002164",
+        "name": "资源管理",
+        "flag": true,
+        "type": "MENU",
+        "permissionList": []
+      },
+      {
+        "id": "5002047",
+        "roleId": "1000",
+        "roleFunctionId": "5002163",
+        "name": "授权管理",
+        "flag": true,
+        "type": "MENU",
+        "permissionList": []
+      },
+      {
+        "id": "5002050",
+        "roleId": "1000",
+        "roleFunctionId": "5002166",
+        "name": "用户管理",
+        "flag": true,
+        "type": "MENU",
+        "permissionList": []
+      },
+      {
+        "id": "5003300",
+        "roleId": "1000",
+        "roleFunctionId": "5002168",
+        "name": "机构管理",
+        "flag": true,
+        "type": "MENU",
+        "permissionList": []
+      },
+      {
+        "id": "5000000",
+        "roleId": "1000",
+        "roleFunctionId": "5002154",
+        "name": "用户管理新",
+        "flag": true,
+        "type": "MENU",
+        "permissionList": []
+      }
+    ],
+    [
+      {
+        "id": "5003000",
+        "roleId": "1000",
+        "roleFunctionId": null,
+        "name": "张立立",
+        "flag": true,
+        "type": "NODE",
+        "permissionList": []
+      },
+      {
+        "id": "5003400",
+        "roleId": "1000",
+        "roleFunctionId": "5002169",
+        "name": "fdasfa",
+        "flag": true,
+        "type": "URL",
+        "permissionList": [
+          {
+            "id": "300002050",
             "proName": "ios11",
             "value": "ios11"
           },
@@ -3410,44 +3921,44 @@
         ]
       },
       {
-        "id": 5003450,
-        "roleId": 1000,
-        "roleFunctionId": 5002170,
+        "id": "5003450",
+        "roleId": "1000",
+        "roleFunctionId": "5002170",
         "name": "哈哈哈哈",
         "flag": true,
         "type": "NODE",
         "permissionList": []
       },
       {
-        "id": 5001150,
-        "roleId": 1000,
-        "roleFunctionId": 5002155,
+        "id": "5001150",
+        "roleId": "1000",
+        "roleFunctionId": "5002155",
         "name": "fasdjklfjasl-lxb123",
         "flag": true,
         "type": "NODE",
         "permissionList": []
       },
       {
-        "id": 5001151,
-        "roleId": 1000,
-        "roleFunctionId": 5002156,
+        "id": "5001151",
+        "roleId": "1000",
+        "roleFunctionId": "5002156",
         "name": "fjdaslkfjaskldf-lxb789",
         "flag": true,
         "type": "NODE",
         "permissionList": []
       },
       {
-        "id": 5001250,
-        "roleId": 1000,
-        "roleFunctionId": 5002157,
+        "id": "5001250",
+        "roleId": "1000",
+        "roleFunctionId": "5002157",
         "name": "jkdsfljasdl-lxb",
         "flag": true,
         "type": "NODE",
         "permissionList": []
       },
       {
-        "id": 5003050,
-        "roleId": 1000,
+        "id": "5003050",
+        "roleId": "1000",
         "roleFunctionId": null,
         "name": "node节点",
         "flag": false,
@@ -3455,26 +3966,26 @@
         "permissionList": []
       },
       {
-        "id": 5003200,
-        "roleId": 1000,
-        "roleFunctionId": 5002167,
+        "id": "5003200",
+        "roleId": "1000",
+        "roleFunctionId": "5002167",
         "name": "5555555",
         "flag": true,
         "type": "NODE",
         "permissionList": []
       },
       {
-        "id": 5002038,
-        "roleId": 1000,
-        "roleFunctionId": 5002158,
+        "id": "5002038",
+        "roleId": "1000",
+        "roleFunctionId": "5002158",
         "name": "测试数据ajax3",
         "flag": true,
         "type": "AJAX",
         "permissionList": []
       },
       {
-        "id": 5003250,
-        "roleId": 1000,
+        "id": "5003250",
+        "roleId": "1000",
         "roleFunctionId": null,
         "name": "eee",
         "flag": true,
@@ -3482,8 +3993,8 @@
         "permissionList": []
       },
       {
-        "id": 5002041,
-        "roleId": 1000,
+        "id": "5002041",
+        "roleId": "1000",
         "roleFunctionId": null,
         "name": "测试数据url2",
         "flag": true,
@@ -3491,17 +4002,17 @@
         "permissionList": []
       },
       {
-        "id": 5002040,
-        "roleId": 1000,
-        "roleFunctionId": 5002200,
+        "id": "5002040",
+        "roleId": "1000",
+        "roleFunctionId": "5002200",
         "name": "测试数据ajax1",
         "flag": true,
         "type": "AJAX",
         "permissionList": []
       },
       {
-        "id": 5003100,
-        "roleId": 1000,
+        "id": "5003100",
+        "roleId": "1000",
         "roleFunctionId": null,
         "name": "333",
         "flag": false,
@@ -3509,17 +4020,17 @@
         "permissionList": []
       },
       {
-        "id": 5002000,
-        "roleId": 1000,
-        "roleFunctionId": 5002102,
+        "id": "5002000",
+        "roleId": "1000",
+        "roleFunctionId": "5002102",
         "name": "admin首页",
         "flag": true,
         "type": "URL",
         "permissionList": []
       },
       {
-        "id": 1001,
-        "roleId": 1000,
+        "id": "1001",
+        "roleId": "1000",
         "roleFunctionId": null,
         "name": "常用功能",
         "flag": true,
@@ -3527,53 +4038,53 @@
         "permissionList": []
       },
       {
-        "id": 5002046,
-        "roleId": 1000,
-        "roleFunctionId": 5002162,
+        "id": "5002046",
+        "roleId": "1000",
+        "roleFunctionId": "5002162",
         "name": "数据字典",
         "flag": true,
         "type": "MENU",
         "permissionList": []
       },
       {
-        "id": 5002045,
-        "roleId": 1000,
-        "roleFunctionId": 5002161,
+        "id": "5002045",
+        "roleId": "1000",
+        "roleFunctionId": "5002161",
         "name": "异常编码",
         "flag": true,
         "type": "MENU",
         "permissionList": []
       },
       {
-        "id": 5002044,
-        "roleId": 1000,
-        "roleFunctionId": 5002160,
+        "id": "5002044",
+        "roleId": "1000",
+        "roleFunctionId": "5002160",
         "name": "接口监控",
         "flag": true,
         "type": "MENU",
         "permissionList": []
       },
       {
-        "id": 5002043,
-        "roleId": 1000,
-        "roleFunctionId": 5002159,
+        "id": "5002043",
+        "roleId": "1000",
+        "roleFunctionId": "5002159",
         "name": "菜单管理",
         "flag": true,
         "type": "MENU",
         "permissionList": []
       },
       {
-        "id": 5004000,
-        "roleId": 1000,
-        "roleFunctionId": 5002171,
+        "id": "5004000",
+        "roleId": "1000",
+        "roleFunctionId": "5002171",
         "name": "pantest",
         "flag": true,
         "type": "MENU",
         "permissionList": []
       },
       {
-        "id": 1000,
-        "roleId": 1000,
+        "id": "1000",
+        "roleId": "1000",
         "roleFunctionId": null,
         "name": "系统管理",
         "flag": true,
@@ -3581,54 +4092,54 @@
         "permissionList": []
       },
       {
-        "id": 5002049,
-        "roleId": 1000,
-        "roleFunctionId": 5002165,
+        "id": "5002049",
+        "roleId": "1000",
+        "roleFunctionId": "5002165",
         "name": "角色管理",
         "flag": true,
         "type": "MENU",
         "permissionList": []
       },
       {
-        "id": 5002048,
-        "roleId": 1000,
-        "roleFunctionId": 5002164,
+        "id": "5002048",
+        "roleId": "1000",
+        "roleFunctionId": "5002164",
         "name": "资源管理",
         "flag": true,
         "type": "MENU",
         "permissionList": []
       },
       {
-        "id": 5002047,
-        "roleId": 1000,
-        "roleFunctionId": 5002163,
+        "id": "5002047",
+        "roleId": "1000",
+        "roleFunctionId": "5002163",
         "name": "授权管理",
         "flag": true,
         "type": "MENU",
         "permissionList": []
       },
       {
-        "id": 5002050,
-        "roleId": 1000,
-        "roleFunctionId": 5002166,
+        "id": "5002050",
+        "roleId": "1000",
+        "roleFunctionId": "5002166",
         "name": "用户管理",
         "flag": true,
         "type": "MENU",
         "permissionList": []
       },
       {
-        "id": 5003300,
-        "roleId": 1000,
-        "roleFunctionId": 5002168,
+        "id": "5003300",
+        "roleId": "1000",
+        "roleFunctionId": "5002168",
         "name": "机构管理",
         "flag": true,
         "type": "MENU",
         "permissionList": []
       },
       {
-        "id": 5000000,
-        "roleId": 1000,
-        "roleFunctionId": 5002154,
+        "id": "5000000",
+        "roleId": "1000",
+        "roleFunctionId": "5002154",
         "name": "用户管理新",
         "flag": true,
         "type": "MENU",
@@ -3637,8 +4148,8 @@
     ],
     [
       {
-        "id": 5003000,
-        "roleId": 1000,
+        "id": "5003000",
+        "roleId": "1000",
         "roleFunctionId": null,
         "name": "张立立",
         "flag": true,
@@ -3646,266 +4157,15 @@
         "permissionList": []
       },
       {
-        "id": 5003400,
-        "roleId": 1000,
-        "roleFunctionId": 5002169,
+        "id": "5003400",
+        "roleId": "1000",
+        "roleFunctionId": "5002169",
         "name": "fdasfa",
         "flag": true,
         "type": "URL",
         "permissionList": [
           {
-            "id": 300002050,
-            "proName": "ios11",
-            "value": "ios11"
-          }
-        ]
-      },
-      {
-        "id": 5003450,
-        "roleId": 1000,
-        "roleFunctionId": 5002170,
-        "name": "哈哈哈哈",
-        "flag": true,
-        "type": "NODE",
-        "permissionList": []
-      },
-      {
-        "id": 5001150,
-        "roleId": 1000,
-        "roleFunctionId": 5002155,
-        "name": "fasdjklfjasl-lxb123",
-        "flag": true,
-        "type": "NODE",
-        "permissionList": []
-      },
-      {
-        "id": 5001151,
-        "roleId": 1000,
-        "roleFunctionId": 5002156,
-        "name": "fjdaslkfjaskldf-lxb789",
-        "flag": true,
-        "type": "NODE",
-        "permissionList": []
-      },
-      {
-        "id": 5001250,
-        "roleId": 1000,
-        "roleFunctionId": 5002157,
-        "name": "jkdsfljasdl-lxb",
-        "flag": true,
-        "type": "NODE",
-        "permissionList": []
-      },
-      {
-        "id": 5003050,
-        "roleId": 1000,
-        "roleFunctionId": null,
-        "name": "node节点",
-        "flag": false,
-        "type": "NODE",
-        "permissionList": []
-      },
-      {
-        "id": 5003200,
-        "roleId": 1000,
-        "roleFunctionId": 5002167,
-        "name": "5555555",
-        "flag": true,
-        "type": "NODE",
-        "permissionList": []
-      },
-      {
-        "id": 5002038,
-        "roleId": 1000,
-        "roleFunctionId": 5002158,
-        "name": "测试数据ajax3",
-        "flag": true,
-        "type": "AJAX",
-        "permissionList": []
-      },
-      {
-        "id": 5003250,
-        "roleId": 1000,
-        "roleFunctionId": null,
-        "name": "eee",
-        "flag": true,
-        "type": "NODE",
-        "permissionList": []
-      },
-      {
-        "id": 5002041,
-        "roleId": 1000,
-        "roleFunctionId": null,
-        "name": "测试数据url2",
-        "flag": true,
-        "type": "URL",
-        "permissionList": []
-      },
-      {
-        "id": 5002040,
-        "roleId": 1000,
-        "roleFunctionId": 5002200,
-        "name": "测试数据ajax1",
-        "flag": true,
-        "type": "AJAX",
-        "permissionList": []
-      },
-      {
-        "id": 5003100,
-        "roleId": 1000,
-        "roleFunctionId": null,
-        "name": "333",
-        "flag": false,
-        "type": "MENU",
-        "permissionList": []
-      },
-      {
-        "id": 5002000,
-        "roleId": 1000,
-        "roleFunctionId": 5002102,
-        "name": "admin首页",
-        "flag": true,
-        "type": "URL",
-        "permissionList": []
-      },
-      {
-        "id": 1001,
-        "roleId": 1000,
-        "roleFunctionId": null,
-        "name": "常用功能",
-        "flag": true,
-        "type": "NODE",
-        "permissionList": []
-      },
-      {
-        "id": 5002046,
-        "roleId": 1000,
-        "roleFunctionId": 5002162,
-        "name": "数据字典",
-        "flag": true,
-        "type": "MENU",
-        "permissionList": []
-      },
-      {
-        "id": 5002045,
-        "roleId": 1000,
-        "roleFunctionId": 5002161,
-        "name": "异常编码",
-        "flag": true,
-        "type": "MENU",
-        "permissionList": []
-      },
-      {
-        "id": 5002044,
-        "roleId": 1000,
-        "roleFunctionId": 5002160,
-        "name": "接口监控",
-        "flag": true,
-        "type": "MENU",
-        "permissionList": []
-      },
-      {
-        "id": 5002043,
-        "roleId": 1000,
-        "roleFunctionId": 5002159,
-        "name": "菜单管理",
-        "flag": true,
-        "type": "MENU",
-        "permissionList": []
-      },
-      {
-        "id": 5004000,
-        "roleId": 1000,
-        "roleFunctionId": 5002171,
-        "name": "pantest",
-        "flag": true,
-        "type": "MENU",
-        "permissionList": []
-      },
-      {
-        "id": 1000,
-        "roleId": 1000,
-        "roleFunctionId": null,
-        "name": "系统管理",
-        "flag": true,
-        "type": "NODE",
-        "permissionList": []
-      },
-      {
-        "id": 5002049,
-        "roleId": 1000,
-        "roleFunctionId": 5002165,
-        "name": "角色管理",
-        "flag": true,
-        "type": "MENU",
-        "permissionList": []
-      },
-      {
-        "id": 5002048,
-        "roleId": 1000,
-        "roleFunctionId": 5002164,
-        "name": "资源管理",
-        "flag": true,
-        "type": "MENU",
-        "permissionList": []
-      },
-      {
-        "id": 5002047,
-        "roleId": 1000,
-        "roleFunctionId": 5002163,
-        "name": "授权管理",
-        "flag": true,
-        "type": "MENU",
-        "permissionList": []
-      },
-      {
-        "id": 5002050,
-        "roleId": 1000,
-        "roleFunctionId": 5002166,
-        "name": "用户管理",
-        "flag": true,
-        "type": "MENU",
-        "permissionList": []
-      },
-      {
-        "id": 5003300,
-        "roleId": 1000,
-        "roleFunctionId": 5002168,
-        "name": "机构管理",
-        "flag": true,
-        "type": "MENU",
-        "permissionList": []
-      },
-      {
-        "id": 5000000,
-        "roleId": 1000,
-        "roleFunctionId": 5002154,
-        "name": "用户管理新",
-        "flag": true,
-        "type": "MENU",
-        "permissionList": []
-      }
-    ],
-    [
-      {
-        "id": 5003000,
-        "roleId": 1000,
-        "roleFunctionId": null,
-        "name": "张立立",
-        "flag": true,
-        "type": "NODE",
-        "permissionList": []
-      },
-      {
-        "id": 5003400,
-        "roleId": 1000,
-        "roleFunctionId": 5002169,
-        "name": "fdasfa",
-        "flag": true,
-        "type": "URL",
-        "permissionList": [
-          {
-            "id": 300002050,
+            "id": "300002050",
             "proName": "ios11",
             "value": "ios11"
           },
@@ -3917,44 +4177,44 @@
         ]
       },
       {
-        "id": 5003450,
-        "roleId": 1000,
-        "roleFunctionId": 5002170,
+        "id": "5003450",
+        "roleId": "1000",
+        "roleFunctionId": "5002170",
         "name": "哈哈哈哈",
         "flag": true,
         "type": "NODE",
         "permissionList": []
       },
       {
-        "id": 5001150,
-        "roleId": 1000,
-        "roleFunctionId": 5002155,
+        "id": "5001150",
+        "roleId": "1000",
+        "roleFunctionId": "5002155",
         "name": "fasdjklfjasl-lxb123",
         "flag": true,
         "type": "NODE",
         "permissionList": []
       },
       {
-        "id": 5001151,
-        "roleId": 1000,
-        "roleFunctionId": 5002156,
+        "id": "5001151",
+        "roleId": "1000",
+        "roleFunctionId": "5002156",
         "name": "fjdaslkfjaskldf-lxb789",
         "flag": true,
         "type": "NODE",
         "permissionList": []
       },
       {
-        "id": 5001250,
-        "roleId": 1000,
-        "roleFunctionId": 5002157,
+        "id": "5001250",
+        "roleId": "1000",
+        "roleFunctionId": "5002157",
         "name": "jkdsfljasdl-lxb",
         "flag": true,
         "type": "NODE",
         "permissionList": []
       },
       {
-        "id": 5003050,
-        "roleId": 1000,
+        "id": "5003050",
+        "roleId": "1000",
         "roleFunctionId": null,
         "name": "node节点",
         "flag": false,
@@ -3962,26 +4222,26 @@
         "permissionList": []
       },
       {
-        "id": 5003200,
-        "roleId": 1000,
-        "roleFunctionId": 5002167,
+        "id": "5003200",
+        "roleId": "1000",
+        "roleFunctionId": "5002167",
         "name": "5555555",
         "flag": true,
         "type": "NODE",
         "permissionList": []
       },
       {
-        "id": 5002038,
-        "roleId": 1000,
-        "roleFunctionId": 5002158,
+        "id": "5002038",
+        "roleId": "1000",
+        "roleFunctionId": "5002158",
         "name": "测试数据ajax3",
         "flag": true,
         "type": "AJAX",
         "permissionList": []
       },
       {
-        "id": 5003250,
-        "roleId": 1000,
+        "id": "5003250",
+        "roleId": "1000",
         "roleFunctionId": null,
         "name": "eee",
         "flag": true,
@@ -3989,8 +4249,8 @@
         "permissionList": []
       },
       {
-        "id": 5002041,
-        "roleId": 1000,
+        "id": "5002041",
+        "roleId": "1000",
         "roleFunctionId": null,
         "name": "测试数据url2",
         "flag": true,
@@ -3998,17 +4258,17 @@
         "permissionList": []
       },
       {
-        "id": 5002040,
-        "roleId": 1000,
-        "roleFunctionId": 5002200,
+        "id": "5002040",
+        "roleId": "1000",
+        "roleFunctionId": "5002200",
         "name": "测试数据ajax1",
         "flag": true,
         "type": "AJAX",
         "permissionList": []
       },
       {
-        "id": 5003100,
-        "roleId": 1000,
+        "id": "5003100",
+        "roleId": "1000",
         "roleFunctionId": null,
         "name": "333",
         "flag": false,
@@ -4016,17 +4276,17 @@
         "permissionList": []
       },
       {
-        "id": 5002000,
-        "roleId": 1000,
-        "roleFunctionId": 5002102,
+        "id": "5002000",
+        "roleId": "1000",
+        "roleFunctionId": "5002102",
         "name": "admin首页",
         "flag": true,
         "type": "URL",
         "permissionList": []
       },
       {
-        "id": 1001,
-        "roleId": 1000,
+        "id": "1001",
+        "roleId": "1000",
         "roleFunctionId": null,
         "name": "常用功能",
         "flag": true,
@@ -4034,53 +4294,53 @@
         "permissionList": []
       },
       {
-        "id": 5002046,
-        "roleId": 1000,
-        "roleFunctionId": 5002162,
+        "id": "5002046",
+        "roleId": "1000",
+        "roleFunctionId": "5002162",
         "name": "数据字典",
         "flag": true,
         "type": "MENU",
         "permissionList": []
       },
       {
-        "id": 5002045,
-        "roleId": 1000,
-        "roleFunctionId": 5002161,
+        "id": "5002045",
+        "roleId": "1000",
+        "roleFunctionId": "5002161",
         "name": "异常编码",
         "flag": true,
         "type": "MENU",
         "permissionList": []
       },
       {
-        "id": 5002044,
-        "roleId": 1000,
-        "roleFunctionId": 5002160,
+        "id": "5002044",
+        "roleId": "1000",
+        "roleFunctionId": "5002160",
         "name": "接口监控",
         "flag": true,
         "type": "MENU",
         "permissionList": []
       },
       {
-        "id": 5002043,
-        "roleId": 1000,
-        "roleFunctionId": 5002159,
+        "id": "5002043",
+        "roleId": "1000",
+        "roleFunctionId": "5002159",
         "name": "菜单管理",
         "flag": true,
         "type": "MENU",
         "permissionList": []
       },
       {
-        "id": 5004000,
-        "roleId": 1000,
-        "roleFunctionId": 5002171,
+        "id": "5004000",
+        "roleId": "1000",
+        "roleFunctionId": "5002171",
         "name": "pantest",
         "flag": true,
         "type": "MENU",
         "permissionList": []
       },
       {
-        "id": 1000,
-        "roleId": 1000,
+        "id": "1000",
+        "roleId": "1000",
         "roleFunctionId": null,
         "name": "系统管理",
         "flag": true,
@@ -4088,54 +4348,54 @@
         "permissionList": []
       },
       {
-        "id": 5002049,
-        "roleId": 1000,
-        "roleFunctionId": 5002165,
+        "id": "5002049",
+        "roleId": "1000",
+        "roleFunctionId": "5002165",
         "name": "角色管理",
         "flag": true,
         "type": "MENU",
         "permissionList": []
       },
       {
-        "id": 5002048,
-        "roleId": 1000,
-        "roleFunctionId": 5002164,
+        "id": "5002048",
+        "roleId": "1000",
+        "roleFunctionId": "5002164",
         "name": "资源管理",
         "flag": true,
         "type": "MENU",
         "permissionList": []
       },
       {
-        "id": 5002047,
-        "roleId": 1000,
-        "roleFunctionId": 5002163,
+        "id": "5002047",
+        "roleId": "1000",
+        "roleFunctionId": "5002163",
         "name": "授权管理",
         "flag": true,
         "type": "MENU",
         "permissionList": []
       },
       {
-        "id": 5002050,
-        "roleId": 1000,
-        "roleFunctionId": 5002166,
+        "id": "5002050",
+        "roleId": "1000",
+        "roleFunctionId": "5002166",
         "name": "用户管理",
         "flag": true,
         "type": "MENU",
         "permissionList": []
       },
       {
-        "id": 5003300,
-        "roleId": 1000,
-        "roleFunctionId": 5002168,
+        "id": "5003300",
+        "roleId": "1000",
+        "roleFunctionId": "5002168",
         "name": "机构管理",
         "flag": true,
         "type": "MENU",
         "permissionList": []
       },
       {
-        "id": 5000000,
-        "roleId": 1000,
-        "roleFunctionId": 5002154,
+        "id": "5000000",
+        "roleId": "1000",
+        "roleFunctionId": "5002154",
         "name": "用户管理新",
         "flag": true,
         "type": "MENU",
@@ -4144,8 +4404,8 @@
     ],
     [
       {
-        "id": 5003000,
-        "roleId": 1000,
+        "id": "5003000",
+        "roleId": "1000",
         "roleFunctionId": null,
         "name": "张立立",
         "flag": true,
@@ -4153,15 +4413,15 @@
         "permissionList": []
       },
       {
-        "id": 5003400,
-        "roleId": 1000,
-        "roleFunctionId": 5002169,
+        "id": "5003400",
+        "roleId": "1000",
+        "roleFunctionId": "5002169",
         "name": "fdasfa",
         "flag": true,
         "type": "URL",
         "permissionList": [
           {
-            "id": 300002050,
+            "id": "300002050",
             "proName": "ios11",
             "value": "ios11"
           },
@@ -4173,44 +4433,44 @@
         ]
       },
       {
-        "id": 5003450,
-        "roleId": 1000,
-        "roleFunctionId": 5002170,
+        "id": "5003450",
+        "roleId": "1000",
+        "roleFunctionId": "5002170",
         "name": "哈哈哈哈",
         "flag": true,
         "type": "NODE",
         "permissionList": []
       },
       {
-        "id": 5001150,
-        "roleId": 1000,
-        "roleFunctionId": 5002155,
+        "id": "5001150",
+        "roleId": "1000",
+        "roleFunctionId": "5002155",
         "name": "fasdjklfjasl-lxb123",
         "flag": true,
         "type": "NODE",
         "permissionList": []
       },
       {
-        "id": 5001151,
-        "roleId": 1000,
-        "roleFunctionId": 5002156,
+        "id": "5001151",
+        "roleId": "1000",
+        "roleFunctionId": "5002156",
         "name": "fjdaslkfjaskldf-lxb789",
         "flag": true,
         "type": "NODE",
         "permissionList": []
       },
       {
-        "id": 5001250,
-        "roleId": 1000,
-        "roleFunctionId": 5002157,
+        "id": "5001250",
+        "roleId": "1000",
+        "roleFunctionId": "5002157",
         "name": "jkdsfljasdl-lxb",
         "flag": true,
         "type": "NODE",
         "permissionList": []
       },
       {
-        "id": 5003050,
-        "roleId": 1000,
+        "id": "5003050",
+        "roleId": "1000",
         "roleFunctionId": null,
         "name": "node节点",
         "flag": false,
@@ -4218,26 +4478,26 @@
         "permissionList": []
       },
       {
-        "id": 5003200,
-        "roleId": 1000,
-        "roleFunctionId": 5002167,
+        "id": "5003200",
+        "roleId": "1000",
+        "roleFunctionId": "5002167",
         "name": "5555555",
         "flag": true,
         "type": "NODE",
         "permissionList": []
       },
       {
-        "id": 5002038,
-        "roleId": 1000,
-        "roleFunctionId": 5002158,
+        "id": "5002038",
+        "roleId": "1000",
+        "roleFunctionId": "5002158",
         "name": "测试数据ajax3",
         "flag": true,
         "type": "AJAX",
         "permissionList": []
       },
       {
-        "id": 5003250,
-        "roleId": 1000,
+        "id": "5003250",
+        "roleId": "1000",
         "roleFunctionId": null,
         "name": "eee",
         "flag": true,
@@ -4245,8 +4505,8 @@
         "permissionList": []
       },
       {
-        "id": 5002041,
-        "roleId": 1000,
+        "id": "5002041",
+        "roleId": "1000",
         "roleFunctionId": null,
         "name": "测试数据url2",
         "flag": true,
@@ -4254,17 +4514,17 @@
         "permissionList": []
       },
       {
-        "id": 5002040,
-        "roleId": 1000,
-        "roleFunctionId": 5002200,
+        "id": "5002040",
+        "roleId": "1000",
+        "roleFunctionId": "5002200",
         "name": "测试数据ajax1",
         "flag": true,
         "type": "AJAX",
         "permissionList": []
       },
       {
-        "id": 5003100,
-        "roleId": 1000,
+        "id": "5003100",
+        "roleId": "1000",
         "roleFunctionId": null,
         "name": "333",
         "flag": false,
@@ -4272,17 +4532,17 @@
         "permissionList": []
       },
       {
-        "id": 5002000,
-        "roleId": 1000,
-        "roleFunctionId": 5002102,
+        "id": "5002000",
+        "roleId": "1000",
+        "roleFunctionId": "5002102",
         "name": "admin首页",
         "flag": true,
         "type": "URL",
         "permissionList": []
       },
       {
-        "id": 1001,
-        "roleId": 1000,
+        "id": "1001",
+        "roleId": "1000",
         "roleFunctionId": null,
         "name": "常用功能",
         "flag": true,
@@ -4290,53 +4550,53 @@
         "permissionList": []
       },
       {
-        "id": 5002046,
-        "roleId": 1000,
-        "roleFunctionId": 5002162,
+        "id": "5002046",
+        "roleId": "1000",
+        "roleFunctionId": "5002162",
         "name": "数据字典",
         "flag": true,
         "type": "MENU",
         "permissionList": []
       },
       {
-        "id": 5002045,
-        "roleId": 1000,
-        "roleFunctionId": 5002161,
+        "id": "5002045",
+        "roleId": "1000",
+        "roleFunctionId": "5002161",
         "name": "异常编码",
         "flag": true,
         "type": "MENU",
         "permissionList": []
       },
       {
-        "id": 5002044,
-        "roleId": 1000,
-        "roleFunctionId": 5002160,
+        "id": "5002044",
+        "roleId": "1000",
+        "roleFunctionId": "5002160",
         "name": "接口监控",
         "flag": true,
         "type": "MENU",
         "permissionList": []
       },
       {
-        "id": 5002043,
-        "roleId": 1000,
-        "roleFunctionId": 5002159,
+        "id": "5002043",
+        "roleId": "1000",
+        "roleFunctionId": "5002159",
         "name": "菜单管理",
         "flag": true,
         "type": "MENU",
         "permissionList": []
       },
       {
-        "id": 5004000,
-        "roleId": 1000,
-        "roleFunctionId": 5002171,
+        "id": "5004000",
+        "roleId": "1000",
+        "roleFunctionId": "5002171",
         "name": "pantest",
         "flag": true,
         "type": "MENU",
         "permissionList": []
       },
       {
-        "id": 1000,
-        "roleId": 1000,
+        "id": "1000",
+        "roleId": "1000",
         "roleFunctionId": null,
         "name": "系统管理",
         "flag": true,
@@ -4344,54 +4604,54 @@
         "permissionList": []
       },
       {
-        "id": 5002049,
-        "roleId": 1000,
-        "roleFunctionId": 5002165,
+        "id": "5002049",
+        "roleId": "1000",
+        "roleFunctionId": "5002165",
         "name": "角色管理",
         "flag": true,
         "type": "MENU",
         "permissionList": []
       },
       {
-        "id": 5002048,
-        "roleId": 1000,
-        "roleFunctionId": 5002164,
+        "id": "5002048",
+        "roleId": "1000",
+        "roleFunctionId": "5002164",
         "name": "资源管理",
         "flag": true,
         "type": "MENU",
         "permissionList": []
       },
       {
-        "id": 5002047,
-        "roleId": 1000,
-        "roleFunctionId": 5002163,
+        "id": "5002047",
+        "roleId": "1000",
+        "roleFunctionId": "5002163",
         "name": "授权管理",
         "flag": true,
         "type": "MENU",
         "permissionList": []
       },
       {
-        "id": 5002050,
-        "roleId": 1000,
-        "roleFunctionId": 5002166,
+        "id": "5002050",
+        "roleId": "1000",
+        "roleFunctionId": "5002166",
         "name": "用户管理",
         "flag": true,
         "type": "MENU",
         "permissionList": []
       },
       {
-        "id": 5003300,
-        "roleId": 1000,
-        "roleFunctionId": 5002168,
+        "id": "5003300",
+        "roleId": "1000",
+        "roleFunctionId": "5002168",
         "name": "机构管理",
         "flag": true,
         "type": "MENU",
         "permissionList": []
       },
       {
-        "id": 5000000,
-        "roleId": 1000,
-        "roleFunctionId": 5002154,
+        "id": "5000000",
+        "roleId": "1000",
+        "roleFunctionId": "5002154",
         "name": "用户管理新",
         "flag": true,
         "type": "MENU",
@@ -4400,8 +4660,8 @@
     ],
     [
       {
-        "id": 5003000,
-        "roleId": 1000,
+        "id": "5003000",
+        "roleId": "1000",
         "roleFunctionId": null,
         "name": "张立立",
         "flag": true,
@@ -4409,15 +4669,15 @@
         "permissionList": []
       },
       {
-        "id": 5003400,
-        "roleId": 1000,
-        "roleFunctionId": 5002169,
+        "id": "5003400",
+        "roleId": "1000",
+        "roleFunctionId": "5002169",
         "name": "fdasfa",
         "flag": true,
         "type": "URL",
         "permissionList": [
           {
-            "id": 300002050,
+            "id": "300002050",
             "proName": "ios11",
             "value": "ios11"
           },
@@ -4429,44 +4689,44 @@
         ]
       },
       {
-        "id": 5003450,
-        "roleId": 1000,
-        "roleFunctionId": 5002170,
+        "id": "5003450",
+        "roleId": "1000",
+        "roleFunctionId": "5002170",
         "name": "哈哈哈哈",
         "flag": true,
         "type": "NODE",
         "permissionList": []
       },
       {
-        "id": 5001150,
-        "roleId": 1000,
-        "roleFunctionId": 5002155,
+        "id": "5001150",
+        "roleId": "1000",
+        "roleFunctionId": "5002155",
         "name": "fasdjklfjasl-lxb123",
         "flag": true,
         "type": "NODE",
         "permissionList": []
       },
       {
-        "id": 5001151,
-        "roleId": 1000,
-        "roleFunctionId": 5002156,
+        "id": "5001151",
+        "roleId": "1000",
+        "roleFunctionId": "5002156",
         "name": "fjdaslkfjaskldf-lxb789",
         "flag": true,
         "type": "NODE",
         "permissionList": []
       },
       {
-        "id": 5001250,
-        "roleId": 1000,
-        "roleFunctionId": 5002157,
+        "id": "5001250",
+        "roleId": "1000",
+        "roleFunctionId": "5002157",
         "name": "jkdsfljasdl-lxb",
         "flag": true,
         "type": "NODE",
         "permissionList": []
       },
       {
-        "id": 5003050,
-        "roleId": 1000,
+        "id": "5003050",
+        "roleId": "1000",
         "roleFunctionId": null,
         "name": "node节点",
         "flag": false,
@@ -4474,26 +4734,26 @@
         "permissionList": []
       },
       {
-        "id": 5003200,
-        "roleId": 1000,
-        "roleFunctionId": 5002167,
+        "id": "5003200",
+        "roleId": "1000",
+        "roleFunctionId": "5002167",
         "name": "5555555",
         "flag": true,
         "type": "NODE",
         "permissionList": []
       },
       {
-        "id": 5002038,
-        "roleId": 1000,
-        "roleFunctionId": 5002158,
+        "id": "5002038",
+        "roleId": "1000",
+        "roleFunctionId": "5002158",
         "name": "测试数据ajax3",
         "flag": true,
         "type": "AJAX",
         "permissionList": []
       },
       {
-        "id": 5003250,
-        "roleId": 1000,
+        "id": "5003250",
+        "roleId": "1000",
         "roleFunctionId": null,
         "name": "eee",
         "flag": true,
@@ -4501,8 +4761,8 @@
         "permissionList": []
       },
       {
-        "id": 5002041,
-        "roleId": 1000,
+        "id": "5002041",
+        "roleId": "1000",
         "roleFunctionId": null,
         "name": "测试数据url2",
         "flag": true,
@@ -4510,17 +4770,17 @@
         "permissionList": []
       },
       {
-        "id": 5002040,
-        "roleId": 1000,
-        "roleFunctionId": 5002200,
+        "id": "5002040",
+        "roleId": "1000",
+        "roleFunctionId": "5002200",
         "name": "测试数据ajax1",
         "flag": true,
         "type": "AJAX",
         "permissionList": []
       },
       {
-        "id": 5003100,
-        "roleId": 1000,
+        "id": "5003100",
+        "roleId": "1000",
         "roleFunctionId": null,
         "name": "333",
         "flag": false,
@@ -4528,17 +4788,17 @@
         "permissionList": []
       },
       {
-        "id": 5002000,
-        "roleId": 1000,
-        "roleFunctionId": 5002102,
+        "id": "5002000",
+        "roleId": "1000",
+        "roleFunctionId": "5002102",
         "name": "admin首页",
         "flag": true,
         "type": "URL",
         "permissionList": []
       },
       {
-        "id": 1001,
-        "roleId": 1000,
+        "id": "1001",
+        "roleId": "1000",
         "roleFunctionId": null,
         "name": "常用功能",
         "flag": true,
@@ -4546,53 +4806,53 @@
         "permissionList": []
       },
       {
-        "id": 5002046,
-        "roleId": 1000,
-        "roleFunctionId": 5002162,
+        "id": "5002046",
+        "roleId": "1000",
+        "roleFunctionId": "5002162",
         "name": "数据字典",
         "flag": true,
         "type": "MENU",
         "permissionList": []
       },
       {
-        "id": 5002045,
-        "roleId": 1000,
-        "roleFunctionId": 5002161,
+        "id": "5002045",
+        "roleId": "1000",
+        "roleFunctionId": "5002161",
         "name": "异常编码",
         "flag": true,
         "type": "MENU",
         "permissionList": []
       },
       {
-        "id": 5002044,
-        "roleId": 1000,
-        "roleFunctionId": 5002160,
+        "id": "5002044",
+        "roleId": "1000",
+        "roleFunctionId": "5002160",
         "name": "接口监控",
         "flag": true,
         "type": "MENU",
         "permissionList": []
       },
       {
-        "id": 5002043,
-        "roleId": 1000,
-        "roleFunctionId": 5002159,
+        "id": "5002043",
+        "roleId": "1000",
+        "roleFunctionId": "5002159",
         "name": "菜单管理",
         "flag": true,
         "type": "MENU",
         "permissionList": []
       },
       {
-        "id": 5004000,
-        "roleId": 1000,
-        "roleFunctionId": 5002171,
+        "id": "5004000",
+        "roleId": "1000",
+        "roleFunctionId": "5002171",
         "name": "pantest",
         "flag": true,
         "type": "MENU",
         "permissionList": []
       },
       {
-        "id": 1000,
-        "roleId": 1000,
+        "id": "1000",
+        "roleId": "1000",
         "roleFunctionId": null,
         "name": "系统管理",
         "flag": true,
@@ -4600,54 +4860,54 @@
         "permissionList": []
       },
       {
-        "id": 5002049,
-        "roleId": 1000,
-        "roleFunctionId": 5002165,
+        "id": "5002049",
+        "roleId": "1000",
+        "roleFunctionId": "5002165",
         "name": "角色管理",
         "flag": true,
         "type": "MENU",
         "permissionList": []
       },
       {
-        "id": 5002048,
-        "roleId": 1000,
-        "roleFunctionId": 5002164,
+        "id": "5002048",
+        "roleId": "1000",
+        "roleFunctionId": "5002164",
         "name": "资源管理",
         "flag": true,
         "type": "MENU",
         "permissionList": []
       },
       {
-        "id": 5002047,
-        "roleId": 1000,
-        "roleFunctionId": 5002163,
+        "id": "5002047",
+        "roleId": "1000",
+        "roleFunctionId": "5002163",
         "name": "授权管理",
         "flag": true,
         "type": "MENU",
         "permissionList": []
       },
       {
-        "id": 5002050,
-        "roleId": 1000,
-        "roleFunctionId": 5002166,
+        "id": "5002050",
+        "roleId": "1000",
+        "roleFunctionId": "5002166",
         "name": "用户管理",
         "flag": true,
         "type": "MENU",
         "permissionList": []
       },
       {
-        "id": 5003300,
-        "roleId": 1000,
-        "roleFunctionId": 5002168,
+        "id": "5003300",
+        "roleId": "1000",
+        "roleFunctionId": "5002168",
         "name": "机构管理",
         "flag": true,
         "type": "MENU",
         "permissionList": []
       },
       {
-        "id": 5000000,
-        "roleId": 1000,
-        "roleFunctionId": 5002154,
+        "id": "5000000",
+        "roleId": "1000",
+        "roleFunctionId": "5002154",
         "name": "用户管理新",
         "flag": true,
         "type": "MENU",
@@ -4656,8 +4916,8 @@
     ],
     [
       {
-        "id": 5003000,
-        "roleId": 1000,
+        "id": "5003000",
+        "roleId": "1000",
         "roleFunctionId": null,
         "name": "张立立",
         "flag": true,
@@ -4665,15 +4925,15 @@
         "permissionList": []
       },
       {
-        "id": 5003400,
-        "roleId": 1000,
-        "roleFunctionId": 5002169,
+        "id": "5003400",
+        "roleId": "1000",
+        "roleFunctionId": "5002169",
         "name": "fdasfa",
         "flag": true,
         "type": "URL",
         "permissionList": [
           {
-            "id": 300002050,
+            "id": "300002050",
             "proName": "ios11",
             "value": "ios11"
           },
@@ -4685,44 +4945,44 @@
         ]
       },
       {
-        "id": 5003450,
-        "roleId": 1000,
-        "roleFunctionId": 5002170,
+        "id": "5003450",
+        "roleId": "1000",
+        "roleFunctionId": "5002170",
         "name": "哈哈哈哈",
         "flag": true,
         "type": "NODE",
         "permissionList": []
       },
       {
-        "id": 5001150,
-        "roleId": 1000,
-        "roleFunctionId": 5002155,
+        "id": "5001150",
+        "roleId": "1000",
+        "roleFunctionId": "5002155",
         "name": "fasdjklfjasl-lxb123",
         "flag": true,
         "type": "NODE",
         "permissionList": []
       },
       {
-        "id": 5001151,
-        "roleId": 1000,
-        "roleFunctionId": 5002156,
+        "id": "5001151",
+        "roleId": "1000",
+        "roleFunctionId": "5002156",
         "name": "fjdaslkfjaskldf-lxb789",
         "flag": true,
         "type": "NODE",
         "permissionList": []
       },
       {
-        "id": 5001250,
-        "roleId": 1000,
-        "roleFunctionId": 5002157,
+        "id": "5001250",
+        "roleId": "1000",
+        "roleFunctionId": "5002157",
         "name": "jkdsfljasdl-lxb",
         "flag": true,
         "type": "NODE",
         "permissionList": []
       },
       {
-        "id": 5003050,
-        "roleId": 1000,
+        "id": "5003050",
+        "roleId": "1000",
         "roleFunctionId": null,
         "name": "node节点",
         "flag": false,
@@ -4730,26 +4990,26 @@
         "permissionList": []
       },
       {
-        "id": 5003200,
-        "roleId": 1000,
-        "roleFunctionId": 5002167,
+        "id": "5003200",
+        "roleId": "1000",
+        "roleFunctionId": "5002167",
         "name": "5555555",
         "flag": true,
         "type": "NODE",
         "permissionList": []
       },
       {
-        "id": 5002038,
-        "roleId": 1000,
-        "roleFunctionId": 5002158,
+        "id": "5002038",
+        "roleId": "1000",
+        "roleFunctionId": "5002158",
         "name": "测试数据ajax3",
         "flag": true,
         "type": "AJAX",
         "permissionList": []
       },
       {
-        "id": 5003250,
-        "roleId": 1000,
+        "id": "5003250",
+        "roleId": "1000",
         "roleFunctionId": null,
         "name": "eee",
         "flag": true,
@@ -4757,8 +5017,8 @@
         "permissionList": []
       },
       {
-        "id": 5002041,
-        "roleId": 1000,
+        "id": "5002041",
+        "roleId": "1000",
         "roleFunctionId": null,
         "name": "测试数据url2",
         "flag": true,
@@ -4766,17 +5026,17 @@
         "permissionList": []
       },
       {
-        "id": 5002040,
-        "roleId": 1000,
-        "roleFunctionId": 5002200,
+        "id": "5002040",
+        "roleId": "1000",
+        "roleFunctionId": "5002200",
         "name": "测试数据ajax1",
         "flag": true,
         "type": "AJAX",
         "permissionList": []
       },
       {
-        "id": 5003100,
-        "roleId": 1000,
+        "id": "5003100",
+        "roleId": "1000",
         "roleFunctionId": null,
         "name": "333",
         "flag": false,
@@ -4784,17 +5044,17 @@
         "permissionList": []
       },
       {
-        "id": 5002000,
-        "roleId": 1000,
-        "roleFunctionId": 5002102,
+        "id": "5002000",
+        "roleId": "1000",
+        "roleFunctionId": "5002102",
         "name": "admin首页",
         "flag": true,
         "type": "URL",
         "permissionList": []
       },
       {
-        "id": 1001,
-        "roleId": 1000,
+        "id": "1001",
+        "roleId": "1000",
         "roleFunctionId": null,
         "name": "常用功能",
         "flag": true,
@@ -4802,53 +5062,53 @@
         "permissionList": []
       },
       {
-        "id": 5002046,
-        "roleId": 1000,
-        "roleFunctionId": 5002162,
+        "id": "5002046",
+        "roleId": "1000",
+        "roleFunctionId": "5002162",
         "name": "数据字典",
         "flag": true,
         "type": "MENU",
         "permissionList": []
       },
       {
-        "id": 5002045,
-        "roleId": 1000,
-        "roleFunctionId": 5002161,
+        "id": "5002045",
+        "roleId": "1000",
+        "roleFunctionId": "5002161",
         "name": "异常编码",
         "flag": true,
         "type": "MENU",
         "permissionList": []
       },
       {
-        "id": 5002044,
-        "roleId": 1000,
-        "roleFunctionId": 5002160,
+        "id": "5002044",
+        "roleId": "1000",
+        "roleFunctionId": "5002160",
         "name": "接口监控",
         "flag": true,
         "type": "MENU",
         "permissionList": []
       },
       {
-        "id": 5002043,
-        "roleId": 1000,
-        "roleFunctionId": 5002159,
+        "id": "5002043",
+        "roleId": "1000",
+        "roleFunctionId": "5002159",
         "name": "菜单管理",
         "flag": true,
         "type": "MENU",
         "permissionList": []
       },
       {
-        "id": 5004000,
-        "roleId": 1000,
-        "roleFunctionId": 5002171,
+        "id": "5004000",
+        "roleId": "1000",
+        "roleFunctionId": "5002171",
         "name": "pantest",
         "flag": true,
         "type": "MENU",
         "permissionList": []
       },
       {
-        "id": 1000,
-        "roleId": 1000,
+        "id": "1000",
+        "roleId": "1000",
         "roleFunctionId": null,
         "name": "系统管理",
         "flag": true,
@@ -4856,54 +5116,54 @@
         "permissionList": []
       },
       {
-        "id": 5002049,
-        "roleId": 1000,
-        "roleFunctionId": 5002165,
+        "id": "5002049",
+        "roleId": "1000",
+        "roleFunctionId": "5002165",
         "name": "角色管理",
         "flag": true,
         "type": "MENU",
         "permissionList": []
       },
       {
-        "id": 5002048,
-        "roleId": 1000,
-        "roleFunctionId": 5002164,
+        "id": "5002048",
+        "roleId": "1000",
+        "roleFunctionId": "5002164",
         "name": "资源管理",
         "flag": true,
         "type": "MENU",
         "permissionList": []
       },
       {
-        "id": 5002047,
-        "roleId": 1000,
-        "roleFunctionId": 5002163,
+        "id": "5002047",
+        "roleId": "1000",
+        "roleFunctionId": "5002163",
         "name": "授权管理",
         "flag": true,
         "type": "MENU",
         "permissionList": []
       },
       {
-        "id": 5002050,
-        "roleId": 1000,
-        "roleFunctionId": 5002166,
+        "id": "5002050",
+        "roleId": "1000",
+        "roleFunctionId": "5002166",
         "name": "用户管理",
         "flag": true,
         "type": "MENU",
         "permissionList": []
       },
       {
-        "id": 5003300,
-        "roleId": 1000,
-        "roleFunctionId": 5002168,
+        "id": "5003300",
+        "roleId": "1000",
+        "roleFunctionId": "5002168",
         "name": "机构管理",
         "flag": true,
         "type": "MENU",
         "permissionList": []
       },
       {
-        "id": 5000000,
-        "roleId": 1000,
-        "roleFunctionId": 5002154,
+        "id": "5000000",
+        "roleId": "1000",
+        "roleFunctionId": "5002154",
         "name": "用户管理新",
         "flag": true,
         "type": "MENU",
@@ -4912,8 +5172,8 @@
     ],
     [
       {
-        "id": 5003000,
-        "roleId": 1000,
+        "id": "5003000",
+        "roleId": "1000",
         "roleFunctionId": null,
         "name": "张立立",
         "flag": true,
@@ -4921,15 +5181,15 @@
         "permissionList": []
       },
       {
-        "id": 5003400,
-        "roleId": 1000,
-        "roleFunctionId": 5002169,
+        "id": "5003400",
+        "roleId": "1000",
+        "roleFunctionId": "5002169",
         "name": "fdasfa",
         "flag": true,
         "type": "URL",
         "permissionList": [
           {
-            "id": 300002050,
+            "id": "300002050",
             "proName": "ios11",
             "value": "ios11"
           },
@@ -4941,44 +5201,44 @@
         ]
       },
       {
-        "id": 5003450,
-        "roleId": 1000,
-        "roleFunctionId": 5002170,
+        "id": "5003450",
+        "roleId": "1000",
+        "roleFunctionId": "5002170",
         "name": "哈哈哈哈",
         "flag": true,
         "type": "NODE",
         "permissionList": []
       },
       {
-        "id": 5001150,
-        "roleId": 1000,
-        "roleFunctionId": 5002155,
+        "id": "5001150",
+        "roleId": "1000",
+        "roleFunctionId": "5002155",
         "name": "fasdjklfjasl-lxb123",
         "flag": true,
         "type": "NODE",
         "permissionList": []
       },
       {
-        "id": 5001151,
-        "roleId": 1000,
-        "roleFunctionId": 5002156,
+        "id": "5001151",
+        "roleId": "1000",
+        "roleFunctionId": "5002156",
         "name": "fjdaslkfjaskldf-lxb789",
         "flag": true,
         "type": "NODE",
         "permissionList": []
       },
       {
-        "id": 5001250,
-        "roleId": 1000,
-        "roleFunctionId": 5002157,
+        "id": "5001250",
+        "roleId": "1000",
+        "roleFunctionId": "5002157",
         "name": "jkdsfljasdl-lxb",
         "flag": true,
         "type": "NODE",
         "permissionList": []
       },
       {
-        "id": 5003050,
-        "roleId": 1000,
+        "id": "5003050",
+        "roleId": "1000",
         "roleFunctionId": null,
         "name": "node节点",
         "flag": false,
@@ -4986,26 +5246,26 @@
         "permissionList": []
       },
       {
-        "id": 5003200,
-        "roleId": 1000,
-        "roleFunctionId": 5002167,
+        "id": "5003200",
+        "roleId": "1000",
+        "roleFunctionId": "5002167",
         "name": "5555555",
         "flag": true,
         "type": "NODE",
         "permissionList": []
       },
       {
-        "id": 5002038,
-        "roleId": 1000,
-        "roleFunctionId": 5002158,
+        "id": "5002038",
+        "roleId": "1000",
+        "roleFunctionId": "5002158",
         "name": "测试数据ajax3",
         "flag": true,
         "type": "AJAX",
         "permissionList": []
       },
       {
-        "id": 5003250,
-        "roleId": 1000,
+        "id": "5003250",
+        "roleId": "1000",
         "roleFunctionId": null,
         "name": "eee",
         "flag": true,
@@ -5013,8 +5273,8 @@
         "permissionList": []
       },
       {
-        "id": 5002041,
-        "roleId": 1000,
+        "id": "5002041",
+        "roleId": "1000",
         "roleFunctionId": null,
         "name": "测试数据url2",
         "flag": true,
@@ -5022,17 +5282,17 @@
         "permissionList": []
       },
       {
-        "id": 5002040,
-        "roleId": 1000,
-        "roleFunctionId": 5002200,
+        "id": "5002040",
+        "roleId": "1000",
+        "roleFunctionId": "5002200",
         "name": "测试数据ajax1",
         "flag": true,
         "type": "AJAX",
         "permissionList": []
       },
       {
-        "id": 5003100,
-        "roleId": 1000,
+        "id": "5003100",
+        "roleId": "1000",
         "roleFunctionId": null,
         "name": "333",
         "flag": false,
@@ -5040,17 +5300,17 @@
         "permissionList": []
       },
       {
-        "id": 5002000,
-        "roleId": 1000,
-        "roleFunctionId": 5002102,
+        "id": "5002000",
+        "roleId": "1000",
+        "roleFunctionId": "5002102",
         "name": "admin首页",
         "flag": true,
         "type": "URL",
         "permissionList": []
       },
       {
-        "id": 1001,
-        "roleId": 1000,
+        "id": "1001",
+        "roleId": "1000",
         "roleFunctionId": null,
         "name": "常用功能",
         "flag": true,
@@ -5058,53 +5318,53 @@
         "permissionList": []
       },
       {
-        "id": 5002046,
-        "roleId": 1000,
-        "roleFunctionId": 5002162,
+        "id": "5002046",
+        "roleId": "1000",
+        "roleFunctionId": "5002162",
         "name": "数据字典",
         "flag": true,
         "type": "MENU",
         "permissionList": []
       },
       {
-        "id": 5002045,
-        "roleId": 1000,
-        "roleFunctionId": 5002161,
+        "id": "5002045",
+        "roleId": "1000",
+        "roleFunctionId": "5002161",
         "name": "异常编码",
         "flag": true,
         "type": "MENU",
         "permissionList": []
       },
       {
-        "id": 5002044,
-        "roleId": 1000,
-        "roleFunctionId": 5002160,
+        "id": "5002044",
+        "roleId": "1000",
+        "roleFunctionId": "5002160",
         "name": "接口监控",
         "flag": true,
         "type": "MENU",
         "permissionList": []
       },
       {
-        "id": 5002043,
-        "roleId": 1000,
-        "roleFunctionId": 5002159,
+        "id": "5002043",
+        "roleId": "1000",
+        "roleFunctionId": "5002159",
         "name": "菜单管理",
         "flag": true,
         "type": "MENU",
         "permissionList": []
       },
       {
-        "id": 5004000,
-        "roleId": 1000,
-        "roleFunctionId": 5002171,
+        "id": "5004000",
+        "roleId": "1000",
+        "roleFunctionId": "5002171",
         "name": "pantest",
         "flag": true,
         "type": "MENU",
         "permissionList": []
       },
       {
-        "id": 1000,
-        "roleId": 1000,
+        "id": "1000",
+        "roleId": "1000",
         "roleFunctionId": null,
         "name": "系统管理",
         "flag": true,
@@ -5112,54 +5372,54 @@
         "permissionList": []
       },
       {
-        "id": 5002049,
-        "roleId": 1000,
-        "roleFunctionId": 5002165,
+        "id": "5002049",
+        "roleId": "1000",
+        "roleFunctionId": "5002165",
         "name": "角色管理",
         "flag": true,
         "type": "MENU",
         "permissionList": []
       },
       {
-        "id": 5002048,
-        "roleId": 1000,
-        "roleFunctionId": 5002164,
+        "id": "5002048",
+        "roleId": "1000",
+        "roleFunctionId": "5002164",
         "name": "资源管理",
         "flag": true,
         "type": "MENU",
         "permissionList": []
       },
       {
-        "id": 5002047,
-        "roleId": 1000,
-        "roleFunctionId": 5002163,
+        "id": "5002047",
+        "roleId": "1000",
+        "roleFunctionId": "5002163",
         "name": "授权管理",
         "flag": true,
         "type": "MENU",
         "permissionList": []
       },
       {
-        "id": 5002050,
-        "roleId": 1000,
-        "roleFunctionId": 5002166,
+        "id": "5002050",
+        "roleId": "1000",
+        "roleFunctionId": "5002166",
         "name": "用户管理",
         "flag": true,
         "type": "MENU",
         "permissionList": []
       },
       {
-        "id": 5003300,
-        "roleId": 1000,
-        "roleFunctionId": 5002168,
+        "id": "5003300",
+        "roleId": "1000",
+        "roleFunctionId": "5002168",
         "name": "机构管理",
         "flag": true,
         "type": "MENU",
         "permissionList": []
       },
       {
-        "id": 5000000,
-        "roleId": 1000,
-        "roleFunctionId": 5002154,
+        "id": "5000000",
+        "roleId": "1000",
+        "roleFunctionId": "5002154",
         "name": "用户管理新",
         "flag": true,
         "type": "MENU",
@@ -5168,8 +5428,8 @@
     ],
     [
       {
-        "id": 5003000,
-        "roleId": 1000,
+        "id": "5003000",
+        "roleId": "1000",
         "roleFunctionId": null,
         "name": "张立立",
         "flag": true,
@@ -5177,15 +5437,15 @@
         "permissionList": []
       },
       {
-        "id": 5003400,
-        "roleId": 1000,
-        "roleFunctionId": 5002169,
+        "id": "5003400",
+        "roleId": "1000",
+        "roleFunctionId": "5002169",
         "name": "fdasfa",
         "flag": true,
         "type": "URL",
         "permissionList": [
           {
-            "id": 300002050,
+            "id": "300002050",
             "proName": "ios11",
             "value": "ios11"
           },
@@ -5197,44 +5457,44 @@
         ]
       },
       {
-        "id": 5003450,
-        "roleId": 1000,
-        "roleFunctionId": 5002170,
+        "id": "5003450",
+        "roleId": "1000",
+        "roleFunctionId": "5002170",
         "name": "哈哈哈哈",
         "flag": true,
         "type": "NODE",
         "permissionList": []
       },
       {
-        "id": 5001150,
-        "roleId": 1000,
-        "roleFunctionId": 5002155,
+        "id": "5001150",
+        "roleId": "1000",
+        "roleFunctionId": "5002155",
         "name": "fasdjklfjasl-lxb123",
         "flag": true,
         "type": "NODE",
         "permissionList": []
       },
       {
-        "id": 5001151,
-        "roleId": 1000,
-        "roleFunctionId": 5002156,
+        "id": "5001151",
+        "roleId": "1000",
+        "roleFunctionId": "5002156",
         "name": "fjdaslkfjaskldf-lxb789",
         "flag": true,
         "type": "NODE",
         "permissionList": []
       },
       {
-        "id": 5001250,
-        "roleId": 1000,
-        "roleFunctionId": 5002157,
+        "id": "5001250",
+        "roleId": "1000",
+        "roleFunctionId": "5002157",
         "name": "jkdsfljasdl-lxb",
         "flag": true,
         "type": "NODE",
         "permissionList": []
       },
       {
-        "id": 5003050,
-        "roleId": 1000,
+        "id": "5003050",
+        "roleId": "1000",
         "roleFunctionId": null,
         "name": "node节点",
         "flag": false,
@@ -5242,26 +5502,26 @@
         "permissionList": []
       },
       {
-        "id": 5003200,
-        "roleId": 1000,
-        "roleFunctionId": 5002167,
+        "id": "5003200",
+        "roleId": "1000",
+        "roleFunctionId": "5002167",
         "name": "5555555",
         "flag": true,
         "type": "NODE",
         "permissionList": []
       },
       {
-        "id": 5002038,
-        "roleId": 1000,
-        "roleFunctionId": 5002158,
+        "id": "5002038",
+        "roleId": "1000",
+        "roleFunctionId": "5002158",
         "name": "测试数据ajax3",
         "flag": true,
         "type": "AJAX",
         "permissionList": []
       },
       {
-        "id": 5003250,
-        "roleId": 1000,
+        "id": "5003250",
+        "roleId": "1000",
         "roleFunctionId": null,
         "name": "eee",
         "flag": true,
@@ -5269,8 +5529,8 @@
         "permissionList": []
       },
       {
-        "id": 5002041,
-        "roleId": 1000,
+        "id": "5002041",
+        "roleId": "1000",
         "roleFunctionId": null,
         "name": "测试数据url2",
         "flag": true,
@@ -5278,17 +5538,17 @@
         "permissionList": []
       },
       {
-        "id": 5002040,
-        "roleId": 1000,
-        "roleFunctionId": 5002200,
+        "id": "5002040",
+        "roleId": "1000",
+        "roleFunctionId": "5002200",
         "name": "测试数据ajax1",
         "flag": true,
         "type": "AJAX",
         "permissionList": []
       },
       {
-        "id": 5003100,
-        "roleId": 1000,
+        "id": "5003100",
+        "roleId": "1000",
         "roleFunctionId": null,
         "name": "333",
         "flag": false,
@@ -5296,17 +5556,17 @@
         "permissionList": []
       },
       {
-        "id": 5002000,
-        "roleId": 1000,
-        "roleFunctionId": 5002102,
+        "id": "5002000",
+        "roleId": "1000",
+        "roleFunctionId": "5002102",
         "name": "admin首页",
         "flag": true,
         "type": "URL",
         "permissionList": []
       },
       {
-        "id": 1001,
-        "roleId": 1000,
+        "id": "1001",
+        "roleId": "1000",
         "roleFunctionId": null,
         "name": "常用功能",
         "flag": true,
@@ -5314,53 +5574,53 @@
         "permissionList": []
       },
       {
-        "id": 5002046,
-        "roleId": 1000,
-        "roleFunctionId": 5002162,
+        "id": "5002046",
+        "roleId": "1000",
+        "roleFunctionId": "5002162",
         "name": "数据字典",
         "flag": true,
         "type": "MENU",
         "permissionList": []
       },
       {
-        "id": 5002045,
-        "roleId": 1000,
-        "roleFunctionId": 5002161,
+        "id": "5002045",
+        "roleId": "1000",
+        "roleFunctionId": "5002161",
         "name": "异常编码",
         "flag": true,
         "type": "MENU",
         "permissionList": []
       },
       {
-        "id": 5002044,
-        "roleId": 1000,
-        "roleFunctionId": 5002160,
+        "id": "5002044",
+        "roleId": "1000",
+        "roleFunctionId": "5002160",
         "name": "接口监控",
         "flag": true,
         "type": "MENU",
         "permissionList": []
       },
       {
-        "id": 5002043,
-        "roleId": 1000,
-        "roleFunctionId": 5002159,
+        "id": "5002043",
+        "roleId": "1000",
+        "roleFunctionId": "5002159",
         "name": "菜单管理",
         "flag": true,
         "type": "MENU",
         "permissionList": []
       },
       {
-        "id": 5004000,
-        "roleId": 1000,
-        "roleFunctionId": 5002171,
+        "id": "5004000",
+        "roleId": "1000",
+        "roleFunctionId": "5002171",
         "name": "pantest",
         "flag": true,
         "type": "MENU",
         "permissionList": []
       },
       {
-        "id": 1000,
-        "roleId": 1000,
+        "id": "1000",
+        "roleId": "1000",
         "roleFunctionId": null,
         "name": "系统管理",
         "flag": true,
@@ -5368,54 +5628,54 @@
         "permissionList": []
       },
       {
-        "id": 5002049,
-        "roleId": 1000,
-        "roleFunctionId": 5002165,
+        "id": "5002049",
+        "roleId": "1000",
+        "roleFunctionId": "5002165",
         "name": "角色管理",
         "flag": true,
         "type": "MENU",
         "permissionList": []
       },
       {
-        "id": 5002048,
-        "roleId": 1000,
-        "roleFunctionId": 5002164,
+        "id": "5002048",
+        "roleId": "1000",
+        "roleFunctionId": "5002164",
         "name": "资源管理",
         "flag": true,
         "type": "MENU",
         "permissionList": []
       },
       {
-        "id": 5002047,
-        "roleId": 1000,
-        "roleFunctionId": 5002163,
+        "id": "5002047",
+        "roleId": "1000",
+        "roleFunctionId": "5002163",
         "name": "授权管理",
         "flag": true,
         "type": "MENU",
         "permissionList": []
       },
       {
-        "id": 5002050,
-        "roleId": 1000,
-        "roleFunctionId": 5002166,
+        "id": "5002050",
+        "roleId": "1000",
+        "roleFunctionId": "5002166",
         "name": "用户管理",
         "flag": true,
         "type": "MENU",
         "permissionList": []
       },
       {
-        "id": 5003300,
-        "roleId": 1000,
-        "roleFunctionId": 5002168,
+        "id": "5003300",
+        "roleId": "1000",
+        "roleFunctionId": "5002168",
         "name": "机构管理",
         "flag": true,
         "type": "MENU",
         "permissionList": []
       },
       {
-        "id": 5000000,
-        "roleId": 1000,
-        "roleFunctionId": 5002154,
+        "id": "5000000",
+        "roleId": "1000",
+        "roleFunctionId": "5002154",
         "name": "用户管理新",
         "flag": true,
         "type": "MENU",
@@ -5424,24 +5684,24 @@
     ],
     [
       {
-        "id": 5003000,
-        "roleId": 1000,
+        "id": "5003000",
+        "roleId": "1000",
         "roleFunctionId": null,
         "name": "张立立",
-        "flag": true,
+        "flag": false,
         "type": "NODE",
         "permissionList": []
       },
       {
-        "id": 5003400,
-        "roleId": 1000,
-        "roleFunctionId": 5002169,
+        "id": "5003400",
+        "roleId": "1000",
+        "roleFunctionId": "5002169",
         "name": "fdasfa",
         "flag": true,
         "type": "URL",
         "permissionList": [
           {
-            "id": 300002050,
+            "id": "300002050",
             "proName": "ios11",
             "value": "ios11"
           },
@@ -5453,44 +5713,44 @@
         ]
       },
       {
-        "id": 5003450,
-        "roleId": 1000,
-        "roleFunctionId": 5002170,
+        "id": "5003450",
+        "roleId": "1000",
+        "roleFunctionId": "5002170",
         "name": "哈哈哈哈",
         "flag": true,
         "type": "NODE",
         "permissionList": []
       },
       {
-        "id": 5001150,
-        "roleId": 1000,
-        "roleFunctionId": 5002155,
+        "id": "5001150",
+        "roleId": "1000",
+        "roleFunctionId": "5002155",
         "name": "fasdjklfjasl-lxb123",
         "flag": true,
         "type": "NODE",
         "permissionList": []
       },
       {
-        "id": 5001151,
-        "roleId": 1000,
-        "roleFunctionId": 5002156,
+        "id": "5001151",
+        "roleId": "1000",
+        "roleFunctionId": "5002156",
         "name": "fjdaslkfjaskldf-lxb789",
         "flag": true,
         "type": "NODE",
         "permissionList": []
       },
       {
-        "id": 5001250,
-        "roleId": 1000,
-        "roleFunctionId": 5002157,
+        "id": "5001250",
+        "roleId": "1000",
+        "roleFunctionId": "5002157",
         "name": "jkdsfljasdl-lxb",
         "flag": true,
         "type": "NODE",
         "permissionList": []
       },
       {
-        "id": 5003050,
-        "roleId": 1000,
+        "id": "5003050",
+        "roleId": "1000",
         "roleFunctionId": null,
         "name": "node节点",
         "flag": false,
@@ -5498,53 +5758,53 @@
         "permissionList": []
       },
       {
-        "id": 5003200,
-        "roleId": 1000,
-        "roleFunctionId": 5002167,
+        "id": "5003200",
+        "roleId": "1000",
+        "roleFunctionId": "5002167",
         "name": "5555555",
         "flag": true,
         "type": "NODE",
         "permissionList": []
       },
       {
-        "id": 5002038,
-        "roleId": 1000,
-        "roleFunctionId": 5002158,
+        "id": "5002038",
+        "roleId": "1000",
+        "roleFunctionId": "5002158",
         "name": "测试数据ajax3",
         "flag": true,
         "type": "AJAX",
         "permissionList": []
       },
       {
-        "id": 5003250,
-        "roleId": 1000,
+        "id": "5003250",
+        "roleId": "1000",
         "roleFunctionId": null,
         "name": "eee",
-        "flag": true,
+        "flag": false,
         "type": "NODE",
         "permissionList": []
       },
       {
-        "id": 5002041,
-        "roleId": 1000,
+        "id": "5002041",
+        "roleId": "1000",
         "roleFunctionId": null,
         "name": "测试数据url2",
-        "flag": true,
+        "flag": false,
         "type": "URL",
         "permissionList": []
       },
       {
-        "id": 5002040,
-        "roleId": 1000,
-        "roleFunctionId": 5002200,
+        "id": "5002040",
+        "roleId": "1000",
+        "roleFunctionId": "5002200",
         "name": "测试数据ajax1",
         "flag": true,
         "type": "AJAX",
         "permissionList": []
       },
       {
-        "id": 5003100,
-        "roleId": 1000,
+        "id": "5003100",
+        "roleId": "1000",
         "roleFunctionId": null,
         "name": "333",
         "flag": false,
@@ -5552,126 +5812,126 @@
         "permissionList": []
       },
       {
-        "id": 5002000,
-        "roleId": 1000,
-        "roleFunctionId": 5002102,
+        "id": "5002000",
+        "roleId": "1000",
+        "roleFunctionId": "5002102",
         "name": "admin首页",
         "flag": true,
         "type": "URL",
         "permissionList": []
       },
       {
-        "id": 1001,
-        "roleId": 1000,
+        "id": "1001",
+        "roleId": "1000",
         "roleFunctionId": null,
         "name": "常用功能",
-        "flag": true,
+        "flag": false,
         "type": "NODE",
         "permissionList": []
       },
       {
-        "id": 5002046,
-        "roleId": 1000,
-        "roleFunctionId": 5002162,
+        "id": "5002046",
+        "roleId": "1000",
+        "roleFunctionId": "5002162",
         "name": "数据字典",
         "flag": true,
         "type": "MENU",
         "permissionList": []
       },
       {
-        "id": 5002045,
-        "roleId": 1000,
-        "roleFunctionId": 5002161,
+        "id": "5002045",
+        "roleId": "1000",
+        "roleFunctionId": "5002161",
         "name": "异常编码",
         "flag": true,
         "type": "MENU",
         "permissionList": []
       },
       {
-        "id": 5002044,
-        "roleId": 1000,
-        "roleFunctionId": 5002160,
+        "id": "5002044",
+        "roleId": "1000",
+        "roleFunctionId": "5002160",
         "name": "接口监控",
         "flag": true,
         "type": "MENU",
         "permissionList": []
       },
       {
-        "id": 5002043,
-        "roleId": 1000,
-        "roleFunctionId": 5002159,
+        "id": "5002043",
+        "roleId": "1000",
+        "roleFunctionId": "5002159",
         "name": "菜单管理",
         "flag": true,
         "type": "MENU",
         "permissionList": []
       },
       {
-        "id": 5004000,
-        "roleId": 1000,
-        "roleFunctionId": 5002171,
+        "id": "5004000",
+        "roleId": "1000",
+        "roleFunctionId": "5002171",
         "name": "pantest",
         "flag": true,
         "type": "MENU",
         "permissionList": []
       },
       {
-        "id": 1000,
-        "roleId": 1000,
+        "id": "1000",
+        "roleId": "1000",
         "roleFunctionId": null,
         "name": "系统管理",
-        "flag": true,
+        "flag": false,
         "type": "NODE",
         "permissionList": []
       },
       {
-        "id": 5002049,
-        "roleId": 1000,
-        "roleFunctionId": 5002165,
+        "id": "5002049",
+        "roleId": "1000",
+        "roleFunctionId": "5002165",
         "name": "角色管理",
         "flag": true,
         "type": "MENU",
         "permissionList": []
       },
       {
-        "id": 5002048,
-        "roleId": 1000,
-        "roleFunctionId": 5002164,
+        "id": "5002048",
+        "roleId": "1000",
+        "roleFunctionId": "5002164",
         "name": "资源管理",
         "flag": true,
         "type": "MENU",
         "permissionList": []
       },
       {
-        "id": 5002047,
-        "roleId": 1000,
-        "roleFunctionId": 5002163,
+        "id": "5002047",
+        "roleId": "1000",
+        "roleFunctionId": "5002163",
         "name": "授权管理",
         "flag": true,
         "type": "MENU",
         "permissionList": []
       },
       {
-        "id": 5002050,
-        "roleId": 1000,
-        "roleFunctionId": 5002166,
+        "id": "5002050",
+        "roleId": "1000",
+        "roleFunctionId": "5002166",
         "name": "用户管理",
         "flag": true,
         "type": "MENU",
         "permissionList": []
       },
       {
-        "id": 5003300,
-        "roleId": 1000,
-        "roleFunctionId": 5002168,
+        "id": "5003300",
+        "roleId": "1000",
+        "roleFunctionId": "5002168",
         "name": "机构管理",
         "flag": true,
         "type": "MENU",
         "permissionList": []
       },
       {
-        "id": 5000000,
-        "roleId": 1000,
-        "roleFunctionId": 5002154,
+        "id": "5000000",
+        "roleId": "1000",
+        "roleFunctionId": "5002154",
         "name": "用户管理新",
         "flag": true,
         "type": "MENU",
@@ -5680,8 +5940,8 @@
     ],
     [
       {
-        "id": 5003000,
-        "roleId": 1000,
+        "id": "5003000",
+        "roleId": "1000",
         "roleFunctionId": null,
         "name": "张立立",
         "flag": false,
@@ -5689,15 +5949,15 @@
         "permissionList": []
       },
       {
-        "id": 5003400,
-        "roleId": 1000,
-        "roleFunctionId": 5002169,
+        "id": "5003400",
+        "roleId": "1000",
+        "roleFunctionId": "5002169",
         "name": "fdasfa",
-        "flag": true,
+        "flag": false,
         "type": "URL",
         "permissionList": [
           {
-            "id": 300002050,
+            "id": "300002050",
             "proName": "ios11",
             "value": "ios11"
           },
@@ -5709,44 +5969,44 @@
         ]
       },
       {
-        "id": 5003450,
-        "roleId": 1000,
-        "roleFunctionId": 5002170,
+        "id": "5003450",
+        "roleId": "1000",
+        "roleFunctionId": "5002170",
         "name": "哈哈哈哈",
-        "flag": true,
+        "flag": false,
         "type": "NODE",
         "permissionList": []
       },
       {
-        "id": 5001150,
-        "roleId": 1000,
-        "roleFunctionId": 5002155,
+        "id": "5001150",
+        "roleId": "1000",
+        "roleFunctionId": "5002155",
         "name": "fasdjklfjasl-lxb123",
-        "flag": true,
+        "flag": false,
         "type": "NODE",
         "permissionList": []
       },
       {
-        "id": 5001151,
-        "roleId": 1000,
-        "roleFunctionId": 5002156,
+        "id": "5001151",
+        "roleId": "1000",
+        "roleFunctionId": "5002156",
         "name": "fjdaslkfjaskldf-lxb789",
-        "flag": true,
+        "flag": false,
         "type": "NODE",
         "permissionList": []
       },
       {
-        "id": 5001250,
-        "roleId": 1000,
-        "roleFunctionId": 5002157,
+        "id": "5001250",
+        "roleId": "1000",
+        "roleFunctionId": "5002157",
         "name": "jkdsfljasdl-lxb",
-        "flag": true,
+        "flag": false,
         "type": "NODE",
         "permissionList": []
       },
       {
-        "id": 5003050,
-        "roleId": 1000,
+        "id": "5003050",
+        "roleId": "1000",
         "roleFunctionId": null,
         "name": "node节点",
         "flag": false,
@@ -5754,26 +6014,26 @@
         "permissionList": []
       },
       {
-        "id": 5003200,
-        "roleId": 1000,
-        "roleFunctionId": 5002167,
+        "id": "5003200",
+        "roleId": "1000",
+        "roleFunctionId": "5002167",
         "name": "5555555",
-        "flag": true,
+        "flag": false,
         "type": "NODE",
         "permissionList": []
       },
       {
-        "id": 5002038,
-        "roleId": 1000,
-        "roleFunctionId": 5002158,
+        "id": "5002038",
+        "roleId": "1000",
+        "roleFunctionId": "5002158",
         "name": "测试数据ajax3",
-        "flag": true,
+        "flag": false,
         "type": "AJAX",
         "permissionList": []
       },
       {
-        "id": 5003250,
-        "roleId": 1000,
+        "id": "5003250",
+        "roleId": "1000",
         "roleFunctionId": null,
         "name": "eee",
         "flag": false,
@@ -5781,8 +6041,8 @@
         "permissionList": []
       },
       {
-        "id": 5002041,
-        "roleId": 1000,
+        "id": "5002041",
+        "roleId": "1000",
         "roleFunctionId": null,
         "name": "测试数据url2",
         "flag": false,
@@ -5790,17 +6050,17 @@
         "permissionList": []
       },
       {
-        "id": 5002040,
-        "roleId": 1000,
-        "roleFunctionId": 5002200,
+        "id": "5002040",
+        "roleId": "1000",
+        "roleFunctionId": "5002200",
         "name": "测试数据ajax1",
-        "flag": true,
+        "flag": false,
         "type": "AJAX",
         "permissionList": []
       },
       {
-        "id": 5003100,
-        "roleId": 1000,
+        "id": "5003100",
+        "roleId": "1000",
         "roleFunctionId": null,
         "name": "333",
         "flag": false,
@@ -5808,17 +6068,17 @@
         "permissionList": []
       },
       {
-        "id": 5002000,
-        "roleId": 1000,
-        "roleFunctionId": 5002102,
+        "id": "5002000",
+        "roleId": "1000",
+        "roleFunctionId": "5002102",
         "name": "admin首页",
         "flag": true,
         "type": "URL",
         "permissionList": []
       },
       {
-        "id": 1001,
-        "roleId": 1000,
+        "id": "1001",
+        "roleId": "1000",
         "roleFunctionId": null,
         "name": "常用功能",
         "flag": false,
@@ -5826,53 +6086,53 @@
         "permissionList": []
       },
       {
-        "id": 5002046,
-        "roleId": 1000,
-        "roleFunctionId": 5002162,
+        "id": "5002046",
+        "roleId": "1000",
+        "roleFunctionId": "5002162",
         "name": "数据字典",
-        "flag": true,
+        "flag": false,
         "type": "MENU",
         "permissionList": []
       },
       {
-        "id": 5002045,
-        "roleId": 1000,
-        "roleFunctionId": 5002161,
+        "id": "5002045",
+        "roleId": "1000",
+        "roleFunctionId": "5002161",
         "name": "异常编码",
-        "flag": true,
+        "flag": false,
         "type": "MENU",
         "permissionList": []
       },
       {
-        "id": 5002044,
-        "roleId": 1000,
-        "roleFunctionId": 5002160,
+        "id": "5002044",
+        "roleId": "1000",
+        "roleFunctionId": "5002160",
         "name": "接口监控",
-        "flag": true,
+        "flag": false,
         "type": "MENU",
         "permissionList": []
       },
       {
-        "id": 5002043,
-        "roleId": 1000,
-        "roleFunctionId": 5002159,
+        "id": "5002043",
+        "roleId": "1000",
+        "roleFunctionId": "5002159",
         "name": "菜单管理",
-        "flag": true,
+        "flag": false,
         "type": "MENU",
         "permissionList": []
       },
       {
-        "id": 5004000,
-        "roleId": 1000,
-        "roleFunctionId": 5002171,
+        "id": "5004000",
+        "roleId": "1000",
+        "roleFunctionId": "5002171",
         "name": "pantest",
-        "flag": true,
+        "flag": false,
         "type": "MENU",
         "permissionList": []
       },
       {
-        "id": 1000,
-        "roleId": 1000,
+        "id": "1000",
+        "roleId": "1000",
         "roleFunctionId": null,
         "name": "系统管理",
         "flag": false,
@@ -5880,310 +6140,54 @@
         "permissionList": []
       },
       {
-        "id": 5002049,
-        "roleId": 1000,
-        "roleFunctionId": 5002165,
-        "name": "角色管理",
-        "flag": true,
-        "type": "MENU",
-        "permissionList": []
-      },
-      {
-        "id": 5002048,
-        "roleId": 1000,
-        "roleFunctionId": 5002164,
-        "name": "资源管理",
-        "flag": true,
-        "type": "MENU",
-        "permissionList": []
-      },
-      {
-        "id": 5002047,
-        "roleId": 1000,
-        "roleFunctionId": 5002163,
-        "name": "授权管理",
-        "flag": true,
-        "type": "MENU",
-        "permissionList": []
-      },
-      {
-        "id": 5002050,
-        "roleId": 1000,
-        "roleFunctionId": 5002166,
-        "name": "用户管理",
-        "flag": true,
-        "type": "MENU",
-        "permissionList": []
-      },
-      {
-        "id": 5003300,
-        "roleId": 1000,
-        "roleFunctionId": 5002168,
-        "name": "机构管理",
-        "flag": true,
-        "type": "MENU",
-        "permissionList": []
-      },
-      {
-        "id": 5000000,
-        "roleId": 1000,
-        "roleFunctionId": 5002154,
-        "name": "用户管理新",
-        "flag": true,
-        "type": "MENU",
-        "permissionList": []
-      }
-    ],
-    [
-      {
-        "id": 5003000,
-        "roleId": 1000,
-        "roleFunctionId": null,
-        "name": "张立立",
-        "flag": false,
-        "type": "NODE",
-        "permissionList": []
-      },
-      {
-        "id": 5003400,
-        "roleId": 1000,
-        "roleFunctionId": 5002169,
-        "name": "fdasfa",
-        "flag": false,
-        "type": "URL",
-        "permissionList": [
-          {
-            "id": 300002050,
-            "proName": "ios11",
-            "value": "ios11"
-          },
-          {
-            "id": 300002051,
-            "proName": "ios12",
-            "value": "ios12"
-          }
-        ]
-      },
-      {
-        "id": 5003450,
-        "roleId": 1000,
-        "roleFunctionId": 5002170,
-        "name": "哈哈哈哈",
-        "flag": false,
-        "type": "NODE",
-        "permissionList": []
-      },
-      {
-        "id": 5001150,
-        "roleId": 1000,
-        "roleFunctionId": 5002155,
-        "name": "fasdjklfjasl-lxb123",
-        "flag": false,
-        "type": "NODE",
-        "permissionList": []
-      },
-      {
-        "id": 5001151,
-        "roleId": 1000,
-        "roleFunctionId": 5002156,
-        "name": "fjdaslkfjaskldf-lxb789",
-        "flag": false,
-        "type": "NODE",
-        "permissionList": []
-      },
-      {
-        "id": 5001250,
-        "roleId": 1000,
-        "roleFunctionId": 5002157,
-        "name": "jkdsfljasdl-lxb",
-        "flag": false,
-        "type": "NODE",
-        "permissionList": []
-      },
-      {
-        "id": 5003050,
-        "roleId": 1000,
-        "roleFunctionId": null,
-        "name": "node节点",
-        "flag": false,
-        "type": "NODE",
-        "permissionList": []
-      },
-      {
-        "id": 5003200,
-        "roleId": 1000,
-        "roleFunctionId": 5002167,
-        "name": "5555555",
-        "flag": false,
-        "type": "NODE",
-        "permissionList": []
-      },
-      {
-        "id": 5002038,
-        "roleId": 1000,
-        "roleFunctionId": 5002158,
-        "name": "测试数据ajax3",
-        "flag": false,
-        "type": "AJAX",
-        "permissionList": []
-      },
-      {
-        "id": 5003250,
-        "roleId": 1000,
-        "roleFunctionId": null,
-        "name": "eee",
-        "flag": false,
-        "type": "NODE",
-        "permissionList": []
-      },
-      {
-        "id": 5002041,
-        "roleId": 1000,
-        "roleFunctionId": null,
-        "name": "测试数据url2",
-        "flag": false,
-        "type": "URL",
-        "permissionList": []
-      },
-      {
-        "id": 5002040,
-        "roleId": 1000,
-        "roleFunctionId": 5002200,
-        "name": "测试数据ajax1",
-        "flag": false,
-        "type": "AJAX",
-        "permissionList": []
-      },
-      {
-        "id": 5003100,
-        "roleId": 1000,
-        "roleFunctionId": null,
-        "name": "333",
-        "flag": false,
-        "type": "MENU",
-        "permissionList": []
-      },
-      {
-        "id": 5002000,
-        "roleId": 1000,
-        "roleFunctionId": 5002102,
-        "name": "admin首页",
-        "flag": true,
-        "type": "URL",
-        "permissionList": []
-      },
-      {
-        "id": 1001,
-        "roleId": 1000,
-        "roleFunctionId": null,
-        "name": "常用功能",
-        "flag": false,
-        "type": "NODE",
-        "permissionList": []
-      },
-      {
-        "id": 5002046,
-        "roleId": 1000,
-        "roleFunctionId": 5002162,
-        "name": "数据字典",
-        "flag": false,
-        "type": "MENU",
-        "permissionList": []
-      },
-      {
-        "id": 5002045,
-        "roleId": 1000,
-        "roleFunctionId": 5002161,
-        "name": "异常编码",
-        "flag": false,
-        "type": "MENU",
-        "permissionList": []
-      },
-      {
-        "id": 5002044,
-        "roleId": 1000,
-        "roleFunctionId": 5002160,
-        "name": "接口监控",
-        "flag": false,
-        "type": "MENU",
-        "permissionList": []
-      },
-      {
-        "id": 5002043,
-        "roleId": 1000,
-        "roleFunctionId": 5002159,
-        "name": "菜单管理",
-        "flag": false,
-        "type": "MENU",
-        "permissionList": []
-      },
-      {
-        "id": 5004000,
-        "roleId": 1000,
-        "roleFunctionId": 5002171,
-        "name": "pantest",
-        "flag": false,
-        "type": "MENU",
-        "permissionList": []
-      },
-      {
-        "id": 1000,
-        "roleId": 1000,
-        "roleFunctionId": null,
-        "name": "系统管理",
-        "flag": false,
-        "type": "NODE",
-        "permissionList": []
-      },
-      {
-        "id": 5002049,
-        "roleId": 1000,
-        "roleFunctionId": 5002165,
+        "id": "5002049",
+        "roleId": "1000",
+        "roleFunctionId": "5002165",
         "name": "角色管理",
         "flag": false,
         "type": "MENU",
         "permissionList": []
       },
       {
-        "id": 5002048,
-        "roleId": 1000,
-        "roleFunctionId": 5002164,
+        "id": "5002048",
+        "roleId": "1000",
+        "roleFunctionId": "5002164",
         "name": "资源管理",
         "flag": false,
         "type": "MENU",
         "permissionList": []
       },
       {
-        "id": 5002047,
-        "roleId": 1000,
-        "roleFunctionId": 5002163,
+        "id": "5002047",
+        "roleId": "1000",
+        "roleFunctionId": "5002163",
         "name": "授权管理",
         "flag": false,
         "type": "MENU",
         "permissionList": []
       },
       {
-        "id": 5002050,
-        "roleId": 1000,
-        "roleFunctionId": 5002166,
+        "id": "5002050",
+        "roleId": "1000",
+        "roleFunctionId": "5002166",
         "name": "用户管理",
         "flag": false,
         "type": "MENU",
         "permissionList": []
       },
       {
-        "id": 5003300,
-        "roleId": 1000,
-        "roleFunctionId": 5002168,
+        "id": "5003300",
+        "roleId": "1000",
+        "roleFunctionId": "5002168",
         "name": "机构管理",
         "flag": false,
         "type": "MENU",
         "permissionList": []
       },
       {
-        "id": 5000000,
-        "roleId": 1000,
-        "roleFunctionId": 5002154,
+        "id": "5000000",
+        "roleId": "1000",
+        "roleFunctionId": "5002154",
         "name": "用户管理新",
         "flag": false,
         "type": "MENU",

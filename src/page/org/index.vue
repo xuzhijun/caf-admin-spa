@@ -5,8 +5,8 @@
         <span>机构</span>
         <el-button-group>
           <el-button type="primary" @click="createNode">新增</el-button>
-          <el-button type="primary" :disabled="isModify" @click="modifyNode">修改</el-button>
-          <el-button type="primary" :disabled="isRemove" @click="removeNode">删除</el-button>
+          <el-button type="primary" :disabled="!isSelected" @click="modifyNode">修改</el-button>
+          <el-button type="primary" :disabled="!isLeaf" @click="removeNode">删除</el-button>
         </el-button-group>
       </el-col>
       <el-col :span="24" class="content">
@@ -22,7 +22,7 @@
         <el-form-item label="菜单名称" prop="name" required>
           <el-input v-model="form.name"></el-input>
         </el-form-item>
-        <el-form-item label="父机构" prop="parentId" v-show="isLeaf">
+        <el-form-item label="父机构" prop="parentId" v-show="showParent">
           <el-select clearable filterable v-model="form.parentId" placeholder="请选择">
             <el-option v-for="item in parentOptions" :disabled="form.id===item.id" :key="item.id" :label="item.name" :value="item.id">
             </el-option>
@@ -38,7 +38,6 @@
 </template>
 
 <script>
-import Api from '../../api'
 export default {
   data() {
     return {
@@ -51,6 +50,7 @@ export default {
       dialogFormVisible: false,
       isEdit: false,
       currentData: null,
+      currentNode: null,
       form: {
         id: '',
         code: '',
@@ -69,14 +69,14 @@ export default {
     }
   },
   computed: {
-    isModify: function () { // 修改按钮状态
-      return this.currentData == null;
+    isSelected: function () { // 可修改判断
+      return !this.$_.isNull(this.currentNode)
     },
-    isRemove: function () { // 删除按钮状态
-      return !(this.currentData && this.currentData.leaf)
+    isLeaf: function () { // 可删除判断
+      return !this.$_.isNull(this.currentNode) && this.currentNode.isLeaf
     },
-    isLeaf: function () { // 新增状态，或者编辑状态下的叶子节点，可以显示父菜单下拉框
-      return !this.isEdit || (this.isEdit && this.currentData.leaf)
+    showParent: function () { // 新增状态，或者编辑状态下的叶子节点，可以显示父菜单下拉框
+      return !this.isEdit || !this.$_.isNull(this.currentNode) && this.currentNode.isLeaf
     }
   },
   methods: {
@@ -106,53 +106,64 @@ export default {
     submitForm() {  // 提交表单
       this.$refs['orgForm'].validate((valid) => {
         if (valid) {
-          let _promise = this.isEdit ? Api.org_edit(this.form) : Api.org_add(this.form);
+          let _promise = this.isEdit
+            ? this.$api.org_edit(this.form)
+            : this.$api.org_add(this.form);
           _promise
             .then(res => {
-              // console.log(res);
-              if (res.code == '1') {
+              // if (res.code == '1') {
                 this.$message({
                   type: 'success',
                   message: res.message
                 });
                 this.closeDialog();
-              } else {
-                throw new Error(res.message);
-              }
-            })
-            .then(res => {  // 刷新树
-              this.initTree();
+                // 只返回成功数据版本
+                // 把修改节点拆分成 删除旧节点，新增新节点
+                this.isEdit && this.removeNodeSuccess(this.currentData); // 删除旧节点
+                this.createNodeSuccess(res); // 新增新节点
+
+              // 返回全部数据会更好做，考虑到并行操作的可能性，也更合理
+              // this.tree.list = res.data;
+
+              // } else {
+              //   throw new Error(res.message);
+              // }
             })
             .catch(err => {
               // error code
-              this.$message({
-                type: 'info',
-                message: err.message
-              });
+              this.$message.error(err.message);
             });
         }
       });
     },
     initParent() {  // 请求父菜单数据
-      Api.org_options_parent()
+      this.$api.org_options_parent()
         .then(res => {
-          this.parentOptions = res.data;
+          if (res.code == '1') {
+            this.parentOptions = res.data;
+          } else {
+            throw new Error(res.message);
+          }
+        })
+        .catch(err => {
+          this.$message.error(err.message);
         });
     },
     /* Tree */
     initTree() { // 初始化 Tree 组件
       this.loading = true;
-      Api.org_list()
+      this.$api.org_list()
         .then(res => {
-          this.treelist = res.data;
-        })
-        .then(() => {
-          this.loading = false;
+          if (res.code == '1') {
+            this.treelist = res.data;
+            this.loading = false;
+          } else {
+            throw new Error(res.message);
+          }
         })
         .catch(err => {
           this.loading = false;
-          // console.log(err)
-          // 加载树失败
+          this.$message.error(err.message);
         });
     },
     createNode() { // 创建节点
@@ -160,9 +171,18 @@ export default {
       this.initForm();
       this.openDialog();
     },
+    createNodeSuccess(data) { // 创建节点 callback
+      let parentNode = data.parentId && this.$unit.findNodeById(this.treelist, data.parentId);
+
+      parentNode = parentNode
+        ? (parentNode.nodes = parentNode.nodes || [])
+        : this.treelist
+
+      parentNode.push(data);
+    },
     modifyNode() { // 修改节点
       this.isEdit = true;
-      this.initForm(this.currentData, this.isEdit);
+      this.initForm(this.currentNode.data, this.isEdit);
       this.openDialog();
     },
     removeNode() { // 删除节点
@@ -171,36 +191,53 @@ export default {
         cancelButtonText: '取消',
         type: 'warning'
       })
-        .then(resConfirm => {
-          if (resConfirm == 'confirm') {
-            return Api.org_delete({
+        .then(res => {
+          if (res == 'confirm') {
+            return this.$api.org_delete({
               'OrgId': this.currentData.id
             });
           }
         })
-        .then(resRemove => {
-          if (resRemove.code == '1') {
-            // this.$refs.tree.store.remove(this.currentData);
-            this.initTree();
-            this.currentData = null;
+        .then(res => {
+          // if (res.code == '1') {
+            this.removeNodeSuccess(this.currentData);
             this.$message({
               type: 'success',
-              message: resRemove.message
+              message: res.message
             });
-          } else {
-            throw new Error(resRemove.message);
-          }
+          // } else {
+          //   throw new Error(res.message);
+          // }
         })
         .catch(err => {
-          let message = err == 'cancel' ? '取消删除' : err.message;
-          this.$message({
-            type: 'info',
-            message: message
-          });
+          if (err == 'cancel') {
+            this.$message({
+              type: 'info',
+              message: '取消删除'
+            });
+          } else {
+            this.$message.error(err.message);
+          }
         });
     },
-    setCurrentChange(data) {
+    removeNodeSuccess(data) { // 删除节点 callback
+      let parentNode = data.parentId && this.$unit.findNodeById(this.treelist, data.parentId);
+
+      parentNode = parentNode
+        ? (parentNode.nodes = parentNode.nodes || [])
+        : this.treelist;
+
+      parentNode.splice(parentNode.findIndex(function (o) {
+        return o.id == data.id
+      }), 1);
+
+      // 删除节点后清空相关选中数据
+      this.currentData = null;
+      this.currentNode = null;
+    },
+    setCurrentChange(data, node) {
       this.currentData = data;
+      this.currentNode = node;
     },
     renderContent(h, { node, data, store }) { // 渲染节点内容
       return (<span>{node.label}</span>);
@@ -209,7 +246,7 @@ export default {
       //     <span>{node.label}</span>
       //     <span style="float: right; margin-right: 20px">
       //       <el-button icon="edit" size="mini" on-click={() => this.modifyNode(store, data)}>修改</el-button>
-      //       <el-button v-show={node.isLeaf} icon="delete" size="mini" on-click={() => this.removeNode(store, data)}>删除</el-button>
+      //       <el-button v-show={node.isLeaf} icon="delete" size="mini" on-click={() => this.removeNode2(store, data)}>删除</el-button>
       //     </span>
       //   </span>);
     }

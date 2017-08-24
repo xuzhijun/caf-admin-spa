@@ -5,8 +5,8 @@
         <span>资源</span>
         <el-button-group>
           <el-button type="primary" @click="createNode">新增</el-button>
-          <el-button type="primary" :disabled="isModify" @click="modifyNode">修改</el-button>
-          <el-button type="primary" :disabled="isRemove" @click="removeNode">删除</el-button>
+          <el-button type="primary" :disabled="!isSelected" @click="modifyNode">修改</el-button>
+          <el-button type="primary" :disabled="!isLeaf" @click="removeNode">删除</el-button>
         </el-button-group>
       </el-col>
       <el-col :span="24" class="content">
@@ -21,9 +21,9 @@
             </el-option>
           </el-select>
         </el-form-item>
-        <el-form-item label="父菜单" prop="parentId" v-show="isLeaf">
+        <el-form-item label="父菜单" prop="parentId" v-show="showParent">
           <el-select clearable filterable v-model="form.parentId" placeholder="请选择" :disabled="form.type === ''">
-            <el-option v-for="item in parentOptions" :disabled="form.id===item.id" :key="item.id" :label="item.name" :value="item.id">
+            <el-option v-for="item in parentOptions" :disabled="parseInt(form.id)===parseInt(item.id)" :key="item.id" :label="item.name" :value="item.id">
             </el-option>
           </el-select>
         </el-form-item>
@@ -58,6 +58,7 @@ export default {
       dialogFormVisible: false,
       isEdit: false,
       currentData: null,
+      currentNode: null,
       form: {
         type: '',
         parentId: '',
@@ -89,21 +90,6 @@ export default {
     }
   },
   methods: {
-    /* unit */
-    findNode(tree, key, value) {
-      if(Array.isArray(tree) && tree.length > 0) {
-        for(let i=0; i<tree.length; i++) {
-          if(tree[i][key] == value) {
-            return tree[i];
-            break;
-          } else {
-            this.findNode(tree[i].nodes, key, value);
-          }
-        }
-      } else {
-        // return -1;
-      }
-    },
     /* Dialog */
     openDialog() {
       this.dialogFormVisible = true;
@@ -157,11 +143,10 @@ export default {
                   message: res.message
                 });
                 this.closeDialog();
-
-                this.isEdit
-                ? this.modifyNodeSuccess(res) // 修改成功
-                : this.createNodeSuccess(res) // 新增成功
-
+                // 只返回成功数据版本
+                // 把修改节点拆分成 删除旧节点，新增新节点
+                this.isEdit && this.removeNodeSuccess(this.currentData); // 删除旧节点
+                this.createNodeSuccess(res); // 新增新节点
               // } else {
               //   throw new Error(res.message);
               // }
@@ -198,9 +183,9 @@ export default {
       this.loading = true;
       this.$api.resource_list()
         .then(res => {
-          this.loading = false;
           if (res.code == '1') {
             this.treelist = res.data;
+            this.loading = false;
           } else {
             throw new Error(res.message);
           }
@@ -217,26 +202,19 @@ export default {
       this.initForm();
       this.openDialog();
     },
-    createNodeSuccess({type, parentId, code, name, url}) {
-      let obj = this.findNode(this.treelist,"id",parentId);
+    createNodeSuccess(data) { // 创建节点 callback
+      let parentNode = data.parentId && this.$unit.findNodeById(this.treelist, data.parentId);
 
-      obj && (obj.nodes = obj.nodes || []) && obj.nodes.push({
-        "type": type,
-        "parentId": parentId,
-        "code": code,
-        "name": name,
-        "url": url
-      })
+      parentNode = parentNode
+        ? (parentNode.nodes = parentNode.nodes || [])
+        : this.treelist
+
+      parentNode.push(data);
     },
     modifyNode() { // 修改节点
       this.isEdit = true;
       this.initForm(this.currentData);
       this.openDialog();
-    },
-    modifyNodeSuccess({type, code, name}) {
-      this.currentData.type = type;
-      this.currentData.code = code;
-      this.currentData.name = name;
     },
     removeNode() { // 删除节点
       this.$confirm('将删除该节点, 是否继续?', '提示', {
@@ -244,28 +222,25 @@ export default {
         cancelButtonText: '取消',
         type: 'warning'
       })
-        .then(resConfirm => {
-          // console.log(resConfirm);
-          if (resConfirm == 'confirm') {
+        .then(res => {  //确认删除
+          if (res == 'confirm') {
             return this.$api.resource_delete({
               'FunctionId': this.currentData.id
             });
           }
         })
         .then(res => {
-          // console.log(resRemove);
-          if (res.code == '1') {
-            this.$refs.tree.store.remove(this.currentData);
-            this.currentData = null;
+          // if (res.code == '1') {
+            this.removeNodeSuccess(this.currentData);
             this.$message({
               type: 'success',
               message: res.message
             });
-          } else {
-            throw new Error(res.message);
-          }
+          // } else {
+          //   throw new Error(res.message);
+          // }
         })
-        .catch(err => {
+        .catch(err => { // 取消删除
           if (err == 'cancel') {
             this.$message({
               type: 'info',
@@ -276,8 +251,24 @@ export default {
           }
         });
     },
-    setCurrentChange(data) {
+    removeNodeSuccess(data) { // 删除节点 callback
+      let parentNode = data.parentId && this.$unit.findNodeById(this.treelist, data.parentId);
+
+      parentNode = parentNode
+        ? (parentNode.nodes = parentNode.nodes || [])
+        : this.treelist;
+
+      parentNode.splice(parentNode.findIndex(function (o) {
+        return o.id == data.id
+      }), 1);
+
+      // 删除节点后清空相关选中数据
+      this.currentData = null;
+      this.currentNode = null;
+    },
+    setCurrentChange(data, node) {
       this.currentData = data;
+      this.currentNode = node;
     },
     renderContent(h, { node, data, store }) { // 渲染节点内容
       return (<span>{node.label}</span>);
@@ -295,14 +286,14 @@ export default {
     dialogTitle: function () { // 动态 Dialog 标题
       return this.isEdit ? '修改资源' : '新增资源'
     },
-    isModify: function () { // 修改按钮状态
-      return this.currentData == null;
+    isSelected: function () { // 可修改判断
+      return !this.$_.isNull(this.currentNode)
     },
-    isRemove: function () { // 删除按钮状态
-      return !(this.currentData && this.currentData.leaf)
+    isLeaf: function () { // 可删除判断
+      return !this.$_.isNull(this.currentNode) && this.currentNode.isLeaf
     },
-    isLeaf: function () { // 新增状态，或者编辑状态下的叶子节点，可以显示父菜单下拉框
-      return !this.isEdit || (this.isEdit && this.currentData.leaf)
+    showParent: function () { // 新增状态，或者编辑状态下的叶子节点，可以显示父菜单下拉框
+      return !this.isEdit || !this.$_.isNull(this.currentNode) && this.currentNode.isLeaf
     }
   },
   mounted() {
