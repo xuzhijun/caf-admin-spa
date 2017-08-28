@@ -79,7 +79,6 @@
   </div>
 </template>
 <script>
-import Api from '../../api'
 import _ from 'lodash'
 export default {
   data() {
@@ -133,7 +132,7 @@ export default {
     //   return !(this.permission.unsave.length || this.permission.delete.length);
     // },
     // permissionData() {
-    //   // return _.concat(this.permission.data, this.permission.unsave);
+    //   // return this.$_.concat(this.permission.data, this.permission.unsave);
     // },
     isActiveOrg() {
       return this.func.current
@@ -162,15 +161,20 @@ export default {
     },
     /* 角色 */
     initRole() { // 初始化 角色表
-      Api.role_role_list()
+      this.$api.role_role_list()
         .then(res => {
-          this.role.data = res.data;
-        })
-        .then(res => {
-          if (this.role.data.length) {
-            this.$refs.roleTable.setCurrentRow(this.role.data[0]);
-            this.role.current = this.role.data[0];
+          if (res.code == '1') {
+            this.role.data = res.data;
+            if (this.role.data.length) {
+              this.$refs.roleTable.setCurrentRow(this.role.data[0]);
+              this.role.current = this.role.data[0];
+            }
+          } else {
+            throw new Error(res.message);
           }
+        })
+        .catch(err => {
+          this.$message.error(err.message);
         });
     },
     roleCurrentChange(currentRow, oldCurrentRow) {
@@ -189,22 +193,27 @@ export default {
     },
     initFunctionTable(roleId) { // 初始化 function 表
       this.loading = true;
-      Api.role_function_list_table({
+      this.$api.role_function_list_table({
         'roleId': roleId
       })
         .then(res => {// 填充 function 数据
-          this.func.table = res.data;
-          setTimeout(() => {
-            this.loading = false;
-          }, 500);
+          if (res.code == '1') {
+            this.func.table = res.data;
+            setTimeout(() => {
+              this.loading = false;
+            }, 500);
+          } else {
+            throw new Error(res.message);
+          }
         })
-        .catch(() => {
+        .catch(err => {
           this.loading = false;
+          this.$message.error(err.message);
         });
     },
     initFunction(roleId) { // 初始化 function 树
       this.fullscreenLoading = true;
-      Api.role_function_list({
+      this.$api.role_function_list({
         'roleId': roleId
       })
         .then(res => {// 请求成功
@@ -225,19 +234,12 @@ export default {
           }
         })
         .then(() => {
-        })
-        .then(() => {
-        })
-        .then(() => {
           this.initPermission(); // 初始化 permission
         })
         .catch(err => {
           // error code
           this.fullscreenLoading = false;
-          this.$message({
-            type: 'info',
-            message: err.message
-          });
+          this.$message.error(err.message);
         });
     },
     editFunction() {
@@ -246,7 +248,7 @@ export default {
     saveFunction() {
       this.dialogLoading = true;
       // console.log(this.func.dataFlatten);
-      Api.role_function_permission_save(this.func.dataFlatten)
+      this.$api.role_function_permission_save(this.func.dataFlatten)
         .then(res => {
           // console.log(res);
           if (res.code == '1') {
@@ -257,8 +259,6 @@ export default {
           } else {
             throw new Error(res.message);
           }
-        })
-        .then(() => {
           this.dialogLoading = false;
           this.closeDialogFunction();
         })
@@ -268,10 +268,7 @@ export default {
         .catch(err => {
           // error code
           this.dialogLoading = false;
-          this.$message({
-            type: 'info',
-            message: err.message
-          });
+          this.$message.error(err.message);
         });
     },
     renderFunctionContent(h, { node, data, store }) { // 渲染 功能树的节点内容
@@ -305,7 +302,7 @@ export default {
         this.recursionFunction(list[i].functions);
       }
     },
-    updateFunction: function (target = [], list = []) {
+    updateFunction: function(target = [], list = []) {
       // console.log(target);
       for (let i = 0; i < list.length; i++) {
         list[i].flag = target.indexOf(list[i].id) != -1
@@ -319,14 +316,14 @@ export default {
         this.initPermission(this.role.current.id, this.func.current.id);
       }
     },
-    functionCheckChange: _.debounce(function (currentData, isChecked, isChildrenChecked) {
+    functionCheckChange: _.debounce(function(currentData, isChecked, isChildrenChecked) {
       this.updateFunction(this.$refs.functionTree.getCheckedKeys(true), this.func.dataFlatten);
 
     }, 200),
     // functionCheckedSave() { // 保存 功能树的勾选状态
     //   let _checked = this.$refs.functionTree.getCheckedKeys(true);
     //   if (this.role.current) {
-    //     Api.role_function_save({
+    //     this.$api.role_function_save({
     //       'roleId': this.role.current.id,
     //       'functionId': _checked.join(',')
     //     })
@@ -354,7 +351,7 @@ export default {
     //       });
     //   }
     // },
-    // functionRefresh: _.debounce(function () { // 刷新 功能树
+    // functionRefresh: this.$_.debounce(function () { // 刷新 功能树
     //   this.role.current && this.initFunction(this.role.current.id);
     // }, 200),
     // eventFunciton: function () {
@@ -373,13 +370,13 @@ export default {
       // this.permission.delete = [];
       // console.log(functionId);
       if (functionId) {
-        this.permission.data = _.find(this.func.dataFlatten, function (o) {
+        this.permission.data = this.$_.find(this.func.dataFlatten, function(o) {
           return o.id == functionId;
         }).permissionList;
       }
       // console.log(this.permission.data);
       // if (roleId && functionId) { // 不为空则异步请求数据
-      //   Api.role_permission_list({
+      //   this.$api.role_permission_list({
       //     'roleId': roleId,
       //     'functionId': functionId
       //   })
@@ -435,14 +432,14 @@ export default {
       //   this.permission.unsave.splice(index - this.permission.data.length, 1)
       // }
     },
-    // permissionRefresh: _.debounce(function () {
+    // permissionRefresh: this.$_.debounce(function () {
     //   this.role.current
     //     && this.func.current
     //     && this.initPermission(this.role.current.id, this.func.current.id);
     // }, 200),
-    // permissionSave: _.debounce(function () {
+    // permissionSave: this.$_.debounce(function () {
     //   if (this.permission.unsave.length || this.permission.delete.length) {
-    //     Api.role_permission_save({
+    //     this.$api.role_permission_save({
     //       "addRoleFuncPermissions": this.permission.unsave,
     //       "deleteIds": this.permission.delete
     //     })
@@ -468,24 +465,16 @@ export default {
     //   }
     // }, 200)
   },
-  mounted() {
+  created() {
     this.initRole();
+    // console.log(this.$_.debounce);
   }
 }
 </script>
 
 <style scoped lang="scss">
-.slide-enter-active {
-  transition: all .3s ease-in;
-}
-
-.slide-leave-active {
-  transition: all .3s ease-out;
-}
-
-.slide-enter,
-.slide-leave-active {
-  transform: translateX(100%);
+.page-role {
+  height: 100%;
 }
 
 .function-tree {
@@ -496,8 +485,6 @@ export default {
 
 .el-row {
   height: 100%;
-  margin-bottom: 20px;
-  align-items: stretch;
   .el-col {
     overflow: hidden;
     position: relative;
@@ -546,12 +533,9 @@ export default {
 }
 
 .el-table {
+  display: flex;
+  flex-direction: column;
   height: 100%;
-  .el-table__body-wrapper {
-    position: absolute;
-    top: 40px;
-    bottom: 0;
-  }
 }
 
 .dialog-function {
@@ -560,3 +544,9 @@ export default {
   }
 }
 </style>
+<<style lang="scss">
+.el-table__header-wrapper {
+  flex: 1 0 auto;
+}
+</style>
+
