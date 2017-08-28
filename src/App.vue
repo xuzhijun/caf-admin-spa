@@ -10,9 +10,9 @@
         </el-menu-item>
         <menu-item-dynamic :item="menuItem" :key="menuItem.id" v-for="menuItem in menuList"></menu-item-dynamic>
       </el-menu>
-      <div slot="main">
+      <template slot="main">
         <router-view></router-view>
-      </div>
+      </template>
     </layout>
   </div>
 </template>
