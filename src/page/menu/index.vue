@@ -52,7 +52,7 @@
 
 <script>
 export default {
-  data() {
+  data () {
     // 自定义验证规则
     // var validateCodeInput = (rule, value, callback) => {
     //   if (this.isParent && !this.isEdit && value === '') {
@@ -87,7 +87,7 @@ export default {
         codeSelect: '',
         icon: '',
         label: '',
-        parentId: '',
+        parentId: ''
       },
       formRules: {
         'label': [
@@ -120,14 +120,14 @@ export default {
   },
   methods: {
     /* Dialog */
-    openDialog() {
-      this.dialogFormVisible = true;
+    openDialog () {
+      this.dialogFormVisible = true
     },
-    closeDialog() {
-      this.dialogFormVisible = false;
+    closeDialog () {
+      this.dialogFormVisible = false
     },
     /* Form */
-    initForm({  // 初始化表单
+    initForm ({ // 初始化表单
       id = '',
       code = '',
       icon = '',
@@ -135,28 +135,28 @@ export default {
       parentId = ''
     } = {}, isEdit = false, isParent = true) {
       // 清空表单数据
-      this.$refs['menuForm'] && this.$refs['menuForm'].resetFields();
+      this.$refs['menuForm'] && this.$refs['menuForm'].resetFields()
       // 设置表单值
-      this.isEdit = isEdit;
-      this.form.isParent = isParent;
-      this.form.id = id;
-      this.form.codeInput = code;
-      this.form.codeSelect = code;
-      this.form.icon = icon;
-      this.form.label = label;
-      this.form.parentId = parentId;
+      this.isEdit = isEdit
+      this.form.isParent = isParent
+      this.form.id = id
+      this.form.codeInput = code
+      this.form.codeSelect = code
+      this.form.icon = icon
+      this.form.label = label
+      this.form.parentId = parentId
       // 初始化下拉框选项
-      this.initParent();
-      this.initCode();
+      this.initParent()
+      this.initCode()
     },
-    submitForm() {  // 验证和提交表单
+    submitForm () { // 验证和提交表单
       this.$refs['menuForm'].validate((valid) => {
         if (valid) {
-          let _code = this.form.isParent
+          const _code = this.form.isParent
             ? this.form.codeInput
-            : this.form.codeSelect;
+            : this.form.codeSelect
 
-          let _promise = this.isEdit
+          const _promise = this.isEdit
             ? this.$api.menu_edit({
               id: this.form.id,
               code: _code,
@@ -174,144 +174,144 @@ export default {
           _promise
             .then(res => {
               // if (res.code == '1') {
-                this.$message({
-                  type: 'success',
-                  message: res.message
-                });
-                this.closeDialog();
-                // 只返回成功数据版本
-                // 把修改节点拆分成 删除旧节点，新增新节点
-                this.isEdit && this.removeNodeSuccess(this.currentData); // 删除旧节点
-                this.createNodeSuccess(res); // 新增新节点
+              this.$message({
+                type: 'success',
+                message: res.message
+              })
+              this.closeDialog()
+              // 只返回成功数据版本
+              // 把修改节点拆分成 删除旧节点，新增新节点
+              this.isEdit && this.removeNodeSuccess(this.currentData) // 删除旧节点
+              this.createNodeSuccess(res) // 新增新节点
               // } else {
               //   throw new Error(res.message);
               // }
             })
             .catch(err => {
               // error code
-              this.$message.error(err.message);
-            });
+              this.$message.error(err.message)
+            })
         }
-      });
+      })
     },
-    initParent() {  // 请求父菜单数据
+    initParent () { // 请求父菜单数据
       this.$api.menu_options_parent()
         .then(res => {
-          if(res.code == '1') {
-            this.parentOptions = res.data;
+          if (res.code === '1') {
+            this.parentOptions = res.data
           } else {
-            throw new Error(res.message);
+            throw new Error(res.message)
           }
         })
         .catch(err => {
-          this.$message.error(err.message);
-        });
+          this.$message.error(err.message)
+        })
     },
-    initCode() {    // 请求编码数据
+    initCode () { // 请求编码数据
       this.$api.menu_options_code()
         .then(res => {
-          if(res.code == '1') {
-            this.codeOptions = res.data;
+          if (res.code === '1') {
+            this.codeOptions = res.data
           } else {
-            throw new Error(res.message);
+            throw new Error(res.message)
           }
         })
         .catch(err => {
-          this.$message.error(err.message);
-        });
+          this.$message.error(err.message)
+        })
     },
     /* Tree */
-    initTree() {    // 初始化 Tree 组件
-      this.loading = true;
+    initTree () { // 初始化 Tree 组件
+      this.loading = true
       this.$api.menu_list()
         .then(res => {
-          if(res.code == '1') {
-            this.treelist = res.data;
-            this.loading = false;
+          if (res.code === '1') {
+            this.treelist = res.data
+            this.loading = false
           } else {
-            throw new Error(res.message);
+            throw new Error(res.message)
           }
         })
         .catch(err => {
-          this.loading = false;
-          this.$message.error(err.message);
-        });
+          this.loading = false
+          this.$message.error(err.message)
+        })
     },
-    createNode() {  // 创建节点
-      this.isEdit = false;
-      this.initForm();
-      this.openDialog();
+    createNode () { // 创建节点
+      this.isEdit = false
+      this.initForm()
+      this.openDialog()
     },
-    createNodeSuccess(data) { // 创建节点 callback
-      let parentNode = data.parentId && this.$unit.findNodeById(this.treelist, data.parentId);
+    createNodeSuccess (data) { // 创建节点 callback
+      let parentNode = data.parentId && this.$unit.findNodeById(this.treelist, data.parentId)
 
       parentNode = parentNode
         ? (parentNode.nodes = parentNode.nodes || [])
         : this.treelist
 
-      parentNode.push(data);
+      parentNode.push(data)
     },
-    modifyNode() {  // 修改节点
-      this.isEdit = true;
-      this.initForm(this.currentNode.data, this.isEdit);
-      this.openDialog();
+    modifyNode () { // 修改节点
+      this.isEdit = true
+      this.initForm(this.currentNode.data, this.isEdit)
+      this.openDialog()
     },
-    removeNode() {  // 删除节点
+    removeNode () { // 删除节点
       this.$confirm('将删除该节点, 是否继续?', '提示', {
         confirmButtonText: '确定',
         cancelButtonText: '取消',
         type: 'warning'
       })
         .then(res => {
-          if (res == 'confirm') {
+          if (res === 'confirm') {
             return this.$api.menu_delete({
               'menuId': this.currentData.id
-            });
+            })
           }
         })
         .then(res => {
           // if (res.code == '1') {
-            this.removeNodeSuccess(this.currentData);
-            this.$message({
-              type: 'success',
-              message: res.message
-            });
+          this.removeNodeSuccess(this.currentData)
+          this.$message({
+            type: 'success',
+            message: res.message
+          })
           // } else {
           //   throw new Error(res.message);
           // }
         })
         .catch(err => {
-          if (err == 'cancel') {
+          if (err === 'cancel') {
             this.$message({
               type: 'info',
               message: '取消删除'
-            });
+            })
           } else {
-            this.$message.error(err.message);
+            this.$message.error(err.message)
           }
-        });
+        })
     },
-    removeNodeSuccess(data) { // 删除节点 callback
-      let parentNode = data.parentId && this.$unit.findNodeById(this.treelist, data.parentId);
+    removeNodeSuccess (data) { // 删除节点 callback
+      let parentNode = data.parentId && this.$unit.findNodeById(this.treelist, data.parentId)
 
       parentNode = parentNode
         ? (parentNode.nodes = parentNode.nodes || [])
-        : this.treelist;
+        : this.treelist
 
       parentNode.splice(parentNode.findIndex(function (o) {
-        return o.id == data.id
-      }), 1);
+        return o.id === data.id
+      }), 1)
 
       // 删除节点后清空相关选中数据
-      this.currentData = null;
-      this.currentNode = null;
+      this.currentData = null
+      this.currentNode = null
     },
-    setCurrentChange(data, node) {
-      this.currentData = data;
-      this.currentNode = node;
+    setCurrentChange (data, node) {
+      this.currentData = data
+      this.currentNode = node
     },
-    renderContent(h, { node, data, store }) { // 渲染节点内容
-      return (<span>{node.label}</span>);
+    renderContent (h, { node, data, store }) { // 渲染节点内容
+      return (<span>{node.label}</span>)
       // return (
       //   <span>
       //     <span>{node.label}</span>
@@ -322,8 +322,8 @@ export default {
       //   </span>);
     }
   },
-  mounted() {
-    this.initTree();
+  mounted () {
+    this.initTree()
   }
 }
 </script>

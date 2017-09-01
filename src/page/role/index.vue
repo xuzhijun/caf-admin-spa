@@ -81,7 +81,7 @@
 <script>
 import _ from 'lodash'
 export default {
-  data() {
+  data () {
     return {
       dialogFunctionVisible: false,
       dialogPermissionVisible: false,
@@ -94,20 +94,20 @@ export default {
       },
       func: {
         currentNode: {},
-        current: {},      // 当前选中的 function 节点
-        data: [],         // 原始树
-        dataFlatten: [],  // 扁平化树
-        dataChecked: [],  // 选中节点ID列表
+        current: {}, // 当前选中的 function 节点
+        data: [], // 原始树
+        dataFlatten: [], // 扁平化树
+        dataChecked: [], // 选中节点ID列表
         defaultChecked: [], // 默认选中节点
-        table: [],        // 扁平化选中树
+        table: [], // 扁平化选中树
         props: {
           children: 'functions',
           label: 'name'
         }
       },
       permission: {
-        current: {},  // 存放当前选中的 permission 项
-        data: [],     // 存放当前 function 下的 permission 列表
+        current: {}, // 存放当前选中的 permission 项
+        data: [], // 存放当前 function 下的 permission 列表
         unsave: [],
         delete: []
       },
@@ -118,15 +118,15 @@ export default {
         'value': [
           { required: true, message: '请输入属性值', trigger: 'blur' }
         ]
-      },
+      }
     }
   },
   computed: {
-    functionBtn() {
-      return !this.role.current;
+    functionBtn () {
+      return !this.role.current
     },
-    checkAddPermission() {
-      return !(this.func.currentNode.checked && this.func.current.type != 'NODE');
+    checkAddPermission () {
+      return !(this.func.currentNode.checked && this.func.current.type !== 'NODE')
     },
     // checkPermissionSave() {
     //   return !(this.permission.unsave.length || this.permission.delete.length);
@@ -134,191 +134,190 @@ export default {
     // permissionData() {
     //   // return this.$_.concat(this.permission.data, this.permission.unsave);
     // },
-    isActiveOrg() {
+    isActiveOrg () {
       return this.func.current
     },
-    isRoleActived() {
+    isRoleActived () {
       return !this.role.current
     },
-    currentNodeType() {
-      let tips = this.func.current.type ? "选中节点类型：" + this.func.current.type : "未选中节点";
-      return "（" + tips + "）";
+    currentNodeType () {
+      const tips = this.func.current.type ? '选中节点类型：' + this.func.current.type : '未选中节点'
+      return '（' + tips + '）'
     }
   },
   methods: {
     /* 对话框相关操作 */
-    openDialogFunction() {
-      this.dialogFunctionVisible = true;
+    openDialogFunction () {
+      this.dialogFunctionVisible = true
     },
-    closeDialogFunction() {
-      this.dialogFunctionVisible = false;
+    closeDialogFunction () {
+      this.dialogFunctionVisible = false
     },
-    openDialog() {
-      this.dialogPermissionVisible = true;
+    openDialog () {
+      this.dialogPermissionVisible = true
     },
-    closeDialog() {
-      this.dialogPermissionVisible = false;
+    closeDialog () {
+      this.dialogPermissionVisible = false
     },
     /* 角色 */
-    initRole() { // 初始化 角色表
+    initRole () { // 初始化 角色表
       this.$api.role_role_list()
         .then(res => {
-          if (res.code == '1') {
-            this.role.data = res.data;
+          if (res.code === '1') {
+            this.role.data = res.data
             if (this.role.data.length) {
-              this.$refs.roleTable.setCurrentRow(this.role.data[0]);
-              this.role.current = this.role.data[0];
+              this.$refs.roleTable.setCurrentRow(this.role.data[0])
+              this.role.current = this.role.data[0]
             }
           } else {
-            throw new Error(res.message);
+            throw new Error(res.message)
           }
         })
         .catch(err => {
-          this.$message.error(err.message);
-        });
+          this.$message.error(err.message)
+        })
     },
-    roleCurrentChange(currentRow, oldCurrentRow) {
+    roleCurrentChange (currentRow, oldCurrentRow) {
       if (currentRow && currentRow.id) {
-        this.role.current = currentRow;
-        this.initFunctionTable(this.role.current.id);
+        this.role.current = currentRow
+        this.initFunctionTable(this.role.current.id)
       }
     },
     /* 功能 */
-    resetFunction() {
-      this.func.current = {};       // 当前选中的 function 节点
-      this.func.data = [];          // 原始树
-      this.func.dataFlatten = [];   // 扁平化树
-      this.func.dataChecked = [];   // 选中节点ID列表
+    resetFunction () {
+      this.func.current = {} // 当前选中的 function 节点
+      this.func.data = [] // 原始树
+      this.func.dataFlatten = [] // 扁平化树
+      this.func.dataChecked = [] // 选中节点ID列表
       // this.func.table = [];
     },
-    initFunctionTable(roleId) { // 初始化 function 表
-      this.loading = true;
+    initFunctionTable (roleId) { // 初始化 function 表
+      this.loading = true
       this.$api.role_function_list_table({
         'roleId': roleId
       })
-        .then(res => {// 填充 function 数据
-          if (res.code == '1') {
-            this.func.table = res.data;
+        .then(res => { // 填充 function 数据
+          if (res.code === '1') {
+            this.func.table = res.data
             setTimeout(() => {
-              this.loading = false;
-            }, 500);
+              this.loading = false
+            }, 500)
           } else {
-            throw new Error(res.message);
+            throw new Error(res.message)
           }
         })
         .catch(err => {
-          this.loading = false;
-          this.$message.error(err.message);
-        });
+          this.loading = false
+          this.$message.error(err.message)
+        })
     },
-    initFunction(roleId) { // 初始化 function 树
-      this.fullscreenLoading = true;
+    initFunction (roleId) { // 初始化 function 树
+      this.fullscreenLoading = true
       this.$api.role_function_list({
         'roleId': roleId
       })
-        .then(res => {// 请求成功
-          if (res.code == '1') {
-            this.fullscreenLoading = false;
+        .then(res => { // 请求成功
+          if (res.code === '1') {
+            this.fullscreenLoading = false
             // 清除旧数据
-            this.resetFunction();
+            this.resetFunction()
             // 写入新数据
-            this.func.data = res.data;
+            this.func.data = res.data
             // 打开对话框
-            this.openDialogFunction();
+            this.openDialogFunction()
 
-            this.recursionFunction(this.func.data); // 递归树
+            this.recursionFunction(this.func.data) // 递归树
 
-            this.func.defaultChecked = this.func.dataChecked; // 勾选打钩节点
+            this.func.defaultChecked = this.func.dataChecked // 勾选打钩节点
           } else {
-            throw new Error(res.message);
+            throw new Error(res.message)
           }
         })
         .then(() => {
-          this.initPermission(); // 初始化 permission
+          this.initPermission() // 初始化 permission
         })
         .catch(err => {
           // error code
-          this.fullscreenLoading = false;
-          this.$message.error(err.message);
-        });
+          this.fullscreenLoading = false
+          this.$message.error(err.message)
+        })
     },
-    editFunction() {
-      this.role.current.id && this.initFunction(this.role.current.id);
+    editFunction () {
+      this.role.current.id && this.initFunction(this.role.current.id)
     },
-    saveFunction() {
-      this.dialogLoading = true;
+    saveFunction () {
+      this.dialogLoading = true
       // console.log(this.func.dataFlatten);
       this.$api.role_function_permission_save(this.func.dataFlatten)
         .then(res => {
           // console.log(res);
-          if (res.code == '1') {
+          if (res.code === '1') {
             this.$message({
               type: 'success',
               message: res.message
-            });
+            })
           } else {
-            throw new Error(res.message);
+            throw new Error(res.message)
           }
-          this.dialogLoading = false;
-          this.closeDialogFunction();
+          this.dialogLoading = false
+          this.closeDialogFunction()
         })
         .then(() => {
-          this.initFunctionTable(this.role.current.id);
+          this.initFunctionTable(this.role.current.id)
         })
         .catch(err => {
           // error code
-          this.dialogLoading = false;
-          this.$message.error(err.message);
-        });
+          this.dialogLoading = false
+          this.$message.error(err.message)
+        })
     },
-    renderFunctionContent(h, { node, data, store }) { // 渲染 功能树的节点内容
-      return (<span>{node.label}</span>);
+    renderFunctionContent (h, { node, data, store }) { // 渲染 功能树的节点内容
+      return (<span>{node.label}</span>)
     },
     /* 递归功能树，两个功能
     一，遍历勾选的节点
     二，扁平化所有树节点
     */
-    recursionFunction(list) {
-      if (!list || list.length == 0) {
-        return;
+    recursionFunction (list) {
+      if (!list || list.length === 0) {
+        return
       }
       for (let i = 0; i < list.length; i++) {
-        list[i].flag && this.func.dataChecked.push(list[i].id);
+        list[i].flag && this.func.dataChecked.push(list[i].id)
         this.func.dataFlatten.push({
-          "id": list[i].id,
-          "roleId": this.role.current.id,
-          "roleFunctionId": list[i].roleFunctionId,
+          'id': list[i].id,
+          'roleId': this.role.current.id,
+          'roleFunctionId': list[i].roleFunctionId,
           // "leaf": list[i].leaf,
           // "nodes": list[i].nodes,
-          "name": list[i].name,
-          "flag": list[i].flag,
-          "type": list[i].type,
+          'name': list[i].name,
+          'flag': list[i].flag,
+          'type': list[i].type,
           // "parentId": list[i].parentId,
           // "url": list[i].url,
           // "code": list[i].code,
           // "status": list[i].status,
-          "permissionList": list[i].permissionList,
-        });
-        this.recursionFunction(list[i].functions);
+          'permissionList': list[i].permissionList
+        })
+        this.recursionFunction(list[i].functions)
       }
     },
-    updateFunction: function(target = [], list = []) {
+    updateFunction: function (target = [], list = []) {
       // console.log(target);
       for (let i = 0; i < list.length; i++) {
-        list[i].flag = target.indexOf(list[i].id) != -1
+        list[i].flag = target.indexOf(list[i].id) !== -1
         // console.log(list[i].flag);
       }
     },
-    functionCurrentChange(currentData, currentNode) {
+    functionCurrentChange (currentData, currentNode) {
       if (currentData && currentData.id) {
-        this.func.current = currentData;
-        this.func.currentNode = currentNode;
-        this.initPermission(this.role.current.id, this.func.current.id);
+        this.func.current = currentData
+        this.func.currentNode = currentNode
+        this.initPermission(this.role.current.id, this.func.current.id)
       }
     },
-    functionCheckChange: _.debounce(function(currentData, isChecked, isChildrenChecked) {
-      this.updateFunction(this.$refs.functionTree.getCheckedKeys(true), this.func.dataFlatten);
-
+    functionCheckChange: _.debounce(function (currentData, isChecked, isChildrenChecked) {
+      this.updateFunction(this.$refs.functionTree.getCheckedKeys(true), this.func.dataFlatten)
     }, 200),
     // functionCheckedSave() { // 保存 功能树的勾选状态
     //   let _checked = this.$refs.functionTree.getCheckedKeys(true);
@@ -359,20 +358,20 @@ export default {
     // },
     /* 机构 */
     // 初始化 permission 表
-    resetPermission() {
-      this.permission.current = {};
-      this.permission.data = [];
+    resetPermission () {
+      this.permission.current = {}
+      this.permission.data = []
     },
-    initPermission(roleId = '', functionId = '') {
-      this.permission.data = [];
-      this.permission.current = {};
+    initPermission (roleId = '', functionId = '') {
+      this.permission.data = []
+      this.permission.current = {}
       // this.permission.unsave = [];
       // this.permission.delete = [];
       // console.log(functionId);
       if (functionId) {
-        this.permission.data = this.$_.find(this.func.dataFlatten, function(o) {
-          return o.id == functionId;
-        }).permissionList;
+        this.permission.data = this.$_.find(this.func.dataFlatten, function (o) {
+          return o.id === functionId
+        }).permissionList
       }
       // console.log(this.permission.data);
       // if (roleId && functionId) { // 不为空则异步请求数据
@@ -385,29 +384,29 @@ export default {
       //     });
       // }
     },
-    initPermissionForm(index = '', { // 初始化 permission 表单
+    initPermissionForm (index = '', { // 初始化 permission 表单
       proName = '',
       value = ''
     } = {}) {
-      this.$refs['permissionForm'] && this.$refs['permissionForm'].resetFields();
-      this.permission.current.index = index;
-      this.permission.current.proName = proName;
-      this.permission.current.value = value;
+      this.$refs['permissionForm'] && this.$refs['permissionForm'].resetFields()
+      this.permission.current.index = index
+      this.permission.current.proName = proName
+      this.permission.current.value = value
     },
     /*
     在做新增和编辑的时候曾经想过把这两个方法合并，利用函数参数的默认值来区分两者，
     但是这样做会牺牲对于命名的语义化，所以最终还是使用了两个方法。
     我觉得，代码不仅仅是写给机器看的，也是写给人看的。
     */
-    addPermission() { // 新增 permission
-      this.initPermissionForm();
-      this.openDialog();
+    addPermission () { // 新增 permission
+      this.initPermissionForm()
+      this.openDialog()
     },
-    editPermission(index, row) { // 修改 permission
-      this.initPermissionForm(index, row);
-      this.openDialog();
+    editPermission (index, row) { // 修改 permission
+      this.initPermissionForm(index, row)
+      this.openDialog()
     },
-    savePermission() { // 保存 permission
+    savePermission () { // 保存 permission
       this.$refs['permissionForm'].validate((valid) => {
         if (valid) {
           if (this.permission.current.index === '') {
@@ -416,22 +415,22 @@ export default {
               'value': this.permission.current.value
             })
           } else {
-            this.permission.data[this.permission.current.index].proName = this.permission.current.proName;
-            this.permission.data[this.permission.current.index].value = this.permission.current.value;
+            this.permission.data[this.permission.current.index].proName = this.permission.current.proName
+            this.permission.data[this.permission.current.index].value = this.permission.current.value
           }
-          this.closeDialog();
+          this.closeDialog()
         }
-      });
+      })
     },
-    deletePermission(index, row, rows) { // 删除 permission
-      this.permission.data.splice(index, 1);
+    deletePermission (index, row, rows) { // 删除 permission
+      this.permission.data.splice(index, 1)
       // if (row.id) {
       //   this.permission.delete.push(row.id);
 
       // } else {
       //   this.permission.unsave.splice(index - this.permission.data.length, 1)
       // }
-    },
+    }
     // permissionRefresh: this.$_.debounce(function () {
     //   this.role.current
     //     && this.func.current
@@ -465,8 +464,8 @@ export default {
     //   }
     // }, 200)
   },
-  created() {
-    this.initRole();
+  created () {
+    this.initRole()
     // console.log(this.$_.debounce);
   }
 }
