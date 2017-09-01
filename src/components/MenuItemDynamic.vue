@@ -14,9 +14,9 @@
 <script>
 export default {
   name: 'menu-item-dynamic',
-  data() {
-    let { children } = this.item || {}
-    let flag = Array.isArray(children) && children.length > 0
+  data () {
+    const { children } = this.item || {}
+    const flag = Array.isArray(children) && children.length > 0
     return {
       flag,
       name: flag ? 'el-submenu' : 'el-menu-item'

@@ -29,35 +29,35 @@ export default {
     }
   },
   created: function () {
-    this.initMenuList();
+    this.initMenuList()
   },
   methods: {
     initMenuList: function () {
       this.$api.side_nav_list()
         .then(res => {
           // this.menu.data = res.data;
-          this.menuList = res.data;
-          this.createRoutes(this.routes, this.menuList);
-          this.$router.addRoutes(this.routes);
-        });
+          this.menuList = res.data
+          this.createRoutes(this.routes, this.menuList)
+          this.$router.addRoutes(this.routes)
+        })
     },
     createRoutes: function (routes, data) {
-      for(let i=0; i<data.length; i++) {
-        if(Array.isArray(data[i].children) && data[i].children.length>0) {
+      for (let i = 0; i < data.length; i++) {
+        if (Array.isArray(data[i].children) && data[i].children.length > 0) {
           this.createRoutes(routes, data[i].children)
         } else {
           routes.push({
-            "path": data[i].path,
-            "component": require(data[i].component+".vue")
+            'path': data[i].path,
+            'component': require(data[i].component + '.vue')
           })
         }
       }
-      return routes;
+      return routes
     }
   },
   components: {
     layout,
-    "menu-item-dynamic": MenuItemDynamic
+    'menu-item-dynamic': MenuItemDynamic
   }
 }
 </script>

@@ -1,6 +1,11 @@
 <template>
   <div class="page-index">
-    <h1>{{ msg }}</h1>
+    <h1>Vuex 测试：</h1>
+    <p>{{ count }}</p>
+    <p>
+      <button @click="increment">+</button>
+      <button @click="decrement">-</button>
+    </p>
   </div>
 </template>
 
@@ -9,7 +14,21 @@ export default {
   name: 'hello',
   data () {
     return {
-      msg: '首页'
+    }
+  },
+  created: function () {
+  },
+  computed: {
+    count () {
+      return this.$store.state.count
+    }
+  },
+  methods: {
+    increment () {
+      this.$store.commit('increment')
+    },
+    decrement () {
+      this.$store.commit('decrement')
     }
   }
 }
@@ -17,7 +36,8 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-h1, h2 {
+h1,
+h2 {
   font-weight: normal;
 }
 
