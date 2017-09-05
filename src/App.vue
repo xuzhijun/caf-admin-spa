@@ -8,7 +8,16 @@
         <el-menu-item index="/">
           <template slot="title"><i class="el-icon-menu"></i>首页</template>
         </el-menu-item>
-        <menu-item-dynamic :item="menuItem" :key="menuItem.id" v-for="menuItem in menuList"></menu-item-dynamic>
+        <el-menu-item index="/resource">
+          <template slot="title"><i class="el-icon-menu"></i>资源</template>
+        </el-menu-item>
+        <el-menu-item index="/menu">
+          <template slot="title"><i class="el-icon-menu"></i>菜单</template>
+        </el-menu-item>
+        <el-menu-item index="/role">
+          <template slot="title"><i class="el-icon-menu"></i>授权</template>
+        </el-menu-item>
+        <!-- <menu-item-dynamic :item="menuItem" :key="menuItem.id" v-for="menuItem in menuList"></menu-item-dynamic> -->
       </el-menu>
       <template slot="main">
         <router-view></router-view>
@@ -29,18 +38,18 @@ export default {
     }
   },
   created: function () {
-    this.initMenuList()
+    // this.initMenuList()
   },
   methods: {
-    initMenuList: function () {
-      this.$api.side_nav_list()
-        .then(res => {
-          // this.menu.data = res.data;
-          this.menuList = res.data
-          this.createRoutes(this.routes, this.menuList)
-          this.$router.addRoutes(this.routes)
-        })
-    },
+    // initMenuList: function () {
+    //   this.$api.side_nav_list()
+    //     .then(res => {
+    //       // this.menu.data = res.data;
+    //       this.menuList = res.data
+    //       this.createRoutes(this.routes, this.menuList)
+    //       this.$router.addRoutes(this.routes)
+    //     })
+    // },
     createRoutes: function (routes, data) {
       for (let i = 0; i < data.length; i++) {
         if (Array.isArray(data[i].children) && data[i].children.length > 0) {
