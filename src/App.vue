@@ -8,7 +8,7 @@
         <el-menu-item index="/">
           <template slot="title"><i class="el-icon-menu"></i>首页</template>
         </el-menu-item>
-        <el-menu-item index="/resource">
+        <!-- <el-menu-item index="/resource">
           <template slot="title"><i class="el-icon-menu"></i>资源</template>
         </el-menu-item>
         <el-menu-item index="/menu">
@@ -16,8 +16,8 @@
         </el-menu-item>
         <el-menu-item index="/role">
           <template slot="title"><i class="el-icon-menu"></i>授权</template>
-        </el-menu-item>
-        <!-- <menu-item-dynamic :item="menuItem" :key="menuItem.id" v-for="menuItem in menuList"></menu-item-dynamic> -->
+        </el-menu-item> -->
+        <menu-item-dynamic :item="menuItem" :key="menuItem.id" v-for="menuItem in menuList"></menu-item-dynamic>
       </el-menu>
       <template slot="main">
         <router-view></router-view>
@@ -29,6 +29,7 @@
 <script>
 import layout from './layout/120'
 import MenuItemDynamic from './components/MenuItemDynamic'
+
 export default {
   name: 'app',
   data: function () {
@@ -38,30 +39,34 @@ export default {
     }
   },
   created: function () {
-    // this.initMenuList()
+    this.initMenuList()
   },
   methods: {
-    // initMenuList: function () {
-    //   this.$api.side_nav_list()
-    //     .then(res => {
-    //       // this.menu.data = res.data;
-    //       this.menuList = res.data
-    //       this.createRoutes(this.routes, this.menuList)
-    //       this.$router.addRoutes(this.routes)
-    //     })
-    // },
-    createRoutes: function (routes, data) {
+    initMenuList: function () {
+      this.$api.side_nav_list()
+        .then(res => {
+          // this.menu.data = res.data;
+          this.addRoutes(res.data)
+        })
+    },
+    addRoutes: function (data) {
+      this.menuList = data
+      this.createRoutes(this.menuList) // 创建 routes 列表
+      this.$router.addRoutes(this.routes) // 添加路由
+    },
+    createRoutes: function (data) {
       for (let i = 0; i < data.length; i++) {
         if (Array.isArray(data[i].children) && data[i].children.length > 0) {
-          this.createRoutes(routes, data[i].children)
+          this.createRoutes(data[i].children)
         } else {
-          routes.push({
+          this.routes.push({
             'path': data[i].path,
-            'component': require(data[i].component + '.vue')
+            'component': resolve => require([data[i].component + '.vue'], resolve)
+            // 'component': require(data[i].component + '.vue')
           })
         }
       }
-      return routes
+      // return routes
     }
   },
   components: {
